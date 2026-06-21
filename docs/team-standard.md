@@ -97,4 +97,4 @@ The strongest setups are hybrid by design: humans set direction, agents implemen
 
 ---
 
-Source: *The New SDLC With Vibe Coding* (Google) — https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+Source: [*The New SDLC With Vibe Coding*](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) (Google)

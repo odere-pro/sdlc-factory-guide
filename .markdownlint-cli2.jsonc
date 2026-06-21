@@ -1,0 +1,16 @@
+{
+  // markdownlint-cli2 auto-discovers this file. Rules below accommodate
+  // Docusaurus conventions; genuine content issues are still enforced.
+  "config": {
+    "default": true,
+    // Docs intentionally use long prose lines (wrapped by the renderer).
+    "MD013": false,
+    // Inline HTML is required for per-page <head> JSON-LD blocks.
+    "MD033": false,
+    // First line is YAML frontmatter, not an H1.
+    "MD041": false,
+    // Frontmatter `title` is the page H1; the in-body `#` is a second one.
+    "MD025": false
+  },
+  "globs": ["docs/**/*.md"]
+}

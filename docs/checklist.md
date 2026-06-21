@@ -27,6 +27,7 @@ image: /img/og-image.png
 # Agentic Engineering — Implementation Checklist
 
 ## Contents
+
 1. [Set up the rule file](#1-set-up-the-rule-file)
 2. [Engineer the context](#2-engineer-the-context)
 3. [Build verification](#3-build-verification)
@@ -128,5 +129,4 @@ image: /img/og-image.png
 
 ### Reference
 
-Based on *The New SDLC With Vibe Coding* (Google):
-https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+Based on [*The New SDLC With Vibe Coding*](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) (Google).

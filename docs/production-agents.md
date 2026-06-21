@@ -54,7 +54,7 @@ The shift that makes this practical: the same terminal-based workflow that produ
 
 The loop, end to end, looks like a conversation:
 
-```
+```text
 # one-time setup of the skills bundle, then, in your coding agent:
 > Build a support agent that answers questions from our docs.
 > Evaluate it against the FAQ dataset.

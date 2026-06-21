@@ -50,4 +50,4 @@ The thread running through all eight: **your real output is no longer code — i
 
 ---
 
-Source: *The New SDLC With Vibe Coding* (Google) — https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+Source: [*The New SDLC With Vibe Coding*](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) (Google)
