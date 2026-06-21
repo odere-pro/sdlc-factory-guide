@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Agentic Engineering Setup",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Документація",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "link.title.Introduction": {
+    "message": "Вступ",
+    "description": "The label for link Introduction"
+  },
+  "link.title.Checklist": {
+    "message": "Чеклист",
+    "description": "The label for link Checklist"
+  },
+  "link.title.Rule File": {
+    "message": "Файл правил",
+    "description": "The label for link Rule File"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Oleksandr Derechei. Побудовано з Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Логотип Agentic Engineering Setup",
+    "description": "The alt text of the navbar logo"
+  }
+}

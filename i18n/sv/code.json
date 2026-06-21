@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "Hoppa till huvudinnehåll"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Dölj sidofält"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Visa sidofält"
+  }
+}

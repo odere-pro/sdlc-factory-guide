@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "メインコンテンツにスキップ"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを折りたたむ"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを展開"
+  }
+}

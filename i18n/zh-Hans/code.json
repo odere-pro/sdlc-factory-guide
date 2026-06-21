@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏"
+  }
+}
