@@ -1,5 +1,6 @@
 ---
 title: Foundation
+type: index
 page_class: overview
 source: "[[raw/intro.md]]"
 sources:
@@ -8,8 +9,8 @@ tags: [foundation, index, topic]
 parent: "[[index|Wiki Index]]"
 path: foundation/
 children:
-  - "[[rule-file|Rule File]]"
-  - "[[context-engineering|Context Engineering]]"
+  - "[[Rule File]]"
+  - "[[Context Engineering]]"
 ---
 
 # Foundation

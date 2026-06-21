@@ -1,5 +1,6 @@
 ---
 title: Build Loop
+type: index
 page_class: overview
 source: "[[raw/intro.md]]"
 sources:
@@ -8,9 +9,9 @@ tags: [build-loop, index, topic]
 parent: "[[index|Wiki Index]]"
 path: build-loop/
 children:
-  - "[[verification|Verification]]"
-  - "[[running-the-work|Running the Work]]"
-  - "[[review-and-ship|Review and Ship]]"
+  - "[[Verification]]"
+  - "[[Running the Work]]"
+  - "[[Review and Ship]]"
 ---
 
 # Build Loop

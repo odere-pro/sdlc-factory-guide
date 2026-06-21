@@ -1,5 +1,6 @@
 ---
 title: Reference
+type: index
 page_class: overview
 source: "[[raw/intro.md]]"
 sources:
@@ -8,8 +9,8 @@ tags: [reference, index, topic]
 parent: "[[index|Wiki Index]]"
 path: reference/
 children:
-  - "[[agentic-workflow-overview|Agentic Workflow Overview]]"
-  - "[[implementation-checklist|Implementation Checklist]]"
+  - "[[Agentic Workflow Overview]]"
+  - "[[Implementation Checklist]]"
 ---
 
 # Reference

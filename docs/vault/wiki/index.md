@@ -6,7 +6,7 @@ tags: [index, meta]
 
 # SDLC Factory Guide — Wiki Index
 
-Structured, citeable knowledge extracted from the sdlc-factory-guide documentation. Eight source documents ingested across three topic phases.
+Structured, citeable knowledge extracted from the sdlc-factory-guide documentation. Ten source documents ingested across four topic areas.
 
 ## Foundation
 
@@ -37,10 +37,6 @@ Cross-cutting navigation aids spanning all three phases.
 
 - [[reference/agentic-workflow-overview|Agentic Workflow Overview]] — full eight-part series map with audience routing.
 - [[reference/implementation-checklist|Implementation Checklist]] — actionable eight-section setup checklist.
-
-## Synthesis
-
-- [[_synthesis/agentic-engineering-synthesis|Agentic Engineering Synthesis]] — cross-cutting analysis: how the three phases form a compounding system and where gaps remain.
 
 ## Topic Folders
 

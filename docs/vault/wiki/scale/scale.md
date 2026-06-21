@@ -1,5 +1,6 @@
 ---
 title: Scale
+type: index
 page_class: overview
 source: "[[raw/intro.md]]"
 sources:
@@ -8,9 +9,9 @@ tags: [scale, index, topic]
 parent: "[[index|Wiki Index]]"
 path: scale/
 children:
-  - "[[controlling-cost|Controlling Cost]]"
-  - "[[production-agents|Production Agents]]"
-  - "[[team-standard|Team Standard]]"
+  - "[[Controlling Cost]]"
+  - "[[Production Agents]]"
+  - "[[Team Standard]]"
 ---
 
 # Scale
