@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "Перейти до основного вмісту"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Згорнути бічну панель"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Розгорнути бічну панель"
+  }
+}

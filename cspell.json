@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "docusaurus", "karpathy", "sdlc", "agentic", "CLAUDE", "AGENTS",
+    "fastapi", "sqlalchemy", "alembic", "pytest", "httpx", "structlog",
+    "ruff", "codex", "copilot", "windsurf", "jetbrains", "hotjar",
+    "frontmatter", "hreflang", "sitemap", "canonicals", "og", "FOMO",
+    "derechei", "odere", "GEMINI"
+  ],
+  "ignorePaths": ["node_modules", "build", "i18n"]
+}

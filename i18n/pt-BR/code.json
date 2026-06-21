@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "Pular para o conteúdo principal"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Recolher barra lateral"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expandir barra lateral"
+  }
+}

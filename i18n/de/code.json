@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "Zum Hauptinhalt springen"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Seitenleiste einklappen"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Seitenleiste aufklappen"
+  }
+}

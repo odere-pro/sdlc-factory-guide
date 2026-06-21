@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "본문으로 건너뛰기"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "사이드바 접기"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "사이드바 펼치기"
+  }
+}

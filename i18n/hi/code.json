@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "मुख्य सामग्री पर जाएं"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "साइडबार छुपाएं"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "साइडबार दिखाएं"
+  }
+}

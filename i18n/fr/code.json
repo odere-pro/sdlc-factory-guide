@@ -1,0 +1,11 @@
+{
+  "theme.common.skipToMainContent": {
+    "message": "Aller au contenu principal"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire la barre latérale"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Développer la barre latérale"
+  }
+}
