@@ -1,6 +1,0 @@
-{
-  "userIgnoreFilters": ["raw/", "_templates/", "_proposed/", "_inbox/", "output/", "CLAUDE.md", "wiki/log.md"],
-  "newFileLocation": "folder",
-  "newFileFolderPath": "_inbox",
-  "newLinkFormat": "shortest"
-}

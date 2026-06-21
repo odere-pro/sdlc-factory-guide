@@ -67,3 +67,5 @@ Full lint-and-heal pass post-ingest. Issues found and fixed:
 - **4 missing `parent:` fields** in top-level folder notes: `foundation/foundation.md`, `build-loop/build-loop.md`, `scale/scale.md`, `reference/reference.md` all had `parent: ""` instead of `"[[index|Wiki Index]]"`. Fixed.
 
 Total: 40 individual link/field issues resolved across 17 files.
+
+## [2026-06-22] query | Core build loop, verification and review roles

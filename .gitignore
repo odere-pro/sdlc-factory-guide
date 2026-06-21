@@ -22,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Obsidian local config (not part of the published site)
+docs/vault/.obsidian/
