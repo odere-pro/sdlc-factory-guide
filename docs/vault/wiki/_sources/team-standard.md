@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 8 — Make It a Team Standard"
 page_class: process
-source: "[[raw/team-standard.md]]"
+source: "raw/team-standard.md"
 tags: [source, team-standard, harness, eval-gates, hiring, engineering-culture]
 ---
 

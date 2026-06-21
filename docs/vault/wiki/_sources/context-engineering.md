@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 2 — Engineer the Context"
 page_class: concept
-source: "[[raw/context-engineering.md]]"
+source: "raw/context-engineering.md"
 tags: [source, context-engineering, skills, dynamic-context, tokens]
 ---
 

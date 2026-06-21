@@ -1,7 +1,7 @@
 ---
 title: Rule File
 page_class: process
-source: "[[raw/rule-file.md]]"
+source: "[[Source: Part 1 — Set Up the Rule File]]"
 sources:
   - "[[rule-file|Part 1: Set Up the Rule File]]"
 tags: [foundation, rule-file, CLAUDE-md, AGENTS-md, agent-config, onboarding]

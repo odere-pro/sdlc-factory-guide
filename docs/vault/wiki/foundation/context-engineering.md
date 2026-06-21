@@ -1,7 +1,7 @@
 ---
 title: Context Engineering
 page_class: concept
-source: "[[raw/context-engineering.md]]"
+source: "[[Source: Part 2 — Engineer the Context]]"
 sources:
   - "[[context-engineering|Part 2: Engineer the Context]]"
   - "[[controlling-cost|Part 6: Control Cost]]"

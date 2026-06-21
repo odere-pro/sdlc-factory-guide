@@ -1,7 +1,7 @@
 ---
 title: Verification
 page_class: concept
-source: "[[raw/verification.md]]"
+source: "[[Source: Part 3 — Build Verification]]"
 sources:
   - "[[verification|Part 3: Build Verification]]"
   - "[[checklist|Implementation Checklist]]"

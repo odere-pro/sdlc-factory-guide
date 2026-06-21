@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 4 — Run the Work"
 page_class: process
-source: "[[raw/running-the-work.md]]"
+source: "raw/running-the-work.md"
 tags: [source, running-the-work, conductor, orchestrator, sandbox, 80-percent-problem]
 ---
 

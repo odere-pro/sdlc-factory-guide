@@ -1,7 +1,7 @@
 ---
 title: Team Standard
 page_class: process
-source: "[[raw/team-standard.md]]"
+source: "[[Source: Part 8 — Make It a Team Standard]]"
 sources:
   - "[[team-standard|Part 8: Make It a Team Standard]]"
   - "[[checklist|Implementation Checklist]]"

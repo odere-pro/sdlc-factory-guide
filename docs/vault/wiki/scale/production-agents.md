@@ -1,7 +1,7 @@
 ---
 title: Production Agents
 page_class: concept
-source: "[[raw/production-agents.md]]"
+source: "[[Source: Part 7 — Ship Production Agents]]"
 sources:
   - "[[production-agents|Part 7: Ship Production Agents]]"
   - "[[checklist|Implementation Checklist]]"

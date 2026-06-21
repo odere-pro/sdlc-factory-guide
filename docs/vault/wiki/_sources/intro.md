@@ -1,7 +1,7 @@
 ---
 title: "Source: The Agentic Engineering Workflow (intro)"
 page_class: overview
-source: "[[raw/intro.md]]"
+source: "raw/intro.md"
 tags: [source, workflow, overview, series-intro]
 ---
 

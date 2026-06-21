@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 7 — Ship Production Agents"
 page_class: concept
-source: "[[raw/production-agents.md]]"
+source: "raw/production-agents.md"
 tags: [source, production-agents, MCP, A2A, deployment, multi-agent]
 ---
 

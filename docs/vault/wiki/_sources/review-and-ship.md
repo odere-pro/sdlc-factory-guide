@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 5 — Review and Ship"
 page_class: process
-source: "[[raw/review-and-ship.md]]"
+source: "raw/review-and-ship.md"
 tags: [source, review, shipping, hooks, observability, code-review]
 ---
 

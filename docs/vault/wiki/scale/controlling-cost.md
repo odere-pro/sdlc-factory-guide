@@ -1,7 +1,7 @@
 ---
 title: Controlling Cost
 page_class: concept
-source: "[[raw/controlling-cost.md]]"
+source: "[[Source: Part 6 — Control Cost]]"
 sources:
   - "[[controlling-cost|Part 6: Control Cost]]"
   - "[[context-engineering|Part 2: Engineer the Context]]"

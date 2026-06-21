@@ -1,7 +1,7 @@
 ---
 title: Agentic Workflow Overview
 page_class: overview
-source: "[[raw/intro.md]]"
+source: "[[Source: The Agentic Engineering Workflow (intro)]]"
 sources:
   - "[[intro|The Agentic Engineering Workflow]]"
 tags: [reference, overview, workflow, series-map]

@@ -1,7 +1,7 @@
 ---
 title: Review and Ship
 page_class: process
-source: "[[raw/review-and-ship.md]]"
+source: "[[Source: Part 5 — Review and Ship]]"
 sources:
   - "[[review-and-ship|Part 5: Review and Ship]]"
   - "[[checklist|Implementation Checklist]]"

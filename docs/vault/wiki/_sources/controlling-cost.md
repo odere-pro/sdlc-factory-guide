@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 6 — Control Cost"
 page_class: concept
-source: "[[raw/controlling-cost.md]]"
+source: "raw/controlling-cost.md"
 tags: [source, cost, token-economy, model-routing, TCO]
 ---
 

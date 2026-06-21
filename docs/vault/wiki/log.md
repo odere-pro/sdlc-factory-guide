@@ -46,6 +46,10 @@ New source summaries (10):
 - _sources/controlling-cost.md
 - _sources/production-agents.md
 - _sources/team-standard.md
+## [2026-06-21] curator | Health check and auto-repair
+
+Found 0 errors, 50 warnings, 0 info. Engine repaired 0, auto-applied 30 (wikilink-dangling fixes + index bare-title fixes), judgment 0, surfaced 10 (inherent _sources/ index-duplicates — accepted). Rollback: git revert 22a569b.
+
 ## [2026-06-21] snapshot | ingest intro, checklist, rule-file, context-engineering, verification, running-the-work, review-and-ship, controlling-cost, production-agents, team-standard (snap-20260621184507)
 
 - pre-state: 665a999

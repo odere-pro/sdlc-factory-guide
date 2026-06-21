@@ -1,7 +1,7 @@
 ---
 title: Running the Work
 page_class: process
-source: "[[raw/running-the-work.md]]"
+source: "[[Source: Part 4 — Run the Work]]"
 sources:
   - "[[running-the-work|Part 4: Run the Work]]"
   - "[[checklist|Implementation Checklist]]"

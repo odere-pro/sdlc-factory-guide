@@ -1,7 +1,7 @@
 ---
 title: Implementation Checklist
 page_class: reference
-source: "[[raw/checklist.md]]"
+source: "[[Source: Implementation Checklist]]"
 sources:
   - "[[checklist|Implementation Checklist]]"
 tags: [reference, checklist, implementation, setup]

@@ -1,7 +1,7 @@
 ---
 title: "Source: Part 3 — Build Verification"
 page_class: concept
-source: "[[raw/verification.md]]"
+source: "raw/verification.md"
 tags: [source, verification, testing, evals, quality]
 ---
 
