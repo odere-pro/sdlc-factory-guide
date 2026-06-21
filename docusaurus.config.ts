@@ -18,6 +18,10 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  markdown: {
+    mermaid: true,
+  },
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'sv', 'uk', 'es', 'de', 'fr', 'ja', 'zh-Hans', 'pt-BR', 'ko', 'hi'],
@@ -113,6 +117,7 @@ const config: Config = {
   ],
 
   themes: [
+    '@docusaurus/theme-mermaid',
     [
       '@easyops-cn/docusaurus-search-local',
       {
