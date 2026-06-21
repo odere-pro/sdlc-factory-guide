@@ -53,3 +53,17 @@ Ingested `raw/wired/sdlc-factory-guide/team-standard.md`. Created source summary
 ## [2026-06-22] ingest: checklist
 
 Ingested `raw/wired/sdlc-factory-guide/checklist.md`. Created source summary at `_sources/checklist.md`. Created wiki page `reference/implementation-checklist.md`.
+
+## [2026-06-22] lint: curator heal pass — 40 issues fixed
+
+Full lint-and-heal pass post-ingest. Issues found and fixed:
+
+- **8 ambiguous `sources:` links** (path-collision): concept pages cited source notes via bare basename (e.g. `[[rule-file|...]]`) which resolved ambiguously to both the `_sources/` summary and the topic concept page. Fixed by path-qualifying to `[[_sources/rule-file|...]]` etc. for all 8 colliding basenames: `rule-file`, `context-engineering`, `verification`, `running-the-work`, `review-and-ship`, `controlling-cost`, `production-agents`, `team-standard`.
+- **8 ambiguous `related:` links** in frontmatter (same collision): all `related:` fields in concept pages used bare colliding basenames. Fixed by path-qualifying to topic-folder paths (e.g. `[[foundation/rule-file|Rule File]]`).
+- **8 ambiguous `children:` links** in folder notes (same collision): folder notes listed children via bare basenames. Fixed by path-qualifying (e.g. `[[foundation/rule-file|Rule File]]`).
+- **8 ambiguous body-text wikilinks** in folder notes "Pages in This Topic" sections: same bare-basename collision. Fixed by path-qualifying.
+- **8 ambiguous body-text wikilinks** in concept pages "Related Concepts" sections: same collision. Fixed.
+- **8 ambiguous body-text wikilinks** in `wiki/index.md` "All Pages by Topic" section. Fixed.
+- **4 missing `parent:` fields** in top-level folder notes: `foundation/foundation.md`, `build-loop/build-loop.md`, `scale/scale.md`, `reference/reference.md` all had `parent: ""` instead of `"[[index|Wiki Index]]"`. Fixed.
+
+Total: 40 individual link/field issues resolved across 17 files.

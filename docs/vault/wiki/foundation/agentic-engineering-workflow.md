@@ -4,10 +4,10 @@ type: concept
 aliases: ["agentic-engineering-workflow", "Agentic Engineering Workflow", "The Workflow"]
 parent: "[[foundation|Foundation]]"
 path: "foundation"
-sources: ["[[intro|The Agentic Engineering Workflow]]"]
+sources: ["[[_sources/intro|The Agentic Engineering Workflow]]"]
 related:
-  - "[[rule-file|Rule File]]"
-  - "[[context-engineering|Context Engineering]]"
+  - "[[foundation/rule-file|Rule File]]"
+  - "[[foundation/context-engineering|Context Engineering]]"
 tags: ["agentic-engineering", "workflow", "overview"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -29,8 +29,8 @@ The Agentic Engineering Workflow is a structured approach to software developmen
 
 ### Phase 1 — Foundation: What the Agent Knows
 
-- **[[rule-file|Rule File]]** (Part 1) — encode project knowledge (stack, conventions, hard rules, workflow) so the agent never has to infer them
-- **[[context-engineering|Context Engineering]]** (Part 2) — architect what the agent sees on each call: static vs. dynamic, skills for progressive disclosure
+- **[[foundation/rule-file|Rule File]]** (Part 1) — encode project knowledge (stack, conventions, hard rules, workflow) so the agent never has to infer them
+- **[[foundation/context-engineering|Context Engineering]]** (Part 2) — architect what the agent sees on each call: static vs. dynamic, skills for progressive disclosure
 
 ### Phase 2 — The Build Loop
 
@@ -54,5 +54,5 @@ The build loop includes a feedback cycle: evaluate → diagnose → optimize →
 
 ## Related Concepts
 
-- [[rule-file|Rule File]] — the primary foundation input
-- [[context-engineering|Context Engineering]] — the second foundation input
+- [[foundation/rule-file|Rule File]] — the primary foundation input
+- [[foundation/context-engineering|Context Engineering]] — the second foundation input

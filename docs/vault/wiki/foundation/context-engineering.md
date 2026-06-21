@@ -4,12 +4,12 @@ type: concept
 aliases: ["context-engineering", "Context Engineering", "context management"]
 parent: "[[foundation|Foundation]]"
 path: "foundation"
-sources: ["[[context-engineering|Part 2: Engineer the Context]]"]
+sources: ["[[_sources/context-engineering|Part 2: Engineer the Context]]"]
 related:
-  - "[[rule-file|Rule File]]"
+  - "[[foundation/rule-file|Rule File]]"
   - "[[agentic-engineering-workflow|Agentic Engineering Workflow]]"
 depends_on:
-  - "[[rule-file|Rule File]]"
+  - "[[foundation/rule-file|Rule File]]"
 tags: ["context-engineering", "skills", "dynamic-context", "tokens", "foundation"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -105,5 +105,5 @@ Avoid pasting an entire repository into the prompt. Whole-codebase awareness is 
 
 ## Related Concepts
 
-- [[rule-file|Rule File]] — the primary component of static context that context engineering optimizes
+- [[foundation/rule-file|Rule File]] — the primary component of static context that context engineering optimizes
 - [[agentic-engineering-workflow|Agentic Engineering Workflow]] — context engineering is Part 2 of the full workflow

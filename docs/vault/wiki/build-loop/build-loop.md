@@ -2,12 +2,12 @@
 title: "Build Loop"
 type: index
 aliases: ["build-loop", "Build Loop", "The Build Loop", "build cycle"]
-parent: ""
+parent: "[[index|Wiki Index]]"
 path: "build-loop"
 children:
-  - "[[verification|Verification]]"
-  - "[[running-the-work|Running the Work]]"
-  - "[[review-and-ship|Review and Ship]]"
+  - "[[build-loop/verification|Verification]]"
+  - "[[build-loop/running-the-work|Running the Work]]"
+  - "[[build-loop/review-and-ship|Review and Ship]]"
 child_indexes: []
 tags: ["build-loop", "agentic-engineering"]
 created: 2026-06-22
@@ -23,9 +23,9 @@ The Build Loop is where the actual coding work happens. It is not a linear pipel
 
 ## Pages in This Topic
 
-- [[verification|Verification]] — tests as the deterministic contract; evals for non-deterministic trajectory
-- [[running-the-work|Running the Work]] — conductor vs. orchestrator modes; agent locations; the 80% problem
-- [[review-and-ship|Review and Ship]] — agent first-pass review, commit hooks, observability, legacy wins
+- [[build-loop/verification|Verification]] — tests as the deterministic contract; evals for non-deterministic trajectory
+- [[build-loop/running-the-work|Running the Work]] — conductor vs. orchestrator modes; agent locations; the 80% problem
+- [[build-loop/review-and-ship|Review and Ship]] — agent first-pass review, commit hooks, observability, legacy wins
 
 ## The Feedback Loop
 

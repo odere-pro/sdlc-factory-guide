@@ -4,9 +4,9 @@ type: concept
 aliases: ["rule-file", "Rule File", "CLAUDE.md", "AGENTS.md", "agent rule file"]
 parent: "[[foundation|Foundation]]"
 path: "foundation"
-sources: ["[[rule-file|Part 1: Set Up the Rule File]]"]
+sources: ["[[_sources/rule-file|Part 1: Set Up the Rule File]]"]
 related:
-  - "[[context-engineering|Context Engineering]]"
+  - "[[foundation/context-engineering|Context Engineering]]"
   - "[[agentic-engineering-workflow|Agentic Engineering Workflow]]"
 tags: ["rule-file", "CLAUDE.md", "agent-configuration", "foundation"]
 created: 2026-06-22
@@ -73,5 +73,5 @@ A minimal rule file structure (Python/FastAPI example from source):
 
 ## Related Concepts
 
-- [[context-engineering|Context Engineering]] — the rule file is the primary static context; context engineering governs how to keep it high-signal
+- [[foundation/context-engineering|Context Engineering]] — the rule file is the primary static context; context engineering governs how to keep it high-signal
 - [[agentic-engineering-workflow|Agentic Engineering Workflow]] — the rule file is the foundation of the full workflow

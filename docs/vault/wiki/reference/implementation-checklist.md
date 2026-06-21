@@ -4,7 +4,7 @@ type: concept
 aliases: ["implementation-checklist", "Implementation Checklist", "agentic engineering checklist"]
 parent: "[[reference|Reference]]"
 path: "reference"
-sources: ["[[checklist|Agentic Engineering — Implementation Checklist]]"]
+sources: ["[[_sources/checklist|Agentic Engineering — Implementation Checklist]]"]
 related: []
 tags: ["checklist", "implementation", "reference", "agentic-engineering"]
 created: 2026-06-22

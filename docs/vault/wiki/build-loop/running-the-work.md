@@ -4,10 +4,10 @@ type: concept
 aliases: ["running-the-work", "Running the Work", "conductor orchestrator", "agent modes"]
 parent: "[[build-loop|Build Loop]]"
 path: "build-loop"
-sources: ["[[running-the-work|Part 4: Run the Work]]"]
+sources: ["[[_sources/running-the-work|Part 4: Run the Work]]"]
 related:
-  - "[[verification|Verification]]"
-  - "[[review-and-ship|Review and Ship]]"
+  - "[[build-loop/verification|Verification]]"
+  - "[[build-loop/review-and-ship|Review and Ship]]"
 tags: ["running-the-work", "conductor", "orchestrator", "agent-modes", "build-loop"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -87,5 +87,5 @@ The developers who do well use agents for the well-specified 80% and spend their
 
 ## Related Concepts
 
-- [[verification|Verification]] — tests define the spec that makes delegation safe
-- [[review-and-ship|Review and Ship]] — the review step that catches what the 80% missed
+- [[build-loop/verification|Verification]] — tests define the spec that makes delegation safe
+- [[build-loop/review-and-ship|Review and Ship]] — the review step that catches what the 80% missed

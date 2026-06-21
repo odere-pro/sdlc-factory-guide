@@ -4,10 +4,10 @@ type: concept
 aliases: ["controlling-cost", "Controlling Cost", "TCO", "token economy", "cost control"]
 parent: "[[scale|Scale]]"
 path: "scale"
-sources: ["[[controlling-cost|Part 6: Control Cost]]"]
+sources: ["[[_sources/controlling-cost|Part 6: Control Cost]]"]
 related:
-  - "[[production-agents|Production Agents]]"
-  - "[[team-standard|Team Standard]]"
+  - "[[scale/production-agents|Production Agents]]"
+  - "[[scale/team-standard|Team Standard]]"
 tags: ["cost-control", "token-economy", "model-routing", "tco", "scale"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -91,5 +91,5 @@ Compare before and after the investment in rule files, routing, and skills — t
 
 ## Related Concepts
 
-- [[production-agents|Production Agents]] — production substrate adds cost but skills bundles control it
-- [[team-standard|Team Standard]] — the eval gate and harness-as-code practices reinforce cost discipline
+- [[scale/production-agents|Production Agents]] — production substrate adds cost but skills bundles control it
+- [[scale/team-standard|Team Standard]] — the eval gate and harness-as-code practices reinforce cost discipline

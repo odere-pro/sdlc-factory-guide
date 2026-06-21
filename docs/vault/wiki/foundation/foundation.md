@@ -2,12 +2,12 @@
 title: "Foundation"
 type: index
 aliases: ["foundation", "Foundation", "Agent Foundation", "What the Agent Knows"]
-parent: ""
+parent: "[[index|Wiki Index]]"
 path: "foundation"
 children:
   - "[[agentic-engineering-workflow|Agentic Engineering Workflow]]"
-  - "[[rule-file|Rule File]]"
-  - "[[context-engineering|Context Engineering]]"
+  - "[[foundation/rule-file|Rule File]]"
+  - "[[foundation/context-engineering|Context Engineering]]"
 child_indexes: []
 tags: ["foundation", "agentic-engineering"]
 created: 2026-06-22
@@ -24,8 +24,8 @@ The Foundation is Phase 1 of the agentic engineering workflow. It establishes th
 ## Pages in This Topic
 
 - [[agentic-engineering-workflow|Agentic Engineering Workflow]] — the eight-part workflow overview and how the three phases connect
-- [[rule-file|Rule File]] — the onboarding document that encodes project knowledge for the agent
-- [[context-engineering|Context Engineering]] — deciding what the agent sees, and when
+- [[foundation/rule-file|Rule File]] — the onboarding document that encodes project knowledge for the agent
+- [[foundation/context-engineering|Context Engineering]] — deciding what the agent sees, and when
 
 ## Key Concepts
 

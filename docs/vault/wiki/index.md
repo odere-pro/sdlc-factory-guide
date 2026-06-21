@@ -33,20 +33,20 @@ Master catalog of every page in the wiki.
 ### Foundation
 
 - [[agentic-engineering-workflow|Agentic Engineering Workflow]] — the eight-part workflow overview and three-phase structure
-- [[rule-file|Rule File]] — the onboarding document that encodes project knowledge for agents
-- [[context-engineering|Context Engineering]] — static vs. dynamic context; skills and progressive disclosure
+- [[foundation/rule-file|Rule File]] — the onboarding document that encodes project knowledge for agents
+- [[foundation/context-engineering|Context Engineering]] — static vs. dynamic context; skills and progressive disclosure
 
 ### Build Loop
 
-- [[verification|Verification]] — tests as spec; evals for non-deterministic trajectory; quality flywheel
-- [[running-the-work|Running the Work]] — conductor vs. orchestrator modes; agent locations; the 80% problem
-- [[review-and-ship|Review and Ship]] — agent first-pass review, hooks, observability, legacy migration wins
+- [[build-loop/verification|Verification]] — tests as spec; evals for non-deterministic trajectory; quality flywheel
+- [[build-loop/running-the-work|Running the Work]] — conductor vs. orchestrator modes; agent locations; the 80% problem
+- [[build-loop/review-and-ship|Review and Ship]] — agent first-pass review, hooks, observability, legacy migration wins
 
 ### Scale
 
-- [[controlling-cost|Controlling Cost]] — TCO, first-pass success, model routing, dynamic context as cost lever
-- [[production-agents|Production Agents]] — script vs. product, substrate requirements, MCP/A2A multi-agent
-- [[team-standard|Team Standard]] — harness as code, eval gates, review reshaping, hiring for judgment
+- [[scale/controlling-cost|Controlling Cost]] — TCO, first-pass success, model routing, dynamic context as cost lever
+- [[scale/production-agents|Production Agents]] — script vs. product, substrate requirements, MCP/A2A multi-agent
+- [[scale/team-standard|Team Standard]] — harness as code, eval gates, review reshaping, hiring for judgment
 
 ### Reference
 

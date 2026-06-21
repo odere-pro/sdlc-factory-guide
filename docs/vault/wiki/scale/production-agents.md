@@ -4,10 +4,10 @@ type: concept
 aliases: ["production-agents", "Production Agents", "shipping agents", "agent deployment"]
 parent: "[[scale|Scale]]"
 path: "scale"
-sources: ["[[production-agents|Part 7: Ship Production Agents]]"]
+sources: ["[[_sources/production-agents|Part 7: Ship Production Agents]]"]
 related:
-  - "[[controlling-cost|Controlling Cost]]"
-  - "[[team-standard|Team Standard]]"
+  - "[[scale/controlling-cost|Controlling Cost]]"
+  - "[[scale/team-standard|Team Standard]]"
 tags: ["production-agents", "MCP", "A2A", "multi-agent", "scale"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -79,5 +79,5 @@ Common patterns: planner → specialists, parallel workers on different parts of
 
 ## Related Concepts
 
-- [[controlling-cost|Controlling Cost]] — production substrate has cost implications; skills bundles manage it
-- [[team-standard|Team Standard]] — production agents need the eval gates and harness practices from Part 8
+- [[scale/controlling-cost|Controlling Cost]] — production substrate has cost implications; skills bundles manage it
+- [[scale/team-standard|Team Standard]] — production agents need the eval gates and harness practices from Part 8

@@ -4,10 +4,10 @@ type: concept
 aliases: ["team-standard", "Team Standard", "harness as code", "engineering culture"]
 parent: "[[scale|Scale]]"
 path: "scale"
-sources: ["[[team-standard|Part 8: Make It a Team Standard]]"]
+sources: ["[[_sources/team-standard|Part 8: Make It a Team Standard]]"]
 related:
-  - "[[controlling-cost|Controlling Cost]]"
-  - "[[production-agents|Production Agents]]"
+  - "[[scale/controlling-cost|Controlling Cost]]"
+  - "[[scale/production-agents|Production Agents]]"
 tags: ["team-standard", "engineering-culture", "eval-gates", "hiring", "scale"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -97,5 +97,5 @@ Reusable prompts, skill libraries, tool connections, and eval harnesses compound
 
 ## Related Concepts
 
-- [[controlling-cost|Controlling Cost]] — the harness standard includes cost discipline
-- [[production-agents|Production Agents]] — production agents need the eval and harness practices this page describes
+- [[scale/controlling-cost|Controlling Cost]] — the harness standard includes cost discipline
+- [[scale/production-agents|Production Agents]] — production agents need the eval and harness practices this page describes

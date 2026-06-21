@@ -4,10 +4,10 @@ type: concept
 aliases: ["verification", "Verification", "tests and evals", "build verification"]
 parent: "[[build-loop|Build Loop]]"
 path: "build-loop"
-sources: ["[[verification|Part 3: Build Verification]]"]
+sources: ["[[_sources/verification|Part 3: Build Verification]]"]
 related:
-  - "[[running-the-work|Running the Work]]"
-  - "[[review-and-ship|Review and Ship]]"
+  - "[[build-loop/running-the-work|Running the Work]]"
+  - "[[build-loop/review-and-ship|Review and Ship]]"
 tags: ["verification", "testing", "evals", "quality", "build-loop"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -87,5 +87,5 @@ Each turn raises the baseline. This is how an agent improves over time without c
 
 ## Related Concepts
 
-- [[running-the-work|Running the Work]] — verification feeds directly into the run loop
-- [[review-and-ship|Review and Ship]] — observability closes the feedback cycle
+- [[build-loop/running-the-work|Running the Work]] — verification feeds directly into the run loop
+- [[build-loop/review-and-ship|Review and Ship]] — observability closes the feedback cycle

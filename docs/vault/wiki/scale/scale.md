@@ -2,12 +2,12 @@
 title: "Scale"
 type: index
 aliases: ["scale", "Scale", "Make It Economical", "Scaling Agentic Engineering"]
-parent: ""
+parent: "[[index|Wiki Index]]"
 path: "scale"
 children:
-  - "[[controlling-cost|Controlling Cost]]"
-  - "[[production-agents|Production Agents]]"
-  - "[[team-standard|Team Standard]]"
+  - "[[scale/controlling-cost|Controlling Cost]]"
+  - "[[scale/production-agents|Production Agents]]"
+  - "[[scale/team-standard|Team Standard]]"
 child_indexes: []
 tags: ["scale", "agentic-engineering", "cost", "team"]
 created: 2026-06-22
@@ -23,9 +23,9 @@ The Scale phase addresses the question: once you have a working agentic workflow
 
 ## Pages in This Topic
 
-- [[controlling-cost|Controlling Cost]] — total cost of ownership, model routing by task, dynamic context
-- [[production-agents|Production Agents]] — script vs. product distinction, substrate requirements, multi-agent coordination
-- [[team-standard|Team Standard]] — harness as versioned code, eval gates, review culture, hiring for judgment
+- [[scale/controlling-cost|Controlling Cost]] — total cost of ownership, model routing by task, dynamic context
+- [[scale/production-agents|Production Agents]] — script vs. product distinction, substrate requirements, multi-agent coordination
+- [[scale/team-standard|Team Standard]] — harness as versioned code, eval gates, review culture, hiring for judgment
 
 ## The Scale Imperative
 

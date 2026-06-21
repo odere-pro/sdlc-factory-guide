@@ -2,7 +2,7 @@
 title: "Reference"
 type: index
 aliases: ["reference", "Reference", "Quick Reference", "Checklists"]
-parent: ""
+parent: "[[index|Wiki Index]]"
 path: "reference"
 children:
   - "[[implementation-checklist|Implementation Checklist]]"

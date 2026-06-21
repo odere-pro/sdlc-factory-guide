@@ -4,10 +4,10 @@ type: concept
 aliases: ["review-and-ship", "Review and Ship", "code review", "shipping"]
 parent: "[[build-loop|Build Loop]]"
 path: "build-loop"
-sources: ["[[review-and-ship|Part 5: Review and Ship]]"]
+sources: ["[[_sources/review-and-ship|Part 5: Review and Ship]]"]
 related:
-  - "[[verification|Verification]]"
-  - "[[running-the-work|Running the Work]]"
+  - "[[build-loop/verification|Verification]]"
+  - "[[build-loop/running-the-work|Running the Work]]"
 tags: ["review", "shipping", "hooks", "observability", "build-loop"]
 created: 2026-06-22
 updated: 2026-06-22
@@ -93,5 +93,5 @@ Framework migrations, deprecated-API updates, and test suite modernization — w
 
 ## Related Concepts
 
-- [[verification|Verification]] — observability feeds back into the quality flywheel
-- [[running-the-work|Running the Work]] — the review step follows the run step and catches the 20% the agent missed
+- [[build-loop/verification|Verification]] — observability feeds back into the quality flywheel
+- [[build-loop/running-the-work|Running the Work]] — the review step follows the run step and catches the 20% the agent missed
