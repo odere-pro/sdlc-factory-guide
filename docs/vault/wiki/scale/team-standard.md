@@ -1,37 +1,61 @@
 ---
-title: Team Standard
-page_class: process
-source: "[[Source: Part 8 — Make It a Team Standard]]"
-sources:
-  - "[[team-standard|Part 8: Make It a Team Standard]]"
-  - "[[checklist|Implementation Checklist]]"
-tags: [scale, team-standard, harness, eval-gates, hiring, engineering-culture, CI]
-related:
-  - "[[verification|Verification]]"
-  - "[[review-and-ship|Review and Ship]]"
-  - "[[production-agents|Production Agents]]"
-  - "[[controlling-cost|Controlling Cost]]"
+title: "Team Standard"
+type: concept
+aliases: ["team-standard", "Team Standard", "harness as code", "engineering culture"]
 parent: "[[scale|Scale]]"
-path: scale/
+path: "scale"
+sources: ["[[team-standard|Part 8: Make It a Team Standard]]"]
+related:
+  - "[[controlling-cost|Controlling Cost]]"
+  - "[[production-agents|Production Agents]]"
+tags: ["team-standard", "engineering-culture", "eval-gates", "hiring", "scale"]
+created: 2026-06-22
+updated: 2026-06-22
+update_count: 1
+status: active
+confidence: 1.0
 ---
 
 # Team Standard
 
-A team standard for agentic engineering means treating the shared harness — rule files, system prompts, eval suites, skill libraries — as versioned infrastructure with named owners, gating shipping on passing eval suites rather than working demos, and hiring for specification and evaluation judgment over raw implementation speed.
+> [!summary]
+> Making agentic engineering a team standard requires treating the harness as shared infrastructure — versioned, reviewed in PRs, and owned. The key failure mode at team scale is harness drift. Four practices prevent it: harness-as-code, eval gates (not demos), reshaped code review, and hiring for judgment (specification, evaluation, architecture) rather than implementation speed.
 
-## Overview
+## Definition
 
-Everything in the Foundation and Build Loop phases works for one developer. The moment a team is involved, a new failure mode appears: harness drift. One person's rule file says one thing, another's says something else, agent behavior becomes irreproducible across the team, and the discipline quietly erodes. The team standard is what prevents this.
+Team Standard is the practice of converting an individual agentic workflow into a durable, shared engineering standard — consistent across team members, gated on measurable quality, and improving over time rather than rotting.
 
-The underlying principle: AI amplifies the engineering culture it lands in. A team with strong tests, clear standards, and healthy review gets dramatically more from these tools. A team without those gets faster at producing problems.
+## The Core Principle
 
-## Key Principles
+> [!important]
+> AI amplifies the engineering culture it lands in. A team with strong tests, clear standards, and healthy review gets dramatically more out of these tools. A team without those gets faster at producing problems.
 
-**Treat the harness as code.** Rule files, system prompts, eval suites, and skill libraries are not personal config — they are shared infrastructure. Version them with the project. Review them in pull requests. Assign named owners so they are maintained on purpose rather than rotting. Without this, every developer's agent behaves slightly differently and nobody can reproduce anyone else's results.
+The goal of standardizing is to make the good culture the path of least resistance.
 
-**Gate on the eval, not the demo.** A working demo proves an agent can succeed once. A passing eval suite proves it succeeds reliably. These are not the same, and shipping on the strength of a demo is how unreliable agents reach production. Make eval coverage a precondition for shipping, gated in CI with an explicit rubric that scores task success, tool-use quality, trajectory compliance, hallucination rate, and response quality.
+## Four Practices
 
-**CI gate pattern:**
+### 1. Treat the Harness as Code
+
+Rule files, system prompts, eval suites, and skill libraries are shared infrastructure:
+
+- **Version them** with the project
+- **Review them in PRs** like any other change
+- **Assign named owners** so they're maintained deliberately, not rotting
+
+Without this, every developer's agent behaves differently and results are irreproducible.
+
+### 2. Gate on the Eval, Not the Demo
+
+A working demo proves an agent can succeed once. A passing eval suite proves it succeeds reliably.
+
+**Eval rubric dimensions to score:**
+- Task success
+- Tool-use quality
+- Trajectory compliance
+- Hallucination rate
+- Response quality
+
+A CI gate makes it real:
 
 ```yaml
 agent-evals:
@@ -40,17 +64,38 @@ agent-evals:
   required: true
 ```
 
-**Reshape code review for generated code.** Generated code needs the same scrutiny as human code — or more — and reviewers need to know its specific failure modes (see [[review-and-ship|Review and Ship]]). The old human-code review checklist is not sufficient. Train reviewers and tune the checklist to generated-code failure patterns: hallucinated dependencies, thin error handling, correctness gaps that look fine at a glance.
+### 3. Re-Shape Code Review for Generated Code
 
-**Draw the prototype/production boundary explicitly.** Fast exploration and disciplined production work are both valid, but only when everyone knows which is which. Specify which repos are production versus sandbox, which branches require the full discipline, which environments an agent's output can reach. Teams that leave this blurry produce prototypes that ship by accident.
+Generated code needs the same scrutiny as human code, or more — and reviewers need to know its specific failure modes:
+- Hallucinated dependencies
+- Thin error handling
+- Correctness gaps that look fine at a glance
 
-**Build the harness once, compound it.** Reusable prompts, skill libraries, tool connections, and eval harnesses compound across projects. The teams that get the most from AI development build the shared harness once and keep improving it, rather than each person rebuilding their own from scratch.
+Tune the review checklist to generated-code failure modes, not the old human-code checklist.
 
-**Hire and promote for judgment.** As implementation gets cheaper, the bottleneck moves to specification, evaluation, and architectural judgment. The most valuable engineers are those who can direct agents well. Reflect this in hiring: weight specification skill, evaluation rigor, and system design over raw implementation speed. In the strongest hybrid setups, humans set direction, agents implement, and clear handoff protocols govern the boundary.
+### 4. Draw the Prototype/Production Boundary Explicitly
+
+Teams that leave this blurry produce prototypes that ship by accident. Define:
+
+| Dimension | Define Which Are... |
+|-----------|---------------------|
+| **Repos** | Production vs. sandbox |
+| **Branches** | Require full discipline |
+| **Environments** | Agent output can reach |
+
+## Hiring and Promotion for Judgment
+
+As implementation gets cheaper, the bottleneck moves to specification, evaluation, and architectural judgment. The most valuable engineers are those who can direct agents well — not those who type the most code.
+
+Reflect this in hiring: weight specification skill, evaluation rigor, and system design over raw implementation speed. Add a specification-and-evaluation exercise to the hiring loop.
+
+The strongest setups are **hybrid by design**: humans set direction, agents implement, clear handoff protocols govern the boundary.
+
+## Build the Harness Once, Refine Many Times
+
+Reusable prompts, skill libraries, tool connections, and eval harnesses compound across projects. Treat the harness as infrastructure: documented, maintained, deliberately improved — not rebuilt from scratch by each developer.
 
 ## Related Concepts
 
-- [[verification|Verification]] — the eval rubric and CI gate are the team-standard form of the verification discipline.
-- [[review-and-ship|Review and Ship]] — shared review checklists for generated code are part of the team standard.
-- [[production-agents|Production Agents]] — the prototype/production boundary the team standard draws is the same distinction production-agents makes explicit.
-- [[controlling-cost|Controlling Cost]] — model routing config and cost measurement become team infrastructure when standardized.
+- [[controlling-cost|Controlling Cost]] — the harness standard includes cost discipline
+- [[production-agents|Production Agents]] — production agents need the eval and harness practices this page describes

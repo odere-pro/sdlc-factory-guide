@@ -1,57 +1,97 @@
 ---
-title: Review and Ship
-page_class: process
-source: "[[Source: Part 5 — Review and Ship]]"
-sources:
-  - "[[review-and-ship|Part 5: Review and Ship]]"
-  - "[[checklist|Implementation Checklist]]"
-tags: [build-loop, code-review, hooks, observability, shipping, generated-code]
+title: "Review and Ship"
+type: concept
+aliases: ["review-and-ship", "Review and Ship", "code review", "shipping"]
+parent: "[[build-loop|Build Loop]]"
+path: "build-loop"
+sources: ["[[review-and-ship|Part 5: Review and Ship]]"]
 related:
   - "[[verification|Verification]]"
   - "[[running-the-work|Running the Work]]"
-  - "[[team-standard|Team Standard]]"
-parent: "[[build-loop|Build Loop]]"
-path: build-loop/
+tags: ["review", "shipping", "hooks", "observability", "build-loop"]
+created: 2026-06-22
+updated: 2026-06-22
+update_count: 1
+status: active
+confidence: 1.0
 ---
 
 # Review and Ship
 
-Review and ship is the phase where the engineer shifts from author to reviewer — using the agent for a mechanical first pass, applying specific suspicion to generated code failure modes, encoding critical rules as commit hooks, and standing up observability before production traffic starts.
+> [!summary]
+> When agents write 80% of code, the developer role shifts from author to reviewer. Three reinforcing practices govern the review and shipping phase: using the agent as a mechanical first-pass reviewer, encoding hard rules as hooks that run deterministically at lifecycle points, and standing up observability to audit and improve agent behavior over time.
 
-## Overview
+## Definition
 
-When an agent writes 80% of the code, the engineer's role becomes primarily judgmental. The work shifts from typing to judging, and the judging must be sharper than before because generated code fails in quieter ways than human code. The reflex to trust code because it runs is exactly the wrong reflex for AI-generated output.
+Review and Ship is the phase in the build loop where generated code is validated, hard rules are enforced mechanically, and the pipeline is made observable. It closes the feedback loop back into verification.
 
-## Key Principles
+## Let the Agent Take the First Pass
 
-**Agent first-pass review.** Use the agent as a first-pass reviewer before a human looks at anything. It catches the mechanical layer efficiently: likely bugs, style violations, security smells, performance issues. This clears noise so the human reviewer spends attention on what actually needs a human — design, maintainability, whether the change fits the system's direction. First-pass review is mechanical and can be delegated. Final design judgment is not.
+The agent is well-suited for mechanical review:
+- Catching likely bugs
+- Flagging style violations
+- Identifying security smells
+- Spotting performance issues
 
-**Review failure modes for generated code.** Apply suspicion at the specific points where AI output fails, not at the generic places human code fails:
-- *Clever abstractions.* Generated code sometimes reaches for a slick abstraction where a boring one was correct. Clever is a flag.
-- *Hallucinated imports.* Models generate plausible-sounding package names. An import that looks right can be a package that does not exist — or a malicious squat on a name the model commonly invents.
-- *Thin error handling.* Generated code covers the happy path well and failure paths poorly. Ask what happens when the network call times out, the input is empty, the row is missing.
+This clears the noise so the human reviewer can focus on what needs a human: design fitness, maintainability, architectural direction.
 
-**Hooks.** Some rules are too important to rely on review for. Encode them as hooks — deterministic code that runs at fixed lifecycle points (before a tool call, after a file edit, before a commit) and blocks bad actions automatically. Unlike a rule in a file, a hook cannot be argued past. A pre-commit secret-blocker is the canonical starting point.
+> [!important]
+> The split matters: first-pass review is mechanical and can be delegated. Final judgment about design is not.
 
-**Observability.** You cannot manage what you cannot see. As agents take on more work, track: traces of each run (the full sequence of steps and tool calls), eval results over time (quality regressions surface early), token cost and latency (a workflow that quietly got expensive shows up), and drift (behavior shifting without an obvious cause). Without observability a misbehaving agent is a black box.
+## Review Generated Code With the Right Suspicion
 
-**Legacy maintenance.** The same capable review-and-ship workflow can be pointed at work that has been deferred for years. Legacy code that was too risky to touch — only its original authors understood it — is high-value agent work: read the code, infer patterns, find relevant files, make changes that respect what is there. Framework migrations, deprecated-API updates, and old test-suite modernization become well-specified background tasks with reviewable PRs at the end.
+> [!warning]
+> Trusting code because it runs is exactly the wrong reflex for generated code.
 
-## Examples
+Review every line going to production, aimed at generated code's specific failure modes:
 
-A minimal pre-commit hook blocking hard-coded secrets:
+| Failure Mode | What to Look For |
+|-------------|-----------------|
+| **Clever abstractions** | Slick solutions where a boring one was correct — flag these |
+| **Hallucinated imports** | Plausible-sounding packages that don't exist, or malicious squats |
+| **Weak error handling** | Happy path covered well; failure paths poorly — check timeouts, empty inputs, missing rows |
+
+The cost of skipping this: code no one understands becomes debugging cost no one can afford. Fast generation savings evaporate on the first three-day reverse-engineering session.
+
+## Hooks: Encode Rules Deterministically
+
+Some rules are too important to rely on review for. **Hooks** are deterministic code that runs at fixed lifecycle points (before a tool call, after a file edit, before a commit) and blocks bad actions automatically.
 
 ```bash
 #!/usr/bin/env bash
-# .git/hooks/pre-commit
-if git diff --cached | grep -E -i '(api[_-]?key|secret|password|token)\s*=\s*["'"'"'"][^"'"'"']+'; then
+# .git/hooks/pre-commit — block hard-coded secrets
+if git diff --cached | grep -E -i '(api[_-]?key|secret|password|token)\s*=\s*["'"'"'][^"'"'"']+'; then
   echo "Blocked: looks like a hard-coded secret. Remove it before committing."
   exit 1
 fi
 ```
 
+Unlike a rule in a file, a hook cannot be talked past.
+
+## Observability
+
+You can't manage what you can't see. Track:
+
+- **Traces** — full sequence of steps and tool calls per run
+- **Eval results** over time — quality regressions surface early
+- **Token cost and latency** — quietly expensive workflows become visible
+- **Drift** — behavior shifting over time without an obvious cause
+
+Without observability, a misbehaving agent is a black box and the only debugging tool is guessing.
+
+## The Legacy Win
+
+> [!note]
+> An underrated application of a capable agentic workflow.
+
+Legacy code that was "too risky to touch" because only its original authors understood it is exactly where agents earn their keep. They can:
+- Read the code and infer patterns
+- Find the relevant files across a large codebase
+- Make changes that respect what's there
+
+Framework migrations, deprecated-API updates, and test suite modernization — work that nobody wanted to spend a quarter on — become scoped, well-specified background tasks with reviewable PRs at the end.
+
 ## Related Concepts
 
-- [[verification|Verification]] — eval results feed directly into the observability loop; the quality flywheel connects them.
-- [[running-the-work|Running the Work]] — review handles the 20% the agent could not; observability covers what happens after.
-- [[team-standard|Team Standard]] — shared review checklists for generated-code failure modes are the team-standard form of this discipline.
+- [[verification|Verification]] — observability feeds back into the quality flywheel
+- [[running-the-work|Running the Work]] — the review step follows the run step and catches the 20% the agent missed

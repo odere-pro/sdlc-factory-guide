@@ -1,57 +1,55 @@
-# Ingest Log
+---
+title: "Operations Log"
+type: log
+aliases: ["Operations Log"]
+created: 2026-04-24
+updated: 2026-06-22
+---
 
-This file records every ingest run. One entry per run, appended by the pipeline.
+# Operations Log
 
-| Run | Date | Sources processed | Pages created | Pages updated | Notes |
-|-----|------|-------------------|---------------|---------------|-------|
+Chronological record of every wiki operation. The onboarding skill stamps the initial entry; subsequent ingest, query, and lint operations append below.
 
-## [2026-06-21] ingest | intro, checklist, rule-file, context-engineering, verification, running-the-work, review-and-ship, controlling-cost, production-agents, team-standard
+## [2026-04-24] init | Vault scaffolded
 
-Processed 10 raw sources. Created 26 new pages, 0 updated.
+Empty vault created from `skills/llm-wiki/template/`. No sources ingested yet.
 
-New folders: foundation/, build-loop/, scale/, reference/, _sources/
+## [2026-06-22] ingest: intro
 
-New entities:
-- foundation/rule-file.md (process)
-- foundation/context-engineering.md (concept)
-- build-loop/verification.md (concept)
-- build-loop/running-the-work.md (process)
-- build-loop/review-and-ship.md (process)
-- scale/controlling-cost.md (concept)
-- scale/production-agents.md (concept)
-- scale/team-standard.md (process)
+Ingested `raw/wired/sdlc-factory-guide/intro.md`. Created source summary at `_sources/intro.md`. Contributed to `foundation/agentic-engineering-workflow.md`.
 
-New concepts:
-- Agentic Workflow (rule-file, context-engineering, verification, running-the-work, review-and-ship, controlling-cost, production-agents, team-standard)
-- Static/Dynamic Context, Skills Pattern, 80% Problem, Quality Flywheel, Conductor/Orchestrator Modes, Model Routing, MCP/A2A, Harness as Code
+## [2026-06-22] ingest: rule-file
 
-New folder notes:
-- foundation/foundation.md
-- build-loop/build-loop.md
-- scale/scale.md
-- reference/reference.md
+Ingested `raw/wired/sdlc-factory-guide/rule-file.md`. Created source summary at `_sources/rule-file.md`. Created wiki page `foundation/rule-file.md`.
 
-New reference pages:
-- reference/agentic-workflow-overview.md
-- reference/implementation-checklist.md
+## [2026-06-22] ingest: context-engineering
 
-New source summaries (10):
-- _sources/intro.md
-- _sources/checklist.md
-- _sources/rule-file.md
-- _sources/context-engineering.md
-- _sources/verification.md
-- _sources/running-the-work.md
-- _sources/review-and-ship.md
-- _sources/controlling-cost.md
-- _sources/production-agents.md
-- _sources/team-standard.md
-## [2026-06-21] curator | Health check and auto-repair
+Ingested `raw/wired/sdlc-factory-guide/context-engineering.md`. Created source summary at `_sources/context-engineering.md`. Created wiki page `foundation/context-engineering.md`.
 
-Found 0 errors, 50 warnings, 0 info. Engine repaired 0, auto-applied 30 (wikilink-dangling fixes + index bare-title fixes), judgment 0, surfaced 10 (inherent _sources/ index-duplicates — accepted). Rollback: git revert 22a569b.
+## [2026-06-22] ingest: verification
 
-## [2026-06-21] snapshot | ingest intro, checklist, rule-file, context-engineering, verification, running-the-work, review-and-ship, controlling-cost, production-agents, team-standard (snap-20260621184507)
+Ingested `raw/wired/sdlc-factory-guide/verification.md`. Created source summary at `_sources/verification.md`. Created wiki page `build-loop/verification.md`.
 
-- pre-state: 665a999
-- rollback: git revert the snapshot commit below
+## [2026-06-22] ingest: running-the-work
 
+Ingested `raw/wired/sdlc-factory-guide/running-the-work.md`. Created source summary at `_sources/running-the-work.md`. Created wiki page `build-loop/running-the-work.md`.
+
+## [2026-06-22] ingest: review-and-ship
+
+Ingested `raw/wired/sdlc-factory-guide/review-and-ship.md`. Created source summary at `_sources/review-and-ship.md`. Created wiki page `build-loop/review-and-ship.md`.
+
+## [2026-06-22] ingest: controlling-cost
+
+Ingested `raw/wired/sdlc-factory-guide/controlling-cost.md`. Created source summary at `_sources/controlling-cost.md`. Created wiki page `scale/controlling-cost.md`.
+
+## [2026-06-22] ingest: production-agents
+
+Ingested `raw/wired/sdlc-factory-guide/production-agents.md`. Created source summary at `_sources/production-agents.md`. Created wiki page `scale/production-agents.md`.
+
+## [2026-06-22] ingest: team-standard
+
+Ingested `raw/wired/sdlc-factory-guide/team-standard.md`. Created source summary at `_sources/team-standard.md`. Created wiki page `scale/team-standard.md`.
+
+## [2026-06-22] ingest: checklist
+
+Ingested `raw/wired/sdlc-factory-guide/checklist.md`. Created source summary at `_sources/checklist.md`. Created wiki page `reference/implementation-checklist.md`.

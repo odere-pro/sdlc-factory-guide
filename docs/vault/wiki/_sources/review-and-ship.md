@@ -1,23 +1,40 @@
 ---
-title: "Source: Part 5 — Review and Ship"
-page_class: process
-source: "raw/review-and-ship.md"
-tags: [source, review, shipping, hooks, observability, code-review]
+title: "Part 5: Review and Ship"
+type: source
+source_type: article
+source_format: text
+author: "Oleksandr Derechei"
+publisher: "SDLC Factory Guide"
+date_published: 2026-06-18
+date_ingested: 2026-06-22
+tags: ["review", "shipping", "hooks", "observability", "build-loop"]
+aliases: []
+sources: []
+created: 2026-06-22
+updated: 2026-06-22
+status: active
+confidence: 1.0
 ---
 
-# Source: Part 5 — Review and Ship
+# Part 5: Review and Ship
 
 ## Metadata
 
-- **File:** `raw/review-and-ship.md`
+- **Source file:** `raw/wired/sdlc-factory-guide/review-and-ship.md`
 - **Author:** Oleksandr Derechei
 - **Published:** 2026-06-18
-- **Series position:** Part 5 of 8
+- **URL:** https://odere-pro.github.io/sdlc-factory-guide/review-and-ship
 
 ## Summary
 
-Positions the engineer as reviewer-more-than-author when AI writes the majority of code. Argues for agent-first-pass review to clear mechanical issues before human review. Provides specific failure modes to watch in generated code (clever abstractions, hallucinated imports, weak error handling). Covers commit hooks for automated rule enforcement and observability (traces, eval scores, cost, drift) for production visibility. Notes that legacy maintenance work is an underrated use case.
+When agents write 80% of code, the developer role shifts from author to reviewer. This article covers three reinforcing practices: using the agent as a first-pass mechanical reviewer, encoding hard rules as hooks that run automatically at lifecycle points, and standing up observability to audit agent behavior over time.
 
 ## Key Claims
 
-When agents write 80% of code, the engineer's primary role shifts to reviewer. Agent first-pass clears mechanical noise so human review can focus on design and fit. Review failure modes: clever abstractions that should be simple, hallucinated imports, error handling that covers happy path only. Hooks encode rules the agent or human "should never forget" in deterministic code that runs at lifecycle points. Observability tracks traces, eval results, token cost/latency, and behavioral drift. Legacy code refactors and migrations are high-value, underutilized agent tasks. Covers: Review and Ship, Code Review, Hooks, Observability, Build Loop.
+- The agent is well-suited as a first-pass reviewer for mechanical concerns (bugs, style, security smells, performance issues), freeing humans for design-level judgment.
+- Generated code must be reviewed with specific suspicion: clever abstractions (flag them), hallucinated imports (verify they exist), and weak error handling (check failure paths).
+- Hooks encode rules the agent "should never forget but often does" — they run deterministically at lifecycle points (pre-commit, post-edit) and cannot be talked past.
+- Observability tracks traces, eval scores, token cost/latency, and behavioral drift over time.
+- Legacy code is an underrated win: agents can read, infer patterns, and modernize code that was "too risky to touch" — turning multi-quarter migrations into scoped reviewable PRs.
+
+Covers: Code Review, Commit Hooks, Observability, Generated Code Review, Legacy Migration

@@ -1,0 +1,5 @@
+# Obsidian stub quarantine — Obsidian-created notes from clicked links land here.
+_inbox/*
+!_inbox/.gitkeep
+# Portable-markdown export scratch.
+output/

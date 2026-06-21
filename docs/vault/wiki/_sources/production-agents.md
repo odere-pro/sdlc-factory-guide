@@ -1,23 +1,40 @@
 ---
-title: "Source: Part 7 — Ship Production Agents"
-page_class: concept
-source: "raw/production-agents.md"
-tags: [source, production-agents, MCP, A2A, deployment, multi-agent]
+title: "Part 7: Ship Production Agents"
+type: source
+source_type: article
+source_format: text
+author: "Oleksandr Derechei"
+publisher: "SDLC Factory Guide"
+date_published: 2026-06-18
+date_ingested: 2026-06-22
+tags: ["production-agents", "MCP", "A2A", "multi-agent", "scale"]
+aliases: []
+sources: []
+created: 2026-06-22
+updated: 2026-06-22
+status: active
+confidence: 1.0
 ---
 
-# Source: Part 7 — Ship Production Agents
+# Part 7: Ship Production Agents
 
 ## Metadata
 
-- **File:** `raw/production-agents.md`
+- **Source file:** `raw/wired/sdlc-factory-guide/production-agents.md`
 - **Author:** Oleksandr Derechei
 - **Published:** 2026-06-18
-- **Series position:** Part 7 of 8
+- **URL:** https://odere-pro.github.io/sdlc-factory-guide/production-agents
 
 ## Summary
 
-Distinguishes between agents as scripts (one-off automation) and agents as products (serving real users). Defines the four non-negotiable substrate elements for production agents: persistent memory, scoped permissions, CI eval coverage, and full-run observability. Shows how a skills bundle keeps the prototype-to-production path in one workflow without a stack rewrite. Covers multi-agent coordination via shared state, MCP, and A2A.
+Addresses building agents as products (not just tools for building software). The key distinction is script vs. product: a product serving real users needs a substrate — persistent memory, scoped permissions, CI evals, and full-run observability. Multi-agent coordination uses shared state, MCP, and A2A at increasing scales of complexity.
 
 ## Key Claims
 
-The most useful pre-build question: is this a script or a product? Conflating them causes prototypes to ship by accident. Production agents require four extras scripts do not: persistent memory, scoped permissions on every tool, eval coverage in CI, and run tracing. Skills bundles let existing coding agents handle the full lifecycle: scaffold, write, evaluate, deploy, observe. Multi-agent coordination: shared session state for simple cases, MCP for tool/service access, A2A for agent-to-agent delegation. The bottleneck in multi-agent systems is specification and verification, not implementation. Covers: Production Agents, MCP, A2A, Persistent Memory, Scale.
+- The most important early decision: "is this a script or a product?" — conflating them is how prototypes ship by accident.
+- Production agents need four things scripts don't: persistent memory, scoped permissions, CI eval coverage, and full-run tracing.
+- A skills bundle keeps the prototype-to-production workflow in one place — no separate stack to learn.
+- Multi-agent coordination ladder: shared session state (simple) → MCP for tool access → A2A for agent-to-agent delegation.
+- The bottleneck in multi-agent systems shifts to specification (what each agent should do) and verification (did it do it).
+
+Covers: Production Agents, Script vs Product, Persistent Memory, Scoped Permissions, MCP, A2A, Multi-Agent

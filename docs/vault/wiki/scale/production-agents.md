@@ -1,56 +1,58 @@
 ---
-title: Production Agents
-page_class: concept
-source: "[[Source: Part 7 — Ship Production Agents]]"
-sources:
-  - "[[production-agents|Part 7: Ship Production Agents]]"
-  - "[[checklist|Implementation Checklist]]"
-tags: [scale, production-agents, MCP, A2A, persistent-memory, scoped-permissions, multi-agent]
-related:
-  - "[[verification|Verification]]"
-  - "[[context-engineering|Context Engineering]]"
-  - "[[team-standard|Team Standard]]"
+title: "Production Agents"
+type: concept
+aliases: ["production-agents", "Production Agents", "shipping agents", "agent deployment"]
 parent: "[[scale|Scale]]"
-path: scale/
+path: "scale"
+sources: ["[[production-agents|Part 7: Ship Production Agents]]"]
+related:
+  - "[[controlling-cost|Controlling Cost]]"
+  - "[[team-standard|Team Standard]]"
+tags: ["production-agents", "MCP", "A2A", "multi-agent", "scale"]
+created: 2026-06-22
+updated: 2026-06-22
+update_count: 1
+status: active
+confidence: 1.0
 ---
 
 # Production Agents
 
-A production agent is an AI agent serving real users as a product — requiring persistent memory, scoped permissions, CI eval coverage, and full-run observability that one-off script agents do not need.
+> [!summary]
+> Production Agents addresses building agents as products that serve real users — distinct from using agents to build software. The key decision is script vs. product: a product needs a substrate (persistent memory, scoped permissions, CI evals, full-run tracing). Multi-agent coordination scales through shared state → MCP → A2A.
 
 ## Definition
 
-When the thing being built *is* an agent — a customer support bot, a research assistant, an internal monitoring tool — the engineering requirements shift. These are not scripts run once; they are products that serve real users and need a substrate beneath them.
+Production Agents is the practice of shipping agents as products with real users, as opposed to using agents as developer tools. The distinction determines how much infrastructure must be built beneath the agent.
 
-## Key Principles
+## The Most Important Question
 
-**The first question: script or product?** Before writing anything, answer one sentence: "this is a script" or "this is a product." Conflating them is how prototypes ship by accident.
+Before writing anything: **Is this a script or a product?**
 
-- A **script** is a one-off automation, a personal tool, a prototype. The agent is the destination. Standard coding-agent tools are enough.
-- A **product** serves real users. The agent now needs its own tools, memory, evaluation, and deployment infrastructure.
+| Type | Description | Infrastructure |
+|------|-------------|----------------|
+| **Script** | One-off automation, personal tool, prototype — the agent is the destination | A coding agent in your terminal is enough |
+| **Product** | Something real users depend on — the agent is the product | Needs substrate: tools, memory, eval, deployment |
 
-**The four extras that become non-negotiable.** For a product, four capabilities stop being optional:
+> [!warning]
+> Conflating the two is how prototypes ship by accident. Be explicit about which one you're building before writing anything.
 
-1. **Persistent memory** across sessions — the agent does not start from zero every time.
-2. **Scoped permissions** on every tool and data source — the agent reaches only what it should.
-3. **Eval coverage in CI** — regressions are caught before they ship (see [[verification|Verification]]).
-4. **Full-run observability** — production behavior is auditable (see [[review-and-ship|Review and Ship]]).
+## What a Production Agent Needs That a Script Doesn't
 
-For a script none of this is worth the effort. For a product, building it after launch instead of before is how you create an unmaintainable, untrustworthy system.
+When real users depend on the agent, four requirements stop being optional:
 
-**One workflow from prototype to production.** The same terminal-based workflow that produces a prototype can reach all the way to a deployed product. A skills bundle (see [[context-engineering|Context Engineering]]) gives the existing coding agent the full lifecycle: scaffold, write, evaluate, deploy, wire up observability — without a separate SDK or stack.
+| Requirement | Why It Matters |
+|-------------|----------------|
+| **Persistent memory** | Agent doesn't start from zero every session — state carries over |
+| **Scoped permissions** | Each tool and data source has the minimum access it needs |
+| **Eval coverage in CI** | Regressions are caught before they ship (same as Part 3, applied to the agent itself) |
+| **Full-run tracing** | Production behavior is auditable (same as Part 5, applied to the agent itself) |
 
-**Multi-agent coordination.** When one agent is not enough, three coordination mechanisms compose at different scales:
+Building these *after* launch creates an unmaintainable, untrustworthy system.
 
-- **Shared session state** — for simple cases where agents need to see the same context.
-- **MCP (Model Context Protocol)** — the standard way agents access tools and external services.
-- **A2A (Agent2Agent)** — for one agent delegating work to another.
+## Keeping One Workflow From Prototype to Production
 
-These compose into whatever pattern fits: a planner handing subtasks to specialists, parallel workers on different parts of a job, a reviewer agent checking a builder agent. The bottleneck in multi-agent systems moves from implementation to specification and verification — the same theme as the rest of the workflow, one level up.
-
-## Examples
-
-The end-to-end production workflow can look like a single conversation:
+The same terminal-based workflow that builds a prototype reaches all the way to production. A **skills bundle** gives the existing coding agent the full lifecycle without a new SDK:
 
 ```text
 > Build a support agent that answers questions from our docs.
@@ -58,10 +60,24 @@ The end-to-end production workflow can look like a single conversation:
 > Deploy it to the runtime.
 ```
 
-Behind that, the agent scaffolds from a template, writes code, generates an eval set, runs it, deploys, and reports back.
+Behind that conversation: scaffold from template → write code → generate evals → run evals → deploy → report. The prototype that ran on a laptop becomes the production agent serving users without a rewrite.
+
+## Going Multi-Agent
+
+When one agent isn't enough, coordination uses three mechanisms at increasing scales:
+
+| Mechanism | Use When |
+|-----------|----------|
+| **Shared session state** | Simple cases where agents need the same context |
+| **MCP (Model Context Protocol)** | Standard way agents access tools and external services |
+| **A2A (Agent2Agent)** | One agent delegating work to another agent |
+
+Common patterns: planner → specialists, parallel workers on different parts of a job, reviewer agent checking a builder agent.
+
+> [!note]
+> The bottleneck in multi-agent systems shifts from writing implementation to specifying what each agent should do and verifying it did it — the same theme as the rest of the guide, one level up.
 
 ## Related Concepts
 
-- [[verification|Verification]] — eval coverage in CI is one of the four required substrate elements.
-- [[context-engineering|Context Engineering]] — skills bundles are what keep the prototype-to-production path in a single workflow.
-- [[team-standard|Team Standard]] — the prototype/production boundary (repos, branches, environments) must be explicitly drawn at the team level.
+- [[controlling-cost|Controlling Cost]] — production substrate has cost implications; skills bundles manage it
+- [[team-standard|Team Standard]] — production agents need the eval gates and harness practices from Part 8

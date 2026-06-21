@@ -1,27 +1,24 @@
 ---
-title: Reference
+title: "Reference"
 type: index
-page_class: overview
-source: "[[raw/intro.md]]"
-sources:
-  - "[[intro|The Agentic Engineering Workflow]]"
-tags: [reference, index, topic]
-parent: "[[index|Wiki Index]]"
-path: reference/
+aliases: ["reference", "Reference", "Quick Reference", "Checklists"]
+parent: ""
+path: "reference"
 children:
-  - "[[Agentic Workflow Overview]]"
-  - "[[Implementation Checklist]]"
+  - "[[implementation-checklist|Implementation Checklist]]"
+child_indexes: []
+tags: ["reference", "checklist", "agentic-engineering"]
+created: 2026-06-22
+updated: 2026-06-22
 ---
 
 # Reference
 
-Cross-cutting reference material — the workflow map and the implementation checklist — that spans all three phases of the guide.
+> [!summary]
+> Quick-reference materials for the agentic engineering workflow — condensed checklists and action items drawn from all eight guide parts.
 
-## Pages
+The Reference topic holds actionable reference documents: checklists, rubrics, and implementation guides that synthesize the full guide into ready-to-use formats.
 
-- [[agentic-workflow-overview|Agentic Workflow Overview]] — the eight-part, three-phase series map with audience routing for solo developers, AI product builders, and team leads.
-- [[implementation-checklist|Implementation Checklist]] — actionable checkbox task list, one section per guide part, for working through setup sequentially.
+## Pages in This Topic
 
-## Relationship to the rest of the workflow
-
-Reference pages do not contain novel doctrine; they are navigational aids to the three topic folders: [[foundation|Foundation]], [[build-loop|Build Loop]], and [[scale|Scale]]. Start with the overview to orient, then use the checklist to track progress through the three phases.
+- [[implementation-checklist|Implementation Checklist]] — eight-part actionable checklist covering the full agentic engineering workflow setup

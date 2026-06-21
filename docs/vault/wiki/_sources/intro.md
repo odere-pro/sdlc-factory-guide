@@ -1,23 +1,39 @@
 ---
-title: "Source: The Agentic Engineering Workflow (intro)"
-page_class: overview
-source: "raw/intro.md"
-tags: [source, workflow, overview, series-intro]
+title: "The Agentic Engineering Workflow"
+type: source
+source_type: article
+source_format: text
+author: "Oleksandr Derechei"
+publisher: "SDLC Factory Guide"
+date_published: 2026-06-18
+date_ingested: 2026-06-22
+tags: ["agentic-engineering", "workflow", "sdlc", "intro"]
+aliases: []
+sources: []
+created: 2026-06-22
+updated: 2026-06-22
+status: active
+confidence: 1.0
 ---
 
-# Source: The Agentic Engineering Workflow
+# The Agentic Engineering Workflow
 
 ## Metadata
 
-- **File:** `raw/intro.md`
+- **Source file:** `raw/wired/sdlc-factory-guide/intro.md`
 - **Author:** Oleksandr Derechei
 - **Published:** 2026-06-18
-- **Series position:** 1 of 8 (introduction)
+- **URL:** https://odere-pro.github.io/sdlc-factory-guide/
 
 ## Summary
 
-Introduces the eight-part agentic engineering workflow guide. Establishes the central thesis — the engineer's real output is no longer code but the system that produces code — and maps the series into three phases: Foundation (Parts 1–2), the Build Loop (Parts 3–5), and Scale (Parts 6–8). Provides audience routing for solo developers, AI product builders, and team leads.
+The intro article frames an eight-part guide to moving from ad-hoc AI prompting to a disciplined, production-grade agentic engineering workflow. The central thesis is that **the developer's real output is no longer code — it is the system that produces code**. The model is only one component; the surrounding infrastructure (rules, context, tests, review, observability) determines trustworthiness.
 
 ## Key Claims
 
-The series' organizing principle is that models are one small part of a production system; rules, context, tests, review, and observability are what determine whether output is trustworthy. Contains the Mermaid workflow diagram showing the three-phase progression. Covers: Agentic Engineering Workflow, Rule File, Context Engineering, Verification, Running the Work, Review and Ship, Controlling Cost, Production Agents, Team Standard.
+- Ad-hoc prompting is not a workflow — it is a starting point. The guide provides structure to make AI output reliable.
+- The workflow has three phases: Foundation (rule file + context engineering), Build Loop (verification → run → review), and Scale (cost, production agents, team standard).
+- Different reader personas have different entry points: solo devs need Parts 1–6; product builders need Part 7; team leads need all eight with extra weight on 3, 5, and 8.
+- The mermaid diagram in the source encodes the full workflow topology with a feedback loop connecting review back to verification.
+
+Covers: Rule File, Context Engineering, Verification, Running the Work, Review and Ship, Controlling Cost, Production Agents, Team Standard, Agentic Engineering Workflow

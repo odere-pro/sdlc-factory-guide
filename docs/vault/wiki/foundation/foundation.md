@@ -1,27 +1,32 @@
 ---
-title: Foundation
+title: "Foundation"
 type: index
-page_class: overview
-source: "[[raw/intro.md]]"
-sources:
-  - "[[intro|Agentic Engineering Workflow Overview]]"
-tags: [foundation, index, topic]
-parent: "[[index|Wiki Index]]"
-path: foundation/
+aliases: ["foundation", "Foundation", "Agent Foundation", "What the Agent Knows"]
+parent: ""
+path: "foundation"
 children:
-  - "[[Rule File]]"
-  - "[[Context Engineering]]"
+  - "[[agentic-engineering-workflow|Agentic Engineering Workflow]]"
+  - "[[rule-file|Rule File]]"
+  - "[[context-engineering|Context Engineering]]"
+child_indexes: []
+tags: ["foundation", "agentic-engineering"]
+created: 2026-06-22
+updated: 2026-06-22
 ---
 
 # Foundation
 
-The foundation phase establishes what the agent knows before any task begins. It covers the two inputs the agent reads on every request: a rule file that encodes project knowledge, and a context-engineering strategy that controls what else it sees and when.
+> [!summary]
+> The Foundation phase covers the two practices that define what an agent knows before it writes a single line of code: the rule file (project knowledge) and context engineering (information architecture). Getting these right determines the quality ceiling of everything downstream.
 
-## Pages
+The Foundation is Phase 1 of the agentic engineering workflow. It establishes the shared knowledge that every agent interaction inherits — the project's stack, conventions, hard rules, workflow, and the discipline of choosing which information loads statically versus on demand.
 
-- [[rule-file|Rule File]] — the onboarding document encoding stack, conventions, hard rules, and workflow.
-- [[context-engineering|Context Engineering]] — the discipline of deciding what the agent sees on every request versus on demand.
+## Pages in This Topic
 
-## Relationship to the rest of the workflow
+- [[agentic-engineering-workflow|Agentic Engineering Workflow]] — the eight-part workflow overview and how the three phases connect
+- [[rule-file|Rule File]] — the onboarding document that encodes project knowledge for the agent
+- [[context-engineering|Context Engineering]] — deciding what the agent sees, and when
 
-Foundation is the prerequisite phase. Without a rule file the agent infers — and infers wrong. Without context engineering the rule file grows without bound and dilutes its own signal. The [[build-loop|Build Loop]] and [[scale|Scale]] phases both depend on foundation quality: a tight rule file is the primary lever for first-pass success rate, which cascades into cost, quality, and team reproducibility.
+## Key Concepts
+
+The two foundation practices are deeply linked: the rule file is the primary static context, and context engineering is the discipline that keeps it high-signal rather than bloated. Together they raise the agent's first-pass success rate, which cascades into quality, cost, and velocity improvements across all downstream phases.

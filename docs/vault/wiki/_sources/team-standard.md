@@ -1,23 +1,41 @@
 ---
-title: "Source: Part 8 — Make It a Team Standard"
-page_class: process
-source: "raw/team-standard.md"
-tags: [source, team-standard, harness, eval-gates, hiring, engineering-culture]
+title: "Part 8: Make It a Team Standard"
+type: source
+source_type: article
+source_format: text
+author: "Oleksandr Derechei"
+publisher: "SDLC Factory Guide"
+date_published: 2026-06-18
+date_ingested: 2026-06-22
+tags: ["team-standard", "engineering-culture", "eval-gates", "hiring", "scale"]
+aliases: []
+sources: []
+created: 2026-06-22
+updated: 2026-06-22
+status: active
+confidence: 1.0
 ---
 
-# Source: Part 8 — Make It a Team Standard
+# Part 8: Make It a Team Standard
 
 ## Metadata
 
-- **File:** `raw/team-standard.md`
+- **Source file:** `raw/wired/sdlc-factory-guide/team-standard.md`
 - **Author:** Oleksandr Derechei
 - **Published:** 2026-06-18
-- **Series position:** Part 8 of 8
+- **URL:** https://odere-pro.github.io/sdlc-factory-guide/team-standard
 
 ## Summary
 
-Addresses the team-level failure mode of harness drift — individual rule files diverging, agent behavior becoming irreproducible. Argues that the harness (rule files, system prompts, eval suites, skill libraries) must be versioned, reviewed in PRs, and assigned owners. Establishes eval-gated CI as the standard for shipping agents, defines the prototype-production boundary, and reframes hiring to weight specification and evaluation over implementation speed.
+Scaling agentic engineering to a team requires treating the harness as shared infrastructure — versioned, reviewed, owned. The article covers four practices: treating rule files and eval suites as code, gating on eval suites (not demos), reshaping code review for generated-code failure modes, and hiring for judgment (specification, evaluation, architecture) rather than implementation speed.
 
 ## Key Claims
 
-AI amplifies the engineering culture it lands in — strong tests and standards produce dramatically better outcomes. Harness drift is the team-level failure mode: rule files diverge, behavior becomes irreproducible. Treat rule files, system prompts, evals, and skills as shared infrastructure: version, PR-review, and assign owners. Gate on passing eval suites (rubric with task success, tool-use quality, trajectory compliance, hallucination rate, response quality), not demos. Demo proves an agent can succeed once; eval suite proves it succeeds reliably. CI gate example: YAML blocking merge on eval regression below 0.9. Re-train reviewers for generated-code failure modes — old human-code checklist is insufficient. Draw the prototype/production boundary explicitly: repos, branches, environments. Build the shared harness once, compound it across projects. Hire and promote for specification, evaluation, and system design over raw implementation speed. Covers: Team Standard, Eval Gates, Harness as Code, Hiring for Judgment, Scale.
+- AI amplifies the engineering culture it lands in — teams with strong tests and standards get more out of these tools; teams without them get faster at producing problems.
+- Rule files, system prompts, eval suites, and skill libraries are shared infrastructure and must be versioned, PR-reviewed, and owned.
+- A working demo proves one success; a passing eval suite proves reliability. Gate on evals.
+- The eval rubric must score at least: task success, tool-use quality, trajectory compliance, hallucination rate, response quality.
+- The prototype/production boundary must be made explicit: which repos, branches, and environments.
+- As implementation gets cheaper, the bottleneck moves to specification, evaluation, and architectural judgment — hire for that.
+
+Covers: Team Standard, Harness as Code, Eval Gates, Code Review for Generated Code, Hiring for Judgment, Prototype/Production Boundary

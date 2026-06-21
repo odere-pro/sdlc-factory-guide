@@ -1,71 +1,77 @@
 ---
-title: Rule File
-page_class: process
-source: "[[Source: Part 1 — Set Up the Rule File]]"
-sources:
-  - "[[rule-file|Part 1: Set Up the Rule File]]"
-tags: [foundation, rule-file, CLAUDE-md, AGENTS-md, agent-config, onboarding]
+title: "Rule File"
+type: concept
+aliases: ["rule-file", "Rule File", "CLAUDE.md", "AGENTS.md", "agent rule file"]
+parent: "[[foundation|Foundation]]"
+path: "foundation"
+sources: ["[[rule-file|Part 1: Set Up the Rule File]]"]
 related:
   - "[[context-engineering|Context Engineering]]"
-  - "[[controlling-cost|Controlling Cost]]"
-parent: "[[foundation|Foundation]]"
-path: foundation/
+  - "[[agentic-engineering-workflow|Agentic Engineering Workflow]]"
+tags: ["rule-file", "CLAUDE.md", "agent-configuration", "foundation"]
+created: 2026-06-22
+updated: 2026-06-22
+update_count: 1
+status: active
+confidence: 1.0
 ---
 
 # Rule File
 
-A rule file (`CLAUDE.md`, `AGENTS.md`, `GEMINI.md`) is the onboarding document that tells a coding agent what it needs to know about a project — stack, conventions, hard rules, and workflow — before any task begins.
+> [!summary]
+> The rule file (`CLAUDE.md`, `AGENTS.md`, or `GEMINI.md`) is the onboarding document an AI agent reads at the start of every session. It encodes project-specific knowledge — stack, conventions, hard rules, workflow — that the agent would otherwise have to infer incorrectly. A well-maintained rule file is the single highest-leverage investment in an agentic workflow.
 
-## Overview
+## Definition
 
-A coding agent arrives at a repository like a new engineer on their first day, except it cannot ask questions. Without a rule file it infers from patterns, and those inferences are predictably wrong: the wrong state-management pattern, the wrong folder layout, the wrong test convention. The rule file encodes the knowledge that new engineer would otherwise have to ask for. It is written once and inherited by every subsequent session in the project.
-
-The key insight is that output quality depends far more on what the agent *knows about your project* than on how any individual prompt is phrased. Writing a better prompt is the wrong lever; writing a better rule file is the right one.
+A rule file is a project-level configuration document that gives an AI coding agent the knowledge a new team member would need to contribute effectively. Unlike a prompt (which addresses one task), a rule file encodes persistent, project-wide operating instructions that every future session inherits.
 
 ## Key Principles
 
-**Four-part structure.** Every effective rule file covers exactly four things, each kept short and specific:
+### Four Required Parts
 
-1. **Stack and versions** — stop the agent guessing which APIs exist.
-2. **Conventions** — the patterns your codebase *actually* uses, not generic best practices.
-3. **Hard rules** — things that must never happen, stated as absolute constraints.
-4. **Workflow** — the steps to follow before and after generating code.
+1. **Stack and versions** — which language, framework, database, and library versions are in use, so the agent stops guessing which APIs exist
+2. **Conventions** — the specific patterns the project uses (folder structure, naming, architectural patterns) — not generic best practices
+3. **Hard rules** — absolute prohibitions (no secrets in code, no certain packages, specific linting requirements)
+4. **Workflow** — the ordered steps to follow before and after generating code (e.g., write tests first, run linter before declaring done)
 
-**Grow by correction.** Do not try to write the perfect file upfront. Start with ten lines. Each time the agent does something you do not want, add one rule. That rule pays off on every subsequent task. Over weeks the file accumulates to a model of someone who has worked on the project for months.
+### Iterative Growth
 
-**Tool declarations.** The rule file is also where you declare which tools the agent can reach and when — internal APIs, scripts, database schemas. A one-line description of *when* to call a tool prevents it from being ignored or misused.
+The most important rule about the rule file: don't try to write it perfectly up front. Start with ten lines. Let real failures add new rules:
 
-**Architecture stays with the engineer.** The rule file encodes the architecture decisions the engineer has already made. The agent implements; it does not choose. Trade-offs that depend on business context the model cannot see (consistency vs. availability, build vs. buy) must be made by the human and written down.
+- Agent misbehaves → add one rule to prevent that behavior → it never happens again
+- Each rule is cheap to add and pays off on every subsequent task
+
+Over weeks, the file becomes a record of every mistake the agent has ever made — and will never make again.
+
+### Tool Definitions
+
+The rule file is also where the agent learns which tools it can call and when. A one-line description of when to invoke a script or API prevents both ignoring and misuse.
+
+### Architecture Boundary
+
+The rule file makes explicit which decisions belong to the human and which to the agent. Architecture decisions (consistency vs. availability, build vs. buy) require business context the model cannot see — they are recorded in the rule file and implemented by the agent, never the reverse.
 
 ## Examples
 
-A minimal rule file for a Python/FastAPI project:
+A minimal rule file structure (Python/FastAPI example from source):
 
 ```markdown
-# CLAUDE.md
-
 ## Stack
 - Python 3.12, FastAPI, SQLAlchemy 2.0 (async)
-- Postgres 16, Alembic for migrations
-- pytest + httpx for tests
 
 ## Conventions
-- Feature folders under `app/features/<name>/`, not layered by type.
-- Routes are thin: validation + a single service call. No business logic in routes.
-- All DB access goes through repositories. No raw SQL in services.
+- Feature folders under app/features/<name>/, not layered by type.
 
 ## Hard rules
 - Never add a dependency not already in pyproject.toml. Ask first.
-- Never write secrets into code or tests.
-- No `print()`. Use the configured structlog logger.
+- No print(). Use structlog.
 
 ## Workflow
-1. Read the spec before writing code.
-2. Write the test first, then implement until it passes.
-3. If a change touches the DB schema, stop and flag it for human review.
+1. Write the test first, then implement until it passes.
+2. Run ruff check and pytest before declaring done.
 ```
 
 ## Related Concepts
 
-- [[context-engineering|Context Engineering]] — the broader discipline of deciding what the agent sees; the rule file is the static-context anchor.
-- [[controlling-cost|Controlling Cost]] — a tight rule file raises first-pass success rate, which is the primary cost lever.
+- [[context-engineering|Context Engineering]] — the rule file is the primary static context; context engineering governs how to keep it high-signal
+- [[agentic-engineering-workflow|Agentic Engineering Workflow]] — the rule file is the foundation of the full workflow

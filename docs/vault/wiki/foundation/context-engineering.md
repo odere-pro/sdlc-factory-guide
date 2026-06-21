@@ -1,60 +1,109 @@
 ---
-title: Context Engineering
-page_class: concept
-source: "[[Source: Part 2 — Engineer the Context]]"
-sources:
-  - "[[context-engineering|Part 2: Engineer the Context]]"
-  - "[[controlling-cost|Part 6: Control Cost]]"
-tags: [foundation, context-engineering, skills, dynamic-context, static-context, tokens]
+title: "Context Engineering"
+type: concept
+aliases: ["context-engineering", "Context Engineering", "context management"]
+parent: "[[foundation|Foundation]]"
+path: "foundation"
+sources: ["[[context-engineering|Part 2: Engineer the Context]]"]
 related:
   - "[[rule-file|Rule File]]"
-  - "[[controlling-cost|Controlling Cost]]"
-  - "[[production-agents|Production Agents]]"
-parent: "[[foundation|Foundation]]"
-path: foundation/
+  - "[[agentic-engineering-workflow|Agentic Engineering Workflow]]"
+depends_on:
+  - "[[rule-file|Rule File]]"
+tags: ["context-engineering", "skills", "dynamic-context", "tokens", "foundation"]
+created: 2026-06-22
+updated: 2026-06-22
+update_count: 1
+status: active
+confidence: 1.0
 ---
 
 # Context Engineering
 
-Context engineering is the discipline of deciding what an AI agent sees and when — selecting which information to load on every request versus which to retrieve only when a task matches.
+> [!summary]
+> Context engineering is the discipline of deciding what an AI agent sees, and when. It separates context into static (always loaded, costs tokens on every call) and dynamic (loaded on demand, efficient) buckets. The primary pattern for dynamic context is the "skill" — a self-contained knowledge package that loads via progressive disclosure only when a task matches. Getting context right improves both quality and cost simultaneously.
 
 ## Definition
 
-The mental shift context engineering requires is away from "how do I phrase this to trick the model into good code?" and toward "what would a new teammate need to know to contribute well, and how do I hand it to them efficiently?" Every piece of context falls into one of two buckets, and choosing the bucket is a real engineering decision with a real cost.
+Context engineering is the practice of architecting the information an AI agent receives across each request. It is distinct from prompt engineering (phrasing a single request) — it is about designing the information architecture of an entire workflow.
 
-## Key Principles
+## The Two Buckets
 
-**Static versus dynamic context.** Static context is always loaded — system instructions, rule files, global memory. It is reliable but expensive: you pay for every token on every call regardless of whether the current task needs it. Dynamic context loads only when needed — skills triggered by the task, tool results, retrieved documents, recent history. It is efficient: you pay only when the information is relevant.
+### Static Context
 
-**The dilution trap.** Too much static context both wastes money and dilutes signal — important rules drown in noise. Too little means the agent forgets things it needed. Treat the static/dynamic split like any other architectural decision: reviewed, versioned, and deliberate.
+Always loaded, on every request:
 
-**Cost is a design input.** A 2,000-token rule file times 50 requests is 100,000 tokens of rule-file content alone. If half that content is only needed for one task type, moving it to a skill eliminates the cost on the other 49 requests. Dense, high-signal static context is not a style preference — it is a line item.
+- System instructions
+- Rule files (`CLAUDE.md` and equivalents)
+- Global memory and persona
 
-**Never paste the whole repository.** Dumping a 100,000-token codebase into the prompt buries the relevant signal. Use retrieval to surface the few files that matter for the current task, and let the agent request more if it needs it.
+**Trade-off:** reliable (agent never forgets it), but expensive — every token is paid for on every call, whether or not the current task needs it. Too much static context also dilutes signal: important rules drown in noise.
 
-**Six categories of context.** When designing what to provide, think across: Instructions (role, goals, boundaries), Knowledge (docs, architecture, domain data), Memory (session and long-term), Examples (real patterns from your codebase), Tools (precise API and script definitions), and Guardrails (hard constraints and safety rules). Most workflows under-invest in examples and tools.
+### Dynamic Context
 
-## Examples
+Loaded only when needed:
 
-The skills pattern is the most effective way to manage dynamic context. A skill is a self-contained package of procedural knowledge that loads only when a task matches:
+- Skills triggered by the current task
+- Tool results retrieved during execution
+- Documents surfaced by a search index
+- The recent slice of conversation history
+
+**Trade-off:** efficient (pay only when relevant), but requires deliberate design to ensure the right context loads at the right time.
+
+> [!important]
+> The static/dynamic split is an architectural decision that should be reviewed and versioned, not left to accumulate by accident.
+
+## Skills: The Pattern for Dynamic Context
+
+A **skill** is a self-contained package of procedural knowledge that loads via progressive disclosure:
+
+1. **At startup** — only lightweight metadata (name + one-line description) is visible
+2. **When a task matches** — the full instructions load
+3. **Only if deeper detail is needed** — heavy reference material pulls in
+
+A generalist agent can carry dozens of specialist capabilities while paying the token cost for only the one currently active.
+
+**Minimal skill structure:**
 
 ```markdown
 ---
 name: stripe-refunds
-description: How to issue and reconcile refunds through our billing layer. Use when a task involves refunds, chargebacks, or payment reversals.
+description: How to issue refunds. Use when a task involves refunds or chargebacks.
 ---
 
 # Issuing a refund
-
-1. Look up the charge via `billing.get_charge(charge_id)`.
-2. Refunds over $500 require an `approved_by` field — never auto-approve.
-3. Call `billing.refund(charge_id, amount, approved_by)`.
+1. Look up the charge via billing.get_charge(charge_id).
+2. Refunds over $500 require an approved_by field.
+...
 ```
 
-Progressive disclosure — three layers, loaded lazily: metadata at startup, full instructions on match, heavy reference only if needed — lets a lightweight agent carry dozens of specialist capabilities while paying the token cost for only the one it is actively using.
+## The Six Context Categories
+
+Most workflows under-invest in the middle four:
+
+| Category | Content | Common Gap |
+|----------|---------|------------|
+| **Instructions** | Role, goals, boundaries (the rule file) | Over-invested |
+| **Knowledge** | Docs, architecture diagrams, domain data | Often missing |
+| **Memory** | Session history + long-term project memory | Often missing |
+| **Examples** | Real patterns from your own codebase | Often missing |
+| **Tools** | Precise API/script definitions | Often missing |
+| **Guardrails** | Hard constraints and safety rules | Often thin |
+
+> [!note] On Examples
+> A single example pulled from your actual codebase teaches the agent your style faster than three paragraphs of description.
+
+## Cost Dimension
+
+Context engineering is not only a quality practice — it is a cost-control practice. A 2,000-token rule file paid 50 times per session is 100,000 tokens. Moving half of it into on-demand skills costs nearly nothing for the 49 requests that don't need it.
+
+This is why "keep static context dense and high-signal" is a financial constraint, not a style preference.
+
+## What Not To Do
+
+Avoid pasting an entire repository into the prompt. Whole-codebase awareness is the tool's job (indexing, retrieval), not something you do by hand on every prompt. The relevant signal gets buried and the cost is unsustainable.
 
 ## Related Concepts
 
-- [[rule-file|Rule File]] — the static-context anchor; the rule file is one input to context engineering.
-- [[controlling-cost|Controlling Cost]] — dynamic context and skills are one of the three primary cost-control levers.
-- [[production-agents|Production Agents]] — production agents apply the same context-management discipline to the agents themselves.
+- [[rule-file|Rule File]] — the primary component of static context that context engineering optimizes
+- [[agentic-engineering-workflow|Agentic Engineering Workflow]] — context engineering is Part 2 of the full workflow

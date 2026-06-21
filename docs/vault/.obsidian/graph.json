@@ -1,0 +1,22 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"raw/\" -path:\"_templates/\" -path:\"_proposed/\" -path:\"_inbox/\" -path:\"output/\" -path:\"wiki/_sources/\" -path:\"wiki/_synthesis/\" -path:\"wiki/index.md\" -path:\"wiki/log.md\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.2,
+  "repelStrength": 20,
+  "linkStrength": 0.48,
+  "linkDistance": 30,
+  "scale": 1,
+  "close": false
+}

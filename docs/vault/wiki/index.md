@@ -1,46 +1,68 @@
 ---
-title: Wiki Index
-page_class: overview
-tags: [index, meta]
+title: "Wiki Index"
+type: index
+parent: ""
+path: ""
+children: []
+child_indexes:
+  - "[[foundation|Foundation]]"
+  - "[[build-loop|Build Loop]]"
+  - "[[scale|Scale]]"
+  - "[[reference|Reference]]"
+aliases: ["Wiki Index"]
+tags: []
+created: 2026-04-24
+updated: 2026-06-22
 ---
 
-# SDLC Factory Guide — Wiki Index
+# Wiki Index
 
-Structured, citeable knowledge extracted from the sdlc-factory-guide documentation. Ten source documents ingested across four topic areas.
+Master catalog of every page in the wiki.
 
-## Foundation
+## Topics
 
-Establishes what the agent knows before any task begins.
+| Topic | Pages | Description |
+|-------|-------|-------------|
+| [[foundation|Foundation]] | 3 | Rule file, context engineering, and the overall workflow overview |
+| [[build-loop|Build Loop]] | 3 | Verification, running the work, and review/ship practices |
+| [[scale|Scale]] | 3 | Cost control, production agents, and team standardization |
+| [[reference|Reference]] | 1 | Implementation checklists and quick-reference materials |
 
-- [[Rule File]] — onboarding document encoding stack, conventions, hard rules, and workflow.
-- [[Context Engineering]] — static vs dynamic context, skills pattern, six context categories.
+## All Pages by Topic
 
-## Build Loop
+### Foundation
 
-The repeating execution cycle that produces trustworthy AI-assisted output.
+- [[agentic-engineering-workflow|Agentic Engineering Workflow]] — the eight-part workflow overview and three-phase structure
+- [[rule-file|Rule File]] — the onboarding document that encodes project knowledge for agents
+- [[context-engineering|Context Engineering]] — static vs. dynamic context; skills and progressive disclosure
 
-- [[Verification]] — tests as deterministic spec; evals for non-deterministic behavior; quality flywheel.
-- [[Running the Work]] — conductor vs orchestrator modes; agent locations; 80% problem.
-- [[Review and Ship]] — agent first-pass review; generated-code failure modes; hooks; observability.
+### Build Loop
 
-## Scale
+- [[verification|Verification]] — tests as spec; evals for non-deterministic trajectory; quality flywheel
+- [[running-the-work|Running the Work]] — conductor vs. orchestrator modes; agent locations; the 80% problem
+- [[review-and-ship|Review and Ship]] — agent first-pass review, hooks, observability, legacy migration wins
 
-Economics and governance that make the workflow viable beyond a single developer.
+### Scale
 
-- [[Controlling Cost]] — total cost of ownership; model routing; dynamic context as cost lever.
-- [[Production Agents]] — persistent memory; scoped permissions; CI evals; MCP and A2A.
-- [[Team Standard]] — harness as code; eval-gated CI; review for generated code; hiring for judgment.
+- [[controlling-cost|Controlling Cost]] — TCO, first-pass success, model routing, dynamic context as cost lever
+- [[production-agents|Production Agents]] — script vs. product, substrate requirements, MCP/A2A multi-agent
+- [[team-standard|Team Standard]] — harness as code, eval gates, review reshaping, hiring for judgment
 
-## Reference
+### Reference
 
-Cross-cutting navigation aids spanning all three phases.
+- [[implementation-checklist|Implementation Checklist]] — actionable eight-part checklist for the full workflow
 
-- [[Agentic Workflow Overview]] — full eight-part series map with audience routing.
-- [[Implementation Checklist]] — actionable eight-section setup checklist.
+## Sources
 
-## Topic Folders
+All pages cite sources in `wiki/_sources/`. Ingested sources:
 
-- [[foundation/foundation|Foundation]] — prerequisite phase (2 pages)
-- [[build-loop/build-loop|Build Loop]] — execution cycle (3 pages)
-- [[scale/scale|Scale]] — economics and governance (3 pages)
-- [[reference/reference|Reference]] — cross-cutting utilities (2 pages)
+- `_sources/intro.md` — The Agentic Engineering Workflow
+- `_sources/rule-file.md` — Part 1: Set Up the Rule File
+- `_sources/context-engineering.md` — Part 2: Engineer the Context
+- `_sources/verification.md` — Part 3: Build Verification
+- `_sources/running-the-work.md` — Part 4: Run the Work
+- `_sources/review-and-ship.md` — Part 5: Review and Ship
+- `_sources/controlling-cost.md` — Part 6: Control Cost
+- `_sources/production-agents.md` — Part 7: Ship Production Agents
+- `_sources/team-standard.md` — Part 8: Make It a Team Standard
+- `_sources/checklist.md` — Agentic Engineering — Implementation Checklist

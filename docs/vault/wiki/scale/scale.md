@@ -1,29 +1,35 @@
 ---
-title: Scale
+title: "Scale"
 type: index
-page_class: overview
-source: "[[raw/intro.md]]"
-sources:
-  - "[[intro|Agentic Engineering Workflow Overview]]"
-tags: [scale, index, topic]
-parent: "[[index|Wiki Index]]"
-path: scale/
+aliases: ["scale", "Scale", "Make It Economical", "Scaling Agentic Engineering"]
+parent: ""
+path: "scale"
 children:
-  - "[[Controlling Cost]]"
-  - "[[Production Agents]]"
-  - "[[Team Standard]]"
+  - "[[controlling-cost|Controlling Cost]]"
+  - "[[production-agents|Production Agents]]"
+  - "[[team-standard|Team Standard]]"
+child_indexes: []
+tags: ["scale", "agentic-engineering", "cost", "team"]
+created: 2026-06-22
+updated: 2026-06-22
 ---
 
 # Scale
 
-The scale phase covers the economics and governance that make the agentic workflow viable beyond a single developer: cost control, deployment as a product, and team standardization.
+> [!summary]
+> The Scale phase is Phase 3 of the agentic engineering workflow — making the practice economical and durable. Three practices: Controlling Cost (TCO, model routing, first-pass success), Production Agents (from prototype to product with substrate), and Team Standard (harness as code, eval gates, hiring for judgment).
 
-## Pages
+The Scale phase addresses the question: once you have a working agentic workflow, how do you make it financially sustainable, how do you ship agents as products rather than scripts, and how do you make the whole thing a durable team practice?
 
-- [[controlling-cost|Controlling Cost]] — total cost of ownership, model routing by task complexity, and dynamic context as cost control.
-- [[production-agents|Production Agents]] — from prototype script to product with persistent memory, scoped permissions, CI evals, and multi-agent coordination.
-- [[team-standard|Team Standard]] — versioning the harness, gating on evals not demos, reshaping code review, and hiring for judgment.
+## Pages in This Topic
 
-## Relationship to the rest of the workflow
+- [[controlling-cost|Controlling Cost]] — total cost of ownership, model routing by task, dynamic context
+- [[production-agents|Production Agents]] — script vs. product distinction, substrate requirements, multi-agent coordination
+- [[team-standard|Team Standard]] — harness as versioned code, eval gates, review culture, hiring for judgment
 
-Scale depends on [[foundation|Foundation]] and the [[build-loop|Build Loop]] — without a rule file, engineered context, verification, and review, there is nothing worth scaling. The cost-control lever (first-pass success rate) is directly governed by foundation quality. The eval-gated CI in team standard is the production form of the verification discipline. The prototype/production boundary in production agents is the team-level governance the team standard draws explicitly.
+## The Scale Imperative
+
+The three practices in this phase are sequenced deliberately:
+1. **Cost** must be understood first — an unsustainable cost structure undermines everything
+2. **Production** builds on cost awareness — production agents need more substrate but also benefit from cost-disciplined design
+3. **Team** is last because it requires all preceding practices to be working — you can't standardize what isn't proven

@@ -1,57 +1,91 @@
 ---
-title: Running the Work
-page_class: process
-source: "[[Source: Part 4 — Run the Work]]"
-sources:
-  - "[[running-the-work|Part 4: Run the Work]]"
-  - "[[checklist|Implementation Checklist]]"
-tags: [build-loop, conductor-mode, orchestrator-mode, sandbox, 80-percent-problem, agent-modes]
+title: "Running the Work"
+type: concept
+aliases: ["running-the-work", "Running the Work", "conductor orchestrator", "agent modes"]
+parent: "[[build-loop|Build Loop]]"
+path: "build-loop"
+sources: ["[[running-the-work|Part 4: Run the Work]]"]
 related:
   - "[[verification|Verification]]"
   - "[[review-and-ship|Review and Ship]]"
-  - "[[context-engineering|Context Engineering]]"
-parent: "[[build-loop|Build Loop]]"
-path: build-loop/
+tags: ["running-the-work", "conductor", "orchestrator", "agent-modes", "build-loop"]
+created: 2026-06-22
+updated: 2026-06-22
+update_count: 1
+status: active
+confidence: 1.0
 ---
 
 # Running the Work
 
-Running the work means choosing the right mode — conductor for real-time steering, orchestrator for async delegation — and matching the agent location to the task, while reserving the last 20% of every feature for human judgment.
+> [!summary]
+> Running the Work covers two decisions that determine how well agentic coding goes: which mode (conductor vs. orchestrator) and which agent location (editor, terminal, background). The central warning is the 80% problem — agents generate the bulk of a feature quickly, but the remaining 20% containing edge cases, business rules, and integration points is exactly where production failures live and must be owned by the developer.
 
-## Overview
+## Definition
 
-With a rule file, engineered context, and verification in place, the next question is how to execute. Two decisions govern quality: which mode are you in, and which kind of agent fits the task. Using the wrong mode for the task type is a common source of frustration.
+Running the Work is the practice of matching the operating mode and agent location to each task — choosing between hands-on real-time control and async delegation, and between editor, terminal, and background agents.
 
-## Key Principles
+## Two Operating Modes
 
-**Conductor mode** is real-time and hands-on. The engineer watches code appear in the editor, steers with prompts and corrections, and understands every change as it is made. Best for: complex logic, tricky debugging, unfamiliar codebases — anywhere step-by-step understanding matters. The risk: treating everything as conductor work makes the engineer the bottleneck and eliminates the speed-up.
+### Conductor Mode
 
-**Orchestrator mode** is asynchronous and high-level. The engineer defines a goal, hands it to an agent, and reviews the outcome rather than the keystrokes. Best for: well-specified work — bug fixes, migrations, test generation, features following an established pattern. The catch: orchestrator mode requires *more* discipline upfront, not less. A precise spec must exist before delegation is possible. The payoff arrives on the second task.
+Real-time, hands-on. The developer stays in the editor, watches code appear, steers with prompts and corrections, and understands each change as it's made.
 
-Orchestrator mode rewards different skills than syntax fluency: specification (defining tasks precisely enough an agent can execute without guessing), decomposition (breaking work into agent-sized units), evaluation (judging output quality quickly), and system design (building the constraints and feedback loops that keep agents productive).
+| Aspect | Detail |
+|--------|--------|
+| **Best for** | Complex logic, tricky debugging, unfamiliar codebases |
+| **Risk** | If you direct every keystroke, *you* become the bottleneck and speed gains disappear |
 
-**Three agent locations.** Editor agents work in-flow, inline with writing. Terminal agents handle multi-file work where the agent runs tools and reacts to results. Background agents run autonomously in a sandbox for hours and deliver a PR to review. The right starting point is the task, not the tool that claims the most autonomy.
+### Orchestrator Mode
 
-**Sandbox execution.** When the agent executes code — running tests, trying fixes, reading files — it does so inside an isolated sandbox with a defined, limited tool set. This is what makes the autonomous think-act-observe loop safe: the agent can try things and fail without reaching anything it should not touch.
+Asynchronous, higher-level. Define a goal, delegate to an agent, review the outcome.
 
-**The 80% problem.** An agent generates roughly 80% of a feature quickly. The remaining 20% — edge cases, error handling, integration points, subtle correctness — needs domain context the model lacks. And this 20% is exactly where production failures live. Early AI errors were obvious syntax mistakes; today's are conceptual: a wrong assumption about business logic, a missed edge case, an architectural choice that quietly accumulates maintenance debt. They are hard to catch because the code looks right and may pass basic tests.
+| Aspect | Detail |
+|--------|--------|
+| **Best for** | Well-specified work: bug fixes, migrations, test generation, pattern-following features |
+| **Requires** | A precise spec before delegation; the payoff comes on the second task, not the first |
 
-The developers who do well do not try to go faster by accepting everything. They use the agent for the well-specified 80% and apply their own attention to the 20% that needs judgment.
+**Skills orchestrator mode demands (not syntax fluency):**
+- Specification — define precisely enough that an agent can execute without guessing
+- Decomposition — break big work into agent-sized units
+- Evaluation — judge output quality quickly
+- System design — build constraints and feedback loops that keep agents productive
 
-## Examples
+## Three Agent Locations
 
-A missing-20% example — the agent's output passes the happy-path test but carries implicit business rules no test captures:
+| Location | Where | Best For |
+|----------|-------|----------|
+| **Editor** | Inline completion + in-place chat (Copilot, Cursor, Windsurf) | In-flow writing, staying in the zone |
+| **Terminal** | Launch agent with a goal in plain language (Claude Code, Codex CLI) | Multi-file work, run-and-react |
+| **Background** | Autonomous sandbox → PR for review (Jules, Copilot agent mode) | Paragraph-spec tasks you can walk away from |
+
+The right starting point is always **the task**, not whichever tool claims the most autonomy.
+
+## Sandbox Execution
+
+When the agent executes code — running tests, trying a fix, reading files — it should do so inside an isolated sandbox with a defined, limited set of tools and access. This makes the "think → act → observe" loop safe: the agent can try things and fail without touching anything it shouldn't.
+
+## The 80% Problem
+
+> [!warning]
+> This is the primary risk of agentic development.
+
+Agents generate roughly 80% of a feature quickly. The remaining 20% — edge cases, error handling, integration points, subtle correctness — needs deep context the model usually lacks. And this is exactly where production failures live.
+
+Early AI errors were obvious syntax mistakes. Today's errors are **conceptual**: wrong assumptions about business logic, missed edge cases, architectural choices that quietly accumulate maintenance debt. They are hard to catch because **the code looks right and may even pass basic tests**.
 
 ```python
 # The agent's 80%: looks correct, passes the happy-path test
 def apply_discount(price, percent):
     return price * (1 - percent / 100)
+
+# The missing 20%: Can percent exceed 100? Is price integer cents or float?
+# What currency rounding applies? Should 100% discount be allowed?
 ```
 
-The missing 20%: Can `percent` exceed 100? Is `price` integer cents or a float? What currency rounding applies? Should a 100% discount be allowed, or does that signal a bug upstream? None of these are visible in the code — they are business rules the engineer holds and the model does not.
+The developers who do well use agents for the well-specified 80% and spend their own attention on the 20% that needs judgment.
 
 ## Related Concepts
 
-- [[verification|Verification]] — the spec that makes orchestrator-mode delegation safe; tests give the agent an unambiguous target.
-- [[review-and-ship|Review and Ship]] — the step that follows; human review covers the 20% the agent cannot.
-- [[context-engineering|Context Engineering]] — skills and dynamic context are the mechanism that loads the right knowledge for the task the agent is executing.
+- [[verification|Verification]] — tests define the spec that makes delegation safe
+- [[review-and-ship|Review and Ship]] — the review step that catches what the 80% missed

@@ -1,23 +1,41 @@
 ---
-title: "Source: Part 3 — Build Verification"
-page_class: concept
-source: "raw/verification.md"
-tags: [source, verification, testing, evals, quality]
+title: "Part 3: Build Verification"
+type: source
+source_type: article
+source_format: text
+author: "Oleksandr Derechei"
+publisher: "SDLC Factory Guide"
+date_published: 2026-06-18
+date_ingested: 2026-06-22
+tags: ["verification", "testing", "evals", "quality", "build-loop"]
+aliases: []
+sources: []
+created: 2026-06-22
+updated: 2026-06-22
+status: active
+confidence: 1.0
 ---
 
-# Source: Part 3 — Build Verification
+# Part 3: Build Verification
 
 ## Metadata
 
-- **File:** `raw/verification.md`
+- **Source file:** `raw/wired/sdlc-factory-guide/verification.md`
 - **Author:** Oleksandr Derechei
 - **Published:** 2026-06-18
-- **Series position:** Part 3 of 8
+- **URL:** https://odere-pro.github.io/sdlc-factory-guide/verification
 
 ## Summary
 
-Establishes verification — tests plus evals — as the dividing line between real engineering and vibe coding. Tests are deterministic contracts that also communicate intent to the agent more precisely than prose prompts. Evals judge non-deterministic agent behavior: both the output and the trajectory (how the agent got there). Describes the five-step quality flywheel: evaluate, diagnose, optimize, verify, monitor.
+Verification is the discipline that separates real engineering from "vibe coding." Two mechanisms work together: tests for deterministic behavior (written before code generation) and evals for non-deterministic agent behavior (trajectory + output). Together they form a quality flywheel that compounds over time.
 
 ## Key Claims
 
-Verification is the discipline that makes AI output trustworthy at production stakes. Tests serve dual purpose: runtime check and machine-checkable specification for the agent. Write tests before generating code — a failing test is an unambiguous target. Evals cover output evaluation (does the artifact meet the bar?) and trajectory evaluation (did the agent take a sensible path?). Trajectory matters: a fluent output that skipped verification steps is more dangerous than an obvious error. Rubric-based evals define "good" explicitly and check it automatically. Quality flywheel: evaluate → diagnose → optimize → verify → monitor. Covers: Verification, Testing, Evals, Build Loop, Quality.
+- Without systematic verification, AI output is gambling regardless of prompt sophistication.
+- Tests serve a dual role: verifying behavior AND communicating precise intent to the agent — a failing test is an unambiguous spec.
+- Evals come in two flavors: output evaluation (did it produce the right artifact?) and trajectory evaluation (did it follow the right path?).
+- Trajectory evaluation is especially important: a fluent output that skipped verification steps is more dangerous than an obvious error.
+- The quality flywheel: evaluate → diagnose (cluster failures) → optimize (prompt/rule/tool) → verify fix → monitor production.
+- Evals require a rubric to measure anything — define what constitutes "good" explicitly.
+
+Covers: Verification, Tests, Evals, Quality Flywheel, Trajectory Evaluation, Output Evaluation
