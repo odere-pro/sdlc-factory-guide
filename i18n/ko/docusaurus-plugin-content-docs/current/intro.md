@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ image: /img/og-image.png
 
 ## 시리즈 구성
 
-1. **[규칙 파일 설정](/docs/rule-file)** — 새로운 팀원이 필요로 할 프로젝트 지식을 에이전트에게 제공합니다.
-2. **[컨텍스트 엔지니어링](/docs/context-engineering)** — 에이전트가 무엇을, 언제 볼지 제어합니다.
-3. **[검증 체계 구축](/docs/verification)** — AI와의 계약으로서 테스트와 평가를 활용합니다.
-4. **[작업 실행](/docs/running-the-work)** — 지휘자와 오케스트레이터의 차이, 그리고 에이전트가 일상 업무에서 차지하는 위치.
-5. **[리뷰 및 배포](/docs/review-and-ship)** — "올바르게 보이는" 결과물에 숨은 실패를 잡아냅니다.
-6. **[비용 제어](/docs/controlling-cost)** — 총 소유 비용과 모델 라우팅.
-7. **[프로덕션 에이전트 배포](/docs/production-agents)** — 프로토타입 스크립트에서 기반 인프라를 갖춘 제품으로.
-8. **[팀 표준으로 정착](/docs/team-standard)** — 하네스를 버전 관리하고, 평가로 게이팅하며, 판단력을 기준으로 채용합니다.
+1. **[규칙 파일 설정](/rule-file)** — 새로운 팀원이 필요로 할 프로젝트 지식을 에이전트에게 제공합니다.
+2. **[컨텍스트 엔지니어링](/context-engineering)** — 에이전트가 무엇을, 언제 볼지 제어합니다.
+3. **[검증 체계 구축](/verification)** — AI와의 계약으로서 테스트와 평가를 활용합니다.
+4. **[작업 실행](/running-the-work)** — 지휘자와 오케스트레이터의 차이, 그리고 에이전트가 일상 업무에서 차지하는 위치.
+5. **[리뷰 및 배포](/review-and-ship)** — "올바르게 보이는" 결과물에 숨은 실패를 잡아냅니다.
+6. **[비용 제어](/controlling-cost)** — 총 소유 비용과 모델 라우팅.
+7. **[프로덕션 에이전트 배포](/production-agents)** — 프로토타입 스크립트에서 기반 인프라를 갖춘 제품으로.
+8. **[팀 표준으로 정착](/team-standard)** — 하네스를 버전 관리하고, 평가로 게이팅하며, 판단력을 기준으로 채용합니다.
 
 ## 활용 방법
 

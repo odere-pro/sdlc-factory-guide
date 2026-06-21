@@ -18,7 +18,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/running-the-work',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/running-the-work',
       },
     })}
   </script>

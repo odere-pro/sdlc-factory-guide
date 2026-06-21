@@ -18,7 +18,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/review-and-ship',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/review-and-ship',
       },
     })}
   </script>

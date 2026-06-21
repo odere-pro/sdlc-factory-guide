@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ Den röda tråden genom alla åtta: **ditt verkliga utdata är inte längre kod 
 
 ## Serien
 
-1. **[Sätt upp regelfilen](/docs/rule-file)** — ge agenten den projektkännedom en ny teammedlem behöver.
-2. **[Konstruera kontexten](/docs/context-engineering)** — styr vad agenten ser, och när.
-3. **[Bygg verifiering](/docs/verification)** — tester och evalueringar som kontrakt med AI:n.
-4. **[Kör arbetet](/docs/running-the-work)** — dirigent kontra orkestratör, och var agenter passar in i din dag.
-5. **[Granska och leverera](/docs/review-and-ship)** — fånga de fel som "ser rätt ut."
-6. **[Kontrollera kostnaden](/docs/controlling-cost)** — total ägandekostnad och modellroutning.
-7. **[Leverera produktionsagenter](/docs/production-agents)** — från ett prototypskript till en produkt med substrat.
-8. **[Gör det till en teamstandard](/docs/team-standard)** — versionshantera harnessen, gate:a på evalueringar, anställ för omdöme.
+1. **[Sätt upp regelfilen](/rule-file)** — ge agenten den projektkännedom en ny teammedlem behöver.
+2. **[Konstruera kontexten](/context-engineering)** — styr vad agenten ser, och när.
+3. **[Bygg verifiering](/verification)** — tester och evalueringar som kontrakt med AI:n.
+4. **[Kör arbetet](/running-the-work)** — dirigent kontra orkestratör, och var agenter passar in i din dag.
+5. **[Granska och leverera](/review-and-ship)** — fånga de fel som "ser rätt ut."
+6. **[Kontrollera kostnaden](/controlling-cost)** — total ägandekostnad och modellroutning.
+7. **[Leverera produktionsagenter](/production-agents)** — från ett prototypskript till en produkt med substrat.
+8. **[Gör det till en teamstandard](/team-standard)** — versionshantera harnessen, gate:a på evalueringar, anställ för omdöme.
 
 ## Hur du använder detta
 

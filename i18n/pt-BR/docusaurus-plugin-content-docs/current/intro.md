@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ O fio condutor que atravessa as oito partes: **seu produto real não é mais o c
 
 ## A série
 
-1. **[Configure o arquivo de regras](/docs/rule-file)** — forneça ao agente o conhecimento do projeto que um novo colega de equipe precisaria.
-2. **[Engenharia de contexto](/docs/context-engineering)** — controle o que o agente vê e quando.
-3. **[Construa verificação](/docs/verification)** — testes e avaliações como o contrato com a IA.
-4. **[Execute o trabalho](/docs/running-the-work)** — condutor vs. orquestrador, e onde os agentes se encaixam no seu dia a dia.
-5. **[Revise e entregue](/docs/review-and-ship)** — capture as falhas que "parecem corretas."
-6. **[Controle o custo](/docs/controlling-cost)** — custo total de propriedade e roteamento de modelos.
-7. **[Publique agentes em produção](/docs/production-agents)** — de um script protótipo a um produto com infraestrutura.
-8. **[Torne-o um padrão de equipe](/docs/team-standard)** — versione o harness, valide com avaliações, contrate por julgamento.
+1. **[Configure o arquivo de regras](/rule-file)** — forneça ao agente o conhecimento do projeto que um novo colega de equipe precisaria.
+2. **[Engenharia de contexto](/context-engineering)** — controle o que o agente vê e quando.
+3. **[Construa verificação](/verification)** — testes e avaliações como o contrato com a IA.
+4. **[Execute o trabalho](/running-the-work)** — condutor vs. orquestrador, e onde os agentes se encaixam no seu dia a dia.
+5. **[Revise e entregue](/review-and-ship)** — capture as falhas que "parecem corretas."
+6. **[Controle o custo](/controlling-cost)** — custo total de propriedade e roteamento de modelos.
+7. **[Publique agentes em produção](/production-agents)** — de um script protótipo a um produto com infraestrutura.
+8. **[Torne-o um padrão de equipe](/team-standard)** — versione o harness, valide com avaliações, contrate por julgamento.
 
 ## Como usar este guia
 

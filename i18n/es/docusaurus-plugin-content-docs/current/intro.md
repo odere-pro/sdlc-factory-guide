@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ El hilo conductor a lo largo de las ocho partes: **tu verdadero producto ya no e
 
 ## La serie
 
-1. **[Configura el archivo de reglas](/docs/rule-file)** — dale al agente el conocimiento del proyecto que necesitaría un compañero nuevo.
-2. **[Diseña el contexto](/docs/context-engineering)** — controla qué ve el agente y cuándo.
-3. **[Construye la verificación](/docs/verification)** — pruebas y evaluaciones como el contrato con la IA.
-4. **[Ejecuta el trabajo](/docs/running-the-work)** — conductor vs. orquestador, y dónde encajan los agentes en tu día.
-5. **[Revisa y despliega](/docs/review-and-ship)** — detecta los fallos que "parecen correctos".
-6. **[Controla el costo](/docs/controlling-cost)** — costo total de propiedad y enrutamiento de modelos.
-7. **[Despliega agentes en producción](/docs/production-agents)** — de un script prototipo a un producto con su infraestructura.
-8. **[Conviértelo en un estándar de equipo](/docs/team-standard)** — versiona el harness, valida con evaluaciones, contrata por criterio.
+1. **[Configura el archivo de reglas](/rule-file)** — dale al agente el conocimiento del proyecto que necesitaría un compañero nuevo.
+2. **[Diseña el contexto](/context-engineering)** — controla qué ve el agente y cuándo.
+3. **[Construye la verificación](/verification)** — pruebas y evaluaciones como el contrato con la IA.
+4. **[Ejecuta el trabajo](/running-the-work)** — conductor vs. orquestador, y dónde encajan los agentes en tu día.
+5. **[Revisa y despliega](/review-and-ship)** — detecta los fallos que "parecen correctos".
+6. **[Controla el costo](/controlling-cost)** — costo total de propiedad y enrutamiento de modelos.
+7. **[Despliega agentes en producción](/production-agents)** — de un script prototipo a un producto con su infraestructura.
+8. **[Conviértelo en un estándar de equipo](/team-standard)** — versiona el harness, valida con evaluaciones, contrata por criterio.
 
 ## Cómo usar esto
 

@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ image: /img/og-image.png
 
 ## 系列目录
 
-1. **[配置规则文件](/docs/rule-file)** — 为智能体提供新队友入职所需的项目知识。
-2. **[设计上下文](/docs/context-engineering)** — 控制智能体看到什么，以及何时看到。
-3. **[构建验证机制](/docs/verification)** — 将测试与评估作为与 AI 的约定契约。
-4. **[执行工作](/docs/running-the-work)** — 指挥官模式与编排模式，以及智能体在你日常工作中的位置。
-5. **[审查与发布](/docs/review-and-ship)** — 捕获那些"看起来没问题"的失败。
-6. **[控制成本](/docs/controlling-cost)** — 总体拥有成本与模型路由。
-7. **[交付生产智能体](/docs/production-agents)** — 从原型脚本到具备基础设施的产品。
-8. **[建立团队标准](/docs/team-standard)** — 对工作套件进行版本管理、以评估结果作为发布门禁、招聘时注重判断力。
+1. **[配置规则文件](/rule-file)** — 为智能体提供新队友入职所需的项目知识。
+2. **[设计上下文](/context-engineering)** — 控制智能体看到什么，以及何时看到。
+3. **[构建验证机制](/verification)** — 将测试与评估作为与 AI 的约定契约。
+4. **[执行工作](/running-the-work)** — 指挥官模式与编排模式，以及智能体在你日常工作中的位置。
+5. **[审查与发布](/review-and-ship)** — 捕获那些"看起来没问题"的失败。
+6. **[控制成本](/controlling-cost)** — 总体拥有成本与模型路由。
+7. **[交付生产智能体](/production-agents)** — 从原型脚本到具备基础设施的产品。
+8. **[建立团队标准](/team-standard)** — 对工作套件进行版本管理、以评估结果作为发布门禁、招聘时注重判断力。
 
 ## 如何使用本指南
 
