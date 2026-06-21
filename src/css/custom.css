@@ -5,21 +5,26 @@
  */
 
 :root {
-  /* Accent (links / active nav) — muted teal */
-  --ifm-color-primary: #3f5f5f;
-  --ifm-color-primary-dark: #395656;
-  --ifm-color-primary-darker: #365151;
-  --ifm-color-primary-darkest: #2c4343;
-  --ifm-color-primary-light: #466868;
-  --ifm-color-primary-lighter: #496d6d;
-  --ifm-color-primary-lightest: #537d7d;
+  /* Brand accents (agentline): mint-green → blue, used for highlights only.
+     Light mode darkens the green for readable contrast on paper. */
+  --ae-accent: oklch(52% 0.12 168);
+  --ae-accent-2: oklch(48% 0.13 250);
+  --ae-gradient: linear-gradient(100deg, oklch(56% 0.13 168), oklch(50% 0.13 250));
+
+  --ifm-color-primary: oklch(52% 0.12 168);
+  --ifm-color-primary-dark: oklch(48% 0.12 168);
+  --ifm-color-primary-darker: oklch(45% 0.12 168);
+  --ifm-color-primary-darkest: oklch(38% 0.11 168);
+  --ifm-color-primary-light: oklch(57% 0.13 168);
+  --ifm-color-primary-lighter: oklch(60% 0.13 168);
+  --ifm-color-primary-lightest: oklch(68% 0.13 168);
 
   /* Paper background + ink text */
   --ifm-background-color: #faf8f4;
   --ifm-background-surface-color: #f3efe8;
   --ifm-font-color-base: #2b2722;
   --ifm-heading-color: #211d18;
-  --ifm-link-color: #4a6b6b;
+  --ifm-link-color: var(--ifm-color-primary);
 
   /* Typography for comfortable reading */
   --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
@@ -37,21 +42,25 @@
 }
 
 [data-theme='dark'] {
-  /* Accent (links / active nav) — soft sage */
-  --ifm-color-primary: #9bb3ad;
-  --ifm-color-primary-dark: #87a39c;
-  --ifm-color-primary-darker: #7d9b93;
-  --ifm-color-primary-darkest: #647e77;
-  --ifm-color-primary-light: #afc3be;
-  --ifm-color-primary-lighter: #b9cbc7;
-  --ifm-color-primary-lightest: #d4e0dd;
+  /* Brand accents (agentline): bright mint-green → blue on warm dark. */
+  --ae-accent: oklch(82% 0.16 168);
+  --ae-accent-2: oklch(74% 0.14 250);
+  --ae-gradient: linear-gradient(100deg, oklch(82% 0.16 168), oklch(74% 0.14 250));
+
+  --ifm-color-primary: oklch(82% 0.16 168);
+  --ifm-color-primary-dark: oklch(78% 0.16 168);
+  --ifm-color-primary-darker: oklch(74% 0.16 168);
+  --ifm-color-primary-darkest: oklch(66% 0.15 168);
+  --ifm-color-primary-light: oklch(86% 0.15 168);
+  --ifm-color-primary-lighter: oklch(89% 0.13 168);
+  --ifm-color-primary-lightest: oklch(93% 0.1 168);
 
   /* Warm dark background + soft ink */
   --ifm-background-color: #1a1816;
   --ifm-background-surface-color: #221f1c;
   --ifm-font-color-base: #e0dbd2;
   --ifm-heading-color: #f0ece3;
-  --ifm-link-color: #9bb3ad;
+  --ifm-link-color: var(--ifm-color-primary);
 
   --ifm-code-background: #262320;
   --ifm-pre-background: #221f1c;
@@ -82,4 +91,13 @@ article {
 
 .pagination-nav__label {
   font-weight: 600;
+}
+
+/* Brand gradient on the page title only — large decorative text, stays legible */
+.markdown > h1:first-child {
+  background: var(--ae-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }

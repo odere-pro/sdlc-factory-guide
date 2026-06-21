@@ -47,6 +47,14 @@ const config: Config = {
 
   headTags: [
     {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/sdlc-factory-guide/img/favicon.svg',
+      },
+    },
+    {
       tagName: 'script',
       attributes: { type: 'application/ld+json' },
       innerHTML: JSON.stringify({
