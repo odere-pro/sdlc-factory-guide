@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Parte 7 — Despliega agentes en producción"
+title: "Parte 7: Despliega agentes en producción"
 description: De un script prototipo a un agente en producción — memoria persistente, permisos con alcance limitado, cobertura de evaluaciones y coordinación multiagente.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 7 — Despliega agentes en producción',
+      headline: 'Parte 7: Despliega agentes en producción',
       description: 'De un script prototipo a un agente en producción — memoria persistente, permisos con alcance limitado, cobertura de evaluaciones y coordinación multiagente.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 7 — Despliega agentes en producción
+# Parte 7: Despliega agentes en producción
 
 Todo lo anterior ha sido sobre usar agentes para construir software. Esta parte trata de cuando lo que estás construyendo *es* un agente — un bot de soporte al cliente, un asistente de investigación, una herramienta interna de monitoreo. Estos no son scripts que ejecutas una vez; son productos que sirven a usuarios reales, y necesitan más infraestructura debajo.
 

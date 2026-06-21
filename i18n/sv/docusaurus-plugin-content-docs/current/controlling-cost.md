@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "Del 6 — Kontrollera kostnaden"
+title: "Del 6: Kontrollera kostnaden"
 description: Total ägandekostnad i AI-arbetsflöden — förstaförsökssframgång, modellroutning efter uppgift och dynamisk kontext som kostnadskontroll.
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 6 — Kontrollera kostnaden',
+      headline: 'Del 6: Kontrollera kostnaden',
       description: 'Total ägandekostnad i AI-arbetsflöden — förstaförsökets-framgång, modellroutning efter uppgift och dynamisk kontext som kostnadskontroll.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 6 — Kontrollera kostnaden
+# Del 6: Kontrollera kostnaden
 
 Den vanliga frågan om AI-utveckling är "hur snabbt kan vi leverera?" Den bättre frågan är "vad kostar det att äga detta?" Hastighet döljer den verkliga ekonomin. Det ärliga måttet är total ägandekostnad, och i ett AI-arbetsflöde domineras det av en sak: tokonekonomi.
 

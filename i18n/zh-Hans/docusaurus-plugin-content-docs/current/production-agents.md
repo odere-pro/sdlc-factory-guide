@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "第 7 部分——交付生产智能体"
+title: "第 7 部分：交付生产智能体"
 description: 从原型脚本到生产智能体——持久化记忆、作用域权限、评估覆盖，以及多智能体协调。
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 7 部分——交付生产智能体',
+      headline: '第 7 部分：交付生产智能体',
       description: '从原型脚本到生产智能体——持久化记忆、作用域权限、评估覆盖，以及多智能体协调。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 7 部分——交付生产智能体
+# 第 7 部分：交付生产智能体
 
 前面所有内容都是关于使用智能体来构建软件。本部分讲的是当你构建的东西*本身就是一个智能体*时的情况——客服机器人、研究助手、内部监控工具。这些不是你运行一次的脚本；它们是服务真实用户的产品，需要更坚实的底层支撑。
 

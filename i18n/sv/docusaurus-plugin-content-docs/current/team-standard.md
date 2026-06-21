@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Del 8 — Gör det till en teamstandard"
+title: "Del 8: Gör det till en teamstandard"
 description: Versionshantera harnessen, gate:a på evalueringar inte demos, omforma kodgranskning och anställ för omdöme i en AI-first-ingenjörsorganisation.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 8 — Gör det till en teamstandard',
+      headline: 'Del 8: Gör det till en teamstandard',
       description: 'Versionshantera harnessen, gate:a på evalueringar inte demos, omforma kodgranskning och anställ för omdöme i en AI-first-ingenjörsorganisation.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 8 — Gör det till en teamstandard
+# Del 8: Gör det till en teamstandard
 
 Allt i de sju första delarna fungerar för en enda utvecklare. I det ögonblick ett team är inblandat uppstår ett extra felmönster: harnessen börjar drivas iväg. En persons regelfil säger en sak, en annans säger något annat, agentbeteendet blir irreproducerbart i teamet och disciplinen eroderar tyst. Den här delen handlar om att göra arbetsflödet till en gemensam, hållbar standard.
 

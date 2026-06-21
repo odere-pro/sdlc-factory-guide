@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Parte 5 — Revise e Entregue"
+title: "Parte 5: Revise e Entregue"
 description: Agente como revisor de primeira passagem, checklist de revisão para código gerado, hooks de commit e observabilidade para fluxos de trabalho com IA.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 5 — Revise e Entregue',
+      headline: 'Parte 5: Revise e Entregue',
       description: 'Agente como revisor de primeira passagem, checklist de revisão para código gerado, hooks de commit e observabilidade para fluxos de trabalho com IA.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 5 — Revise e entregue
+# Parte 5: Revise e entregue
 
 Quando um agente escreve 80% do seu código, você se torna um revisor mais do que um autor. O trabalho passa de digitar para julgar — e o julgamento precisa ser mais aguçado do que era, porque o código gerado falha de formas mais silenciosas do que o código humano.
 

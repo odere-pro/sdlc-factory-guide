@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Teil 8 — Als Teamstandard etablieren"
+title: "Teil 8: Als Teamstandard etablieren"
 description: Das Harness versionieren, auf Evals statt Demos absichern, Code-Review umgestalten und nach Urteilsvermögen einstellen in einer KI-first Engineering-Organisation.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 8 — Als Teamstandard etablieren',
+      headline: 'Teil 8: Als Teamstandard etablieren',
       description: 'Das Harness versionieren, auf Evals statt Demos absichern, Code-Review umgestalten und nach Urteilsvermögen einstellen in einer KI-first Engineering-Organisation.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 8 — Als Teamstandard etablieren
+# Teil 8: Als Teamstandard etablieren
 
 Alles in den ersten sieben Teilen funktioniert für einen einzelnen Entwickler. Sobald ein Team beteiligt ist, taucht ein zusätzlicher Fehlermodus auf: das Harness driftet. Die Rule-Datei einer Person sagt eine Sache, die einer anderen etwas anderes, das Agentenverhalten wird im Team nicht reproduzierbar, und die Disziplin erodiert still. Dieser Teil handelt davon, den Workflow zu einem gemeinsamen, dauerhaften Standard zu machen.
 

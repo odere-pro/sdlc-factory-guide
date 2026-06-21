@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Parte 7 — Publique Agentes em Produção"
+title: "Parte 7: Publique Agentes em Produção"
 description: De script protótipo a agente em produção — memória persistente, permissões com escopo, cobertura de avaliação e coordenação multi-agente.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 7 — Publique Agentes em Produção',
+      headline: 'Parte 7: Publique Agentes em Produção',
       description: 'De script protótipo a agente em produção — memória persistente, permissões com escopo, cobertura de avaliação e coordenação multi-agente.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 7 — Publique agentes em produção
+# Parte 7: Publique agentes em produção
 
 Tudo até agora foi sobre usar agentes para construir software. Esta parte é sobre quando a coisa que você está construindo *é* um agente — um bot de suporte ao cliente, um assistente de pesquisa, uma ferramenta interna de monitoramento. Esses não são scripts que você executa uma vez; são produtos que atendem usuários reais e precisam de mais por baixo.
 

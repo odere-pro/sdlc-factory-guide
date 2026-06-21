@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Teil 4 — Die Arbeit ausführen"
+title: "Teil 4: Die Arbeit ausführen"
 description: Conductor- vs. Orchestrator-Modus und wo Agenten hineinpassen — Editor, Terminal und Hintergrund — plus das 80-%-Problem.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 4 — Die Arbeit ausführen',
+      headline: 'Teil 4: Die Arbeit ausführen',
       description: 'Conductor- vs. Orchestrator-Modus und wo Agenten hineinpassen — Editor, Terminal und Hintergrund — plus das 80-%-Problem.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 4 — Die Arbeit ausführen
+# Teil 4: Die Arbeit ausführen
 
 Eine Rule-Datei ist vorhanden, der Kontext gestaltet, die Verifikation eingerichtet. Jetzt wird die Arbeit tatsächlich erledigt. Die zwei Fragen, die entscheiden, wie gut es läuft: In welchem *Modus* befinde ich mich, und welche *Art* von Agent passt zur Aufgabe?
 

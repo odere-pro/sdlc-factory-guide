@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "3부 — 빌드 검증"
+title: "3부: 빌드 검증"
 description: 결정론적 계약으로서의 테스트와 비결정론적 동작을 위한 평가 — 복리처럼 쌓이는 품질 플라이휠.
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '3부 — 빌드 검증',
+      headline: '3부: 빌드 검증',
       description: '결정론적 계약으로서의 테스트와 비결정론적 동작을 위한 평가 — 복리처럼 쌓이는 품질 플라이휠.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 3부 — 빌드 검증
+# 3부: 빌드 검증
 
 진짜 엔지니어링을 하는지, 아니면 단순히 도박을 하는지를 가르는 기준선이 있습니다. **출력 결과를 어떻게 검증하느냐**입니다. "실행해 봤더니 잘 되는 것 같다"가 답이라면, 아무리 정교한 프롬프트를 사용하더라도 그것은 바이브 코딩입니다. 검증은 AI 출력을 프로덕션 수준에서 신뢰할 수 있게 만드는 규율입니다.
 

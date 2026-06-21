@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "Part 1 — Rule File तैयार करें"
+title: "Part 1: Rule File तैयार करें"
 description: वह onboarding document बनाएँ जो आपके AI agent को चाहिए — CLAUDE.md या AGENTS.md में stack, conventions, hard rules, और workflow।
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 1 — Set Up the Rule File',
+      headline: 'Part 1: Set Up the Rule File',
       description: 'Create the onboarding document your AI agent needs — stack, conventions, hard rules, and workflow in CLAUDE.md or AGENTS.md.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 1 — Rule file तैयार करें
+# Part 1: Rule file तैयार करें
 
 एक coding agent आपके repository में उसी तरह आता है जैसे पहले दिन कोई नया engineer — सिवाय इसके कि वह सवाल नहीं पूछ सकता। वह अनुमान लगाएगा। और बिना किसी आधार के, वह अनुमान लगाएगा — पर गलत तरीके से, जो अनुमानित है: गलत state-management pattern, गलत folder layout, गलत test convention, गलत import path।
 

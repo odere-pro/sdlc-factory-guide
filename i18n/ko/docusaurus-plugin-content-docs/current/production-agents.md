@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "7부 — 프로덕션 에이전트 배포"
+title: "7부: 프로덕션 에이전트 배포"
 description: 프로토타입 스크립트에서 프로덕션 에이전트로 — 영속적 메모리, 범위 제한 권한, 평가 커버리지, 멀티 에이전트 조율.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '7부 — 프로덕션 에이전트 배포',
+      headline: '7부: 프로덕션 에이전트 배포',
       description: '프로토타입 스크립트에서 프로덕션 에이전트로 — 영속적 메모리, 범위 제한 권한, 평가 커버리지, 멀티 에이전트 조율.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 7부 — 프로덕션 에이전트 배포
+# 7부: 프로덕션 에이전트 배포
 
 지금까지는 에이전트를 활용하여 소프트웨어를 개발하는 방법에 대해 다루었습니다. 이번 부분은 여러분이 만들고 있는 것 자체가 에이전트인 경우를 다룹니다 — 고객 지원 봇, 리서치 어시스턴트, 내부 모니터링 도구 등이 그 예입니다. 이것들은 한 번만 실행하는 스크립트가 아니라 실제 사용자를 대상으로 서비스하는 제품이며, 그에 걸맞은 기반이 필요합니다.
 

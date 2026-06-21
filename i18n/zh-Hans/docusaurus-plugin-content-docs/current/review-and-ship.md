@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "第 5 部分——审查与发布"
+title: "第 5 部分：审查与发布"
 description: 智能体作为第一轮审查者、生成代码的审查清单、提交钩子，以及 AI 工作流的可观测性。
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 5 部分——审查与发布',
+      headline: '第 5 部分：审查与发布',
       description: '智能体作为第一轮审查者、生成代码的审查清单、提交钩子，以及 AI 工作流的可观测性。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 5 部分——审查与发布
+# 第 5 部分：审查与发布
 
 当智能体写出你 80% 的代码时，你更多地扮演审查者而非作者的角色。工作从敲键盘转变为做判断——而这个判断必须比以前更敏锐，因为生成的代码以更隐蔽的方式失败，不同于人类写的代码。
 

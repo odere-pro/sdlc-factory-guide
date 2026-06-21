@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "Del 2 — Konstruera kontexten"
+title: "Del 2: Konstruera kontexten"
 description: Styr vad agenten ser och när — statisk kontra dynamisk kontext, skills för progressiv avslöjning och kostnadsmedveten design.
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 2 — Konstruera kontexten',
+      headline: 'Del 2: Konstruera kontexten',
       description: 'Styr vad agenten ser och när — statisk kontra dynamisk kontext, skills för progressiv avslöjning och kostnadsmedveten design.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 2 — Konstruera kontexten
+# Del 2: Konstruera kontexten
 
 Kontextkonstruktion är den färdighet som skiljer snabb AI-utdata från *användbar* AI-utdata. Regelfilen från del 1 är en del av den. Den här delen handlar om den större disciplinen: att bestämma vad agenten ser, och när.
 

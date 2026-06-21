@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "Part 2 — Context Engineer करें"
+title: "Part 2: Context Engineer करें"
 description: Agent क्या देखता है और कब — static बनाम dynamic context, progressive disclosure के लिए skills, और cost-aware design।
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 2 — Engineer the Context',
+      headline: 'Part 2: Engineer the Context',
       description: 'Control what the agent sees and when — static vs dynamic context, skills for progressive disclosure, and cost-aware design.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 2 — Context engineer करें
+# Part 2: Context engineer करें
 
 Context engineering वह skill है जो fast AI output को *उपयोगी* AI output से अलग करती है। Part 1 का rule file उसका एक हिस्सा है। यह Part एक बड़े discipline के बारे में है: यह तय करना कि agent क्या देखता है, और कब।
 

@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Part 5 — Review and Ship"
+title: "Part 5: Review and Ship"
 description: Agent as first-pass reviewer, review checklist for generated code, commit hooks, and observability for AI workflows.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 5 — Review and Ship',
+      headline: 'Part 5: Review and Ship',
       description: 'Agent as first-pass reviewer, review checklist for generated code, commit hooks, and observability for AI workflows.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 5 — Review and ship
+# Part 5: Review and ship
 
 When an agent writes 80% of your code, you become a reviewer more than an author. The work shifts from typing to judging — and the judging has to be sharper than it was, because generated code fails in quieter ways than human code.
 

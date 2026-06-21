@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "Part 1 — Set Up the Rule File"
+title: "Part 1: Set Up the Rule File"
 description: Create the onboarding document your AI agent needs — stack, conventions, hard rules, and workflow in CLAUDE.md or AGENTS.md.
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 1 — Set Up the Rule File',
+      headline: 'Part 1: Set Up the Rule File',
       description: 'Create the onboarding document your AI agent needs — stack, conventions, hard rules, and workflow in CLAUDE.md or AGENTS.md.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 1 — Set up the rule file
+# Part 1: Set up the rule file
 
 A coding agent arrives at your repository like a new engineer on their first day, except it can't ask questions. It will infer. And without anything to go on, it infers wrong in predictable ways: the wrong state-management pattern, the wrong folder layout, the wrong test convention, the wrong import path.
 

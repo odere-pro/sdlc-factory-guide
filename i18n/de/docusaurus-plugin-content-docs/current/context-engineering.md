@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "Teil 2 — Den Kontext gestalten"
+title: "Teil 2: Den Kontext gestalten"
 description: Steuern, was der Agent sieht und wann — statischer vs. dynamischer Kontext, Skills für progressive Offenlegung und kostenorientiertes Design.
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 2 — Den Kontext gestalten',
+      headline: 'Teil 2: Den Kontext gestalten',
       description: 'Steuern, was der Agent sieht und wann — statischer vs. dynamischer Kontext, Skills für progressive Offenlegung und kostenorientiertes Design.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 2 — Den Kontext gestalten
+# Teil 2: Den Kontext gestalten
 
 Context Engineering ist die Fähigkeit, die schnellen KI-Output von *nützlichem* KI-Output unterscheidet. Die Rule-Datei aus Teil 1 ist ein Baustein davon. Dieser Teil behandelt die übergeordnete Disziplin: entscheiden, was der Agent sieht und wann.
 

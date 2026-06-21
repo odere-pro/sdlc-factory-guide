@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "第 1 部分——配置规则文件"
+title: "第 1 部分：配置规则文件"
 description: 创建 AI 智能体所需的入职文档——在 CLAUDE.md 或 AGENTS.md 中写明技术栈、约定、硬性规则和工作流程。
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 1 部分——配置规则文件',
+      headline: '第 1 部分：配置规则文件',
       description: '创建 AI 智能体所需的入职文档——在 CLAUDE.md 或 AGENTS.md 中写明技术栈、约定、硬性规则和工作流程。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 1 部分——配置规则文件
+# 第 1 部分：配置规则文件
 
 编码智能体来到你的代码库，就像一名新工程师第一天入职——但它没法提问。它只会推断。而没有任何参照的情况下，它的推断会以可预期的方式出错：错误的状态管理模式、错误的目录结构、错误的测试约定、错误的导入路径。
 

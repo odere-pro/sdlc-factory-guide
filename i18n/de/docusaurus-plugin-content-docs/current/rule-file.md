@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "Teil 1 — Die Rule-Datei einrichten"
+title: "Teil 1: Die Rule-Datei einrichten"
 description: Das Onboarding-Dokument erstellen, das Ihr KI-Agent benötigt — Stack, Konventionen, harte Regeln und Workflow in CLAUDE.md oder AGENTS.md.
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 1 — Die Rule-Datei einrichten',
+      headline: 'Teil 1: Die Rule-Datei einrichten',
       description: 'Das Onboarding-Dokument erstellen, das Ihr KI-Agent benötigt — Stack, Konventionen, harte Regeln und Workflow in CLAUDE.md oder AGENTS.md.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 1 — Die Rule-Datei einrichten
+# Teil 1: Die Rule-Datei einrichten
 
 Ein Coding-Agent trifft in Ihrem Repository ein wie ein neuer Ingenieur am ersten Tag — nur dass er keine Fragen stellen kann. Er schlussfolgert. Und ohne jegliche Grundlage liegt er dabei vorhersehbar falsch: das falsche State-Management-Pattern, das falsche Ordner-Layout, die falsche Test-Konvention, den falschen Import-Pfad.
 

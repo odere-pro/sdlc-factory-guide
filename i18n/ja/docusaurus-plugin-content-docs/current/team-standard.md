@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "パート8 — チームの標準にする"
+title: "パート8: チームの標準にする"
 description: ハーネスをバージョン管理し、デモではなくエバリュエーションでゲートを設け、コードレビューを見直し、AIファーストのエンジニアリング組織で判断力のある人材を採用する。
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート8 — チームの標準にする',
+      headline: 'パート8: チームの標準にする',
       description: 'ハーネスをバージョン管理し、デモではなくエバリュエーションでゲートを設け、コードレビューを見直し、AIファーストのエンジニアリング組織で判断力のある人材を採用する。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート8 — チームの標準にする
+# パート8: チームの標準にする
 
 最初の7つのパートはすべて一人の開発者に機能します。チームが関与した瞬間、余分な障害モードが現れます：ハーネスがドリフトします。ある人のルールファイルはある内容を言い、別の人のは別の内容を言い、エージェントの動作がチーム全体で再現不可能になり、規律が静かに侵食されます。このパートは、ワークフローを共有されて持続可能な標準にすることについてです。
 

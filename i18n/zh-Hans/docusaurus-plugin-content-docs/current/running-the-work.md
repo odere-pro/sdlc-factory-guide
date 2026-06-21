@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "第 4 部分——执行工作"
+title: "第 4 部分：执行工作"
 description: 指挥官模式与编排模式，以及智能体的三个位置——编辑器、终端和后台——还有 80% 问题。
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 4 部分——执行工作',
+      headline: '第 4 部分：执行工作',
       description: '指挥官模式与编排模式，以及智能体的三个位置——编辑器、终端和后台——还有 80% 问题。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 4 部分——执行工作
+# 第 4 部分：执行工作
 
 你已经有了规则文件、精心设计的上下文和验证机制。现在你实际开始工作了。决定效果好坏的两个问题：你处于哪种*模式*，以及哪种*类型*的智能体适合这个任务。
 

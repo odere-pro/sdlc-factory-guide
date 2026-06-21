@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "Partie 2 — Ingénierie du contexte"
+title: "Partie 2: Ingénierie du contexte"
 description: Contrôlez ce que l'agent voit et quand — contexte statique vs dynamique, compétences pour la divulgation progressive, et conception soucieuse des coûts.
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 2 — Ingénierie du contexte',
+      headline: 'Partie 2: Ingénierie du contexte',
       description: 'Contrôlez ce que l\'agent voit et quand — contexte statique vs dynamique, compétences pour la divulgation progressive, et conception soucieuse des coûts.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 2 — Ingénierie du contexte
+# Partie 2: Ingénierie du contexte
 
 L'ingénierie du contexte est la compétence qui sépare une sortie IA rapide d'une sortie IA *utile*. Le fichier de règles de la partie 1 en est un élément. Cette partie porte sur la discipline plus large : décider ce que l'agent voit, et quand.
 

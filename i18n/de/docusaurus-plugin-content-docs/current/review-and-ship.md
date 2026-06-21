@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Teil 5 — Reviewen und ausliefern"
+title: "Teil 5: Reviewen und ausliefern"
 description: Agent als Erst-Reviewer, Review-Checkliste für generierten Code, Commit-Hooks und Observability für KI-Workflows.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 5 — Reviewen und ausliefern',
+      headline: 'Teil 5: Reviewen und ausliefern',
       description: 'Agent als Erst-Reviewer, Review-Checkliste für generierten Code, Commit-Hooks und Observability für KI-Workflows.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 5 — Reviewen und ausliefern
+# Teil 5: Reviewen und ausliefern
 
 Wenn ein Agent 80 % des Codes schreibt, wird man mehr Reviewer als Autor. Die Arbeit verlagert sich vom Tippen zum Urteilen — und das Urteilen muss schärfer sein als bisher, weil generierter Code auf stillere Weise versagt als menschlicher Code.
 

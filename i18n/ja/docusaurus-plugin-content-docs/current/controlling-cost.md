@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "パート6 — コストの管理"
+title: "パート6: コストの管理"
 description: AIワークフローにおける総所有コスト — 一次通過成功率、タスク別モデルルーティング、コスト管理としての動的コンテキスト。
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート6 — コストの管理',
+      headline: 'パート6: コストの管理',
       description: 'AIワークフローにおける総所有コスト — 一次通過成功率、タスク別モデルルーティング、コスト管理としての動的コンテキスト。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート6 — コストの管理
+# パート6: コストの管理
 
 AI開発についてよく聞かれる問いは「どれだけ速くリリースできるか？」です。より良い問いは「これを所有するにはどのくらいコストがかかるか？」です。ベロシティは本当の経済性を隠します。正直な指標は総所有コストであり、AIワークフローではそれは一つのことに支配されています：トークンエコノミーです。
 

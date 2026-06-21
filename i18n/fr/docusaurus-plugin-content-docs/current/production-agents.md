@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Partie 7 — Livrer des agents en production"
+title: "Partie 7: Livrer des agents en production"
 description: Du script prototype à l'agent en production — mémoire persistante, permissions limitées, couverture d'évaluation et coordination multi-agents.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 7 — Livrer des agents en production',
+      headline: 'Partie 7: Livrer des agents en production',
       description: 'Du script prototype à l\'agent en production — mémoire persistante, permissions limitées, couverture d\'évaluation et coordination multi-agents.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 7 — Livrer des agents en production
+# Partie 7: Livrer des agents en production
 
 Tout ce qui précède portait sur l'utilisation d'agents pour construire des logiciels. Cette partie concerne le cas où ce que vous construisez *est* un agent — un bot de support client, un assistant de recherche, un outil de surveillance interne. Ce ne sont pas des scripts que vous exécutez une fois ; ce sont des produits qui servent de vrais utilisateurs, et ils ont besoin de plus sous le capot.
 

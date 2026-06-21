@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "第 6 部分——控制成本"
+title: "第 6 部分：控制成本"
 description: AI 工作流的总体拥有成本——首次成功率、按任务路由模型，以及动态上下文作为成本控制手段。
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 6 部分——控制成本',
+      headline: '第 6 部分：控制成本',
       description: 'AI 工作流的总体拥有成本——首次成功率、按任务路由模型，以及动态上下文作为成本控制手段。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 6 部分——控制成本
+# 第 6 部分：控制成本
 
 关于 AI 开发，通常的问题是"我们能多快交付？"更好的问题是"拥有它的成本是多少？"速度掩盖了真实的经济逻辑。诚实的衡量指标是总体拥有成本（TCO），而在 AI 工作流中，这由一件事主导：Token 经济。
 

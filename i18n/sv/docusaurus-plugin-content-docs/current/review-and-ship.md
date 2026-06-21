@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Del 5 — Granska och leverera"
+title: "Del 5: Granska och leverera"
 description: Agent som förstahandsgranskare, granskningschecklista för genererad kod, commit-hooks och observerbarhet för AI-arbetsflöden.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 5 — Granska och leverera',
+      headline: 'Del 5: Granska och leverera',
       description: 'Agent som förstahandsgranskare, granskningschecklista för genererad kod, commit-hooks och observerbarhet för AI-arbetsflöden.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 5 — Granska och leverera
+# Del 5: Granska och leverera
 
 När en agent skriver 80% av din kod blir du mer granskare än författare. Arbetet skiftar från att skriva till att bedöma — och bedömningen måste vara skarpare än den var, eftersom genererad kod misslyckas på tystare sätt än mänsklig kod.
 

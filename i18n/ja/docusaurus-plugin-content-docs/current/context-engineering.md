@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "パート2 — コンテキストのエンジニアリング"
+title: "パート2: コンテキストのエンジニアリング"
 description: エージェントが見るものとタイミングを制御する — 静的vs動的コンテキスト、プログレッシブ・ディスクロージャーのためのスキル、コストを意識した設計。
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート2 — コンテキストのエンジニアリング',
+      headline: 'パート2: コンテキストのエンジニアリング',
       description: 'エージェントが見るものとタイミングを制御する — 静的vs動的コンテキスト、プログレッシブ・ディスクロージャーのためのスキル、コストを意識した設計。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート2 — コンテキストのエンジニアリング
+# パート2: コンテキストのエンジニアリング
 
 コンテキストエンジニアリングは、高速なAIアウトプットと*有用な*AIアウトプットを分けるスキルです。パート1のルールファイルはその一部に過ぎません。このパートはより大きな規律について扱います。エージェントが何を見るか、そしていつ見るかを決定することです。
 

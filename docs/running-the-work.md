@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Part 4 — Run the Work"
+title: "Part 4: Run the Work"
 description: Conductor vs orchestrator modes and where agents fit — editor, terminal, and background — plus the 80% problem.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 4 — Run the Work',
+      headline: 'Part 4: Run the Work',
       description: 'Conductor vs orchestrator modes and where agents fit — editor, terminal, and background — plus the 80% problem.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 4 — Run the work
+# Part 4: Run the work
 
 You've got a rule file, engineered context, and verification in place. Now you actually do the work. The two questions that decide how well it goes: which *mode* are you in, and which *kind* of agent fits the task.
 

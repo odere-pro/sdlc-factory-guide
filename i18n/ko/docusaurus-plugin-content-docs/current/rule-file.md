@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "1부 — 규칙 파일 설정하기"
+title: "1부: 규칙 파일 설정하기"
 description: AI 에이전트에게 필요한 온보딩 문서를 작성하세요 — CLAUDE.md 또는 AGENTS.md에 스택, 컨벤션, 절대 규칙, 워크플로를 담습니다.
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '1부 — 규칙 파일 설정하기',
+      headline: '1부: 규칙 파일 설정하기',
       description: 'AI 에이전트에게 필요한 온보딩 문서를 작성하세요 — CLAUDE.md 또는 AGENTS.md에 스택, 컨벤션, 절대 규칙, 워크플로를 담습니다.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 1부 — 규칙 파일 설정하기
+# 1부: 규칙 파일 설정하기
 
 코딩 에이전트는 첫 출근한 신입 엔지니어처럼 여러분의 저장소에 도착합니다. 단, 질문을 할 수 없다는 점이 다릅니다. 에이전트는 스스로 추론합니다. 그리고 아무런 정보가 없으면 예측 가능한 방식으로 틀린 추론을 합니다. 잘못된 상태 관리 패턴, 잘못된 폴더 구조, 잘못된 테스트 컨벤션, 잘못된 임포트 경로 같은 것들이 그 예입니다.
 

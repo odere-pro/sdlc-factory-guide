@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "パート7 — 本番エージェントのリリース"
+title: "パート7: 本番エージェントのリリース"
 description: プロトタイプスクリプトから本番エージェントへ — 永続メモリ、スコープされた権限、エバリュエーションカバレッジ、そしてマルチエージェントの連携。
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート7 — 本番エージェントのリリース',
+      headline: 'パート7: 本番エージェントのリリース',
       description: 'プロトタイプスクリプトから本番エージェントへ — 永続メモリ、スコープされた権限、エバリュエーションカバレッジ、そしてマルチエージェントの連携。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート7 — 本番エージェントのリリース
+# パート7: 本番エージェントのリリース
 
 これまでのすべては、エージェントを使ってソフトウェアを構築することについてでした。このパートは、構築するもの*そのもの*がエージェントである場合についてです — カスタマーサポートボット、リサーチアシスタント、社内監視ツール。これらは一度実行するスクリプトではなく、実際のユーザーに提供するプロダクトであり、その下に更多くのものが必要です。
 

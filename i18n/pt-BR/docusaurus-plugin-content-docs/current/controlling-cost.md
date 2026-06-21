@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "Parte 6 — Controle o Custo"
+title: "Parte 6: Controle o Custo"
 description: Custo total de propriedade em fluxos de trabalho com IA — sucesso de primeira passagem, roteamento de modelos por tarefa e contexto dinâmico como controle de custo.
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 6 — Controle o Custo',
+      headline: 'Parte 6: Controle o Custo',
       description: 'Custo total de propriedade em fluxos de trabalho com IA — sucesso de primeira passagem, roteamento de modelos por tarefa e contexto dinâmico como controle de custo.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 6 — Controle o custo
+# Parte 6: Controle o custo
 
 A pergunta habitual sobre desenvolvimento com IA é "com que velocidade conseguimos entregar?" A pergunta melhor é "quanto custa manter isso?" A velocidade esconde a economia real. A métrica honesta é o custo total de propriedade, e num fluxo de trabalho com IA isso é dominado por uma coisa: a economia de tokens.
 

@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "パート1 — ルールファイルのセットアップ"
+title: "パート1: ルールファイルのセットアップ"
 description: AIエージェントが必要とするオンボーディングドキュメントを作成する — CLAUDE.mdまたはAGENTS.mdにスタック、規約、ハードルール、ワークフローを記述する。
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート1 — ルールファイルのセットアップ',
+      headline: 'パート1: ルールファイルのセットアップ',
       description: 'AIエージェントが必要とするオンボーディングドキュメントを作成する — CLAUDE.mdまたはAGENTS.mdにスタック、規約、ハードルール、ワークフローを記述する。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート1 — ルールファイルのセットアップ
+# パート1: ルールファイルのセットアップ
 
 コーディングエージェントは初日の新入りエンジニアのようにリポジトリに到着しますが、一つだけ違うことがあります。それは質問ができないということです。エージェントは推測します。そして何も手がかりがなければ、予測可能な形で間違った推測をします。間違ったステート管理パターン、間違ったフォルダ構成、間違ったテスト規約、間違ったインポートパス、といった具合に。
 

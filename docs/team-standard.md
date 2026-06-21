@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Part 8 — Make It a Team Standard"
+title: "Part 8: Make It a Team Standard"
 description: Version the harness, gate on evals not demos, reshape code review, and hire for judgment in an AI-first engineering org.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 8 — Make It a Team Standard',
+      headline: 'Part 8: Make It a Team Standard',
       description: 'Version the harness, gate on evals not demos, reshape code review, and hire for judgment in an AI-first engineering org.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 8 — Make it a team standard
+# Part 8: Make it a team standard
 
 Everything in the first seven parts works for one developer. The moment a team is involved, an extra failure mode appears: the harness drifts. One person's rule file says one thing, another's says something else, agent behavior becomes irreproducible across the team, and the discipline quietly erodes. This part is about making the workflow a shared, durable standard.
 

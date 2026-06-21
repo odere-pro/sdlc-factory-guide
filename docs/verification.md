@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "Part 3 — Build Verification"
+title: "Part 3: Build Verification"
 description: Tests as the deterministic contract and evals for non-deterministic behavior — the quality flywheel that compounds.
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 3 — Build Verification',
+      headline: 'Part 3: Build Verification',
       description: 'Tests as the deterministic contract and evals for non-deterministic behavior — the quality flywheel that compounds.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 3 — Build verification
+# Part 3: Build verification
 
 Here's the line that decides whether you're doing real engineering or just gambling: **how do your outputs get verified?** If the answer is "I run it and it seems to work," you're vibe coding, no matter how sophisticated your prompts are. Verification is the discipline that makes AI output trustworthy at production stakes.
 

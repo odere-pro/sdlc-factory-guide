@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "パート5 — レビューとリリース"
+title: "パート5: レビューとリリース"
 description: 一次レビュワーとしてのエージェント、生成コードのレビューチェックリスト、コミットフック、そしてAIワークフローのオブザーバビリティ。
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート5 — レビューとリリース',
+      headline: 'パート5: レビューとリリース',
       description: '一次レビュワーとしてのエージェント、生成コードのレビューチェックリスト、コミットフック、そしてAIワークフローのオブザーバビリティ。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート5 — レビューとリリース
+# パート5: レビューとリリース
 
 エージェントがコードの80%を書くとき、あなたは著者よりもレビュワーになります。作業はタイピングから判断へとシフトし、その判断はこれまで以上に鋭くなければなりません。なぜなら、生成コードは人間のコードよりも静かに失敗するからです。
 

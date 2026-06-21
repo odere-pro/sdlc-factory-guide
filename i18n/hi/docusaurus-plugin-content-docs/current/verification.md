@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "Part 3 — Verification बनाएँ"
+title: "Part 3: Verification बनाएँ"
 description: Deterministic contract के रूप में tests और non-deterministic behavior के लिए evals — quality flywheel जो compound होता है।
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 3 — Build Verification',
+      headline: 'Part 3: Build Verification',
       description: 'Tests as the deterministic contract and evals for non-deterministic behavior — the quality flywheel that compounds.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 3 — Verification बनाएँ
+# Part 3: Verification बनाएँ
 
 यहाँ वह रेखा है जो तय करती है कि आप real engineering कर रहे हैं या बस जुआ खेल रहे हैं: **आपके outputs कैसे verify होते हैं?** अगर जवाब है "मैं चलाता हूँ और यह काम करता लगता है," तो आप vibe coding कर रहे हैं, चाहे आपके prompts कितने भी sophisticated हों। Verification वह discipline है जो AI output को production stakes पर भरोसेमंद बनाती है।
 

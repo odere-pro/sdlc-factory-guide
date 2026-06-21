@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "第 3 部分——构建验证机制"
+title: "第 3 部分：构建验证机制"
 description: 测试作为确定性契约，评估覆盖非确定性行为——复利增长的质量飞轮。
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 3 部分——构建验证机制',
+      headline: '第 3 部分：构建验证机制',
       description: '测试作为确定性契约，评估覆盖非确定性行为——复利增长的质量飞轮。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 3 部分——构建验证机制
+# 第 3 部分：构建验证机制
 
 这是决定你是在做真正的工程还是仅仅在碰运气的那条线：**你的输出是如何被验证的？** 如果答案是"我运行一下，感觉可以"，那无论你的提示词多么精巧，你都在做氛围编程（vibe coding）。验证机制是让 AI 输出在生产环境中值得信任的工程纪律。
 

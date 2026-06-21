@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Partie 8 — En faire un standard d'équipe"
+title: "Partie 8: En faire un standard d'équipe"
 description: Versionner le harness, valider sur les évaluations et non les démos, remodeler la revue de code, et recruter pour le jugement dans une organisation d'ingénierie orientée IA.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 8 — En faire un standard d\'équipe',
+      headline: 'Partie 8: En faire un standard d\'équipe',
       description: 'Versionner le harness, valider sur les évaluations et non les démos, remodeler la revue de code, et recruter pour le jugement dans une organisation d\'ingénierie orientée IA.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 8 — En faire un standard d'équipe
+# Partie 8: En faire un standard d'équipe
 
 Tout ce qui se trouve dans les sept premières parties fonctionne pour un développeur seul. Dès qu'une équipe est impliquée, un mode d'échec supplémentaire apparaît : le harness dérive. Le fichier de règles d'une personne dit une chose, celui d'une autre dit quelque chose de différent, le comportement de l'agent devient non reproductible d'un membre à l'autre, et la discipline s'érode silencieusement. Cette partie porte sur la transformation du workflow en un standard partagé et durable.
 

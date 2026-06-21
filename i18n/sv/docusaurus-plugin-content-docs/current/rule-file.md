@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "Del 1 — Sätt upp regelfilen"
+title: "Del 1: Sätt upp regelfilen"
 description: Skapa det onboarding-dokument din AI-agent behöver — stack, konventioner, hårda regler och arbetsflöde i CLAUDE.md eller AGENTS.md.
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 1 — Sätt upp regelfilen',
+      headline: 'Del 1: Sätt upp regelfilen',
       description: 'Skapa det onboarding-dokument din AI-agent behöver — stack, konventioner, hårda regler och arbetsflöde i CLAUDE.md eller AGENTS.md.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 1 — Sätt upp regelfilen
+# Del 1: Sätt upp regelfilen
 
 En kodningsagent anländer till ditt repo som en ny ingenjör sin första dag, förutom att den inte kan ställa frågor. Den infererar. Och utan något att gå på infererar den fel på förutsägbara sätt: fel tillståndshanteringsmönster, fel mappstruktur, fel testkonvention, fel importsökväg.
 

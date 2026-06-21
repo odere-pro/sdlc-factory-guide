@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Del 4 — Kör arbetet"
+title: "Del 4: Kör arbetet"
 description: Dirigent- kontra orkestratörläge och var agenter passar — editor, terminal och bakgrund — samt 80%-problemet.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 4 — Kör arbetet',
+      headline: 'Del 4: Kör arbetet',
       description: 'Dirigent- kontra orkestratörläge och var agenter passar — editor, terminal och bakgrund — samt 80%-problemet.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 4 — Kör arbetet
+# Del 4: Kör arbetet
 
 Du har en regelfil, konstruerad kontext och verifiering på plats. Nu gör du faktiskt arbetet. De två frågorna som avgör hur väl det går: vilket *läge* befinner du dig i, och vilken *typ* av agent passar uppgiften.
 
