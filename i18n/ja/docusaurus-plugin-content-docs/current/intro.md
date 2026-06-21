@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ image: /img/og-image.png
 
 ## シリーズ構成
 
-1. **[ルールファイルのセットアップ](/docs/rule-file)** — 新しいチームメンバーが必要とするプロジェクト知識をエージェントに与える。
-2. **[コンテキストのエンジニアリング](/docs/context-engineering)** — エージェントが見るものと、見るタイミングを制御する。
-3. **[検証の構築](/docs/verification)** — AIとの契約としてのテストとエバリュエーション。
-4. **[作業の実行](/docs/running-the-work)** — コンダクターとオーケストレーター、そして日々の業務におけるエージェントの位置づけ。
-5. **[レビューとリリース](/docs/review-and-ship)** — 「正しく見える」障害を捕捉する。
-6. **[コストの管理](/docs/controlling-cost)** — 総所有コストとモデルルーティング。
-7. **[本番エージェントのリリース](/docs/production-agents)** — プロトタイプスクリプトから基盤を持つプロダクトへ。
-8. **[チームの標準にする](/docs/team-standard)** — ハーネスをバージョン管理し、エバリュエーションでゲートを設け、判断力を持つ人材を採用する。
+1. **[ルールファイルのセットアップ](/rule-file)** — 新しいチームメンバーが必要とするプロジェクト知識をエージェントに与える。
+2. **[コンテキストのエンジニアリング](/context-engineering)** — エージェントが見るものと、見るタイミングを制御する。
+3. **[検証の構築](/verification)** — AIとの契約としてのテストとエバリュエーション。
+4. **[作業の実行](/running-the-work)** — コンダクターとオーケストレーター、そして日々の業務におけるエージェントの位置づけ。
+5. **[レビューとリリース](/review-and-ship)** — 「正しく見える」障害を捕捉する。
+6. **[コストの管理](/controlling-cost)** — 総所有コストとモデルルーティング。
+7. **[本番エージェントのリリース](/production-agents)** — プロトタイプスクリプトから基盤を持つプロダクトへ。
+8. **[チームの標準にする](/team-standard)** — ハーネスをバージョン管理し、エバリュエーションでゲートを設け、判断力を持つ人材を採用する。
 
 ## 使い方
 

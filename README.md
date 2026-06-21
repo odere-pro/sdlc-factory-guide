@@ -2,7 +2,7 @@
 
 [![Deploy to GitHub Pages](https://github.com/odere-pro/sdlc-factory-guide/actions/workflows/deploy.yml/badge.svg)](https://github.com/odere-pro/sdlc-factory-guide/actions/workflows/deploy.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Locales: 11](https://img.shields.io/badge/locales-11-green.svg)](#available-translations)
+[![Languages: 11](https://img.shields.io/badge/languages-11-green.svg)](#languages)
 
 A practical, 8-part guide to moving from ad-hoc AI prompting to a disciplined engineering workflow you can rely on in production — inspired by Google's *The New SDLC With Vibe Coding* and Karpathy's Software 3.0.
 
@@ -109,21 +109,22 @@ npm install
 npm start
 ```
 
-## Available Translations
+## Languages
 
-| Language | Label | Code |
-|----------|-------|------|
-| English | English | `en` (default) |
-| Swedish | Svenska | `sv` |
-| Ukrainian | Українська | `uk` |
-| Spanish | Español | `es` |
-| German | Deutsch | `de` |
-| French | Français | `fr` |
-| Japanese | 日本語 | `ja` |
-| Chinese (Simplified) | 简体中文 | `zh-Hans` |
-| Portuguese (Brazil) | Português (Brasil) | `pt-BR` |
-| Korean | 한국어 | `ko` |
-| Hindi | हिन्दी | `hi` |
+The full guide is translated into 11 languages. Read any version on the live
+site, or directly as Markdown here on GitHub:
+
+- **English** — [Read online](https://odere-pro.github.io/sdlc-factory-guide/) · [Markdown](docs/)
+- **Svenska** — Swedish — [Read online](https://odere-pro.github.io/sdlc-factory-guide/sv/) · [Markdown](i18n/sv/docusaurus-plugin-content-docs/current/)
+- **Українська** — Ukrainian — [Read online](https://odere-pro.github.io/sdlc-factory-guide/uk/) · [Markdown](i18n/uk/docusaurus-plugin-content-docs/current/)
+- **Español** — Spanish — [Read online](https://odere-pro.github.io/sdlc-factory-guide/es/) · [Markdown](i18n/es/docusaurus-plugin-content-docs/current/)
+- **Deutsch** — German — [Read online](https://odere-pro.github.io/sdlc-factory-guide/de/) · [Markdown](i18n/de/docusaurus-plugin-content-docs/current/)
+- **Français** — French — [Read online](https://odere-pro.github.io/sdlc-factory-guide/fr/) · [Markdown](i18n/fr/docusaurus-plugin-content-docs/current/)
+- **日本語** — Japanese — [Read online](https://odere-pro.github.io/sdlc-factory-guide/ja/) · [Markdown](i18n/ja/docusaurus-plugin-content-docs/current/)
+- **简体中文** — Chinese (Simplified) — [Read online](https://odere-pro.github.io/sdlc-factory-guide/zh-Hans/) · [Markdown](i18n/zh-Hans/docusaurus-plugin-content-docs/current/)
+- **Português (Brasil)** — Portuguese (Brazil) — [Read online](https://odere-pro.github.io/sdlc-factory-guide/pt-BR/) · [Markdown](i18n/pt-BR/docusaurus-plugin-content-docs/current/)
+- **한국어** — Korean — [Read online](https://odere-pro.github.io/sdlc-factory-guide/ko/) · [Markdown](i18n/ko/docusaurus-plugin-content-docs/current/)
+- **हिन्दी** — Hindi — [Read online](https://odere-pro.github.io/sdlc-factory-guide/hi/) · [Markdown](i18n/hi/docusaurus-plugin-content-docs/current/)
 
 ## Contributing
 

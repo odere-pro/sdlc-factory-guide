@@ -79,6 +79,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/odere-pro/sdlc-factory-guide/tree/main/',
           showLastUpdateTime: true,
@@ -128,14 +129,18 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docs',
-          position: 'left',
-          label: 'Docs',
+          href: 'https://medium.com/@odere.pub',
+          label: 'Medium',
+          position: 'right',
         },
         {
           href: 'https://github.com/odere-pro/sdlc-factory-guide',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://www.linkedin.com/in/oleksander-derechei/',
+          label: 'LinkedIn',
           position: 'right',
         },
         {
@@ -145,43 +150,8 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            { label: 'Introduction', to: '/docs/' },
-            { label: 'Checklist', to: '/docs/checklist' },
-            { label: 'Rule File', to: '/docs/rule-file' },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/oleksander-derechei/',
-            },
-            {
-              label: 'Medium',
-              href: 'https://medium.com/@odere.pub',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/odere-pro',
-            },
-          ],
-        },
-        {
-          title: 'Reference',
-          items: [
-            {
-              label: 'Google — The New SDLC',
-              href: 'https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding',
-            },
-          ],
-        },
-      ],
+      style: 'light',
+      links: [],
       copyright: `Copyright © ${new Date().getFullYear()} Oleksandr Derechei. Built with Docusaurus.`,
     },
     prism: {

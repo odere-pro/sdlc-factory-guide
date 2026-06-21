@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ The thread running through all eight: **your real output is no longer code — i
 
 ## The series
 
-1. **[Set up the rule file](/docs/rule-file)** — give the agent the project knowledge a new teammate would need.
-2. **[Engineer the context](/docs/context-engineering)** — control what the agent sees, and when.
-3. **[Build verification](/docs/verification)** — tests and evals as the contract with the AI.
-4. **[Run the work](/docs/running-the-work)** — conductor vs orchestrator, and where agents fit in your day.
-5. **[Review and ship](/docs/review-and-ship)** — catch the failures that "look right."
-6. **[Control cost](/docs/controlling-cost)** — total cost of ownership and model routing.
-7. **[Ship production agents](/docs/production-agents)** — from a prototype script to a product with a substrate.
-8. **[Make it a team standard](/docs/team-standard)** — version the harness, gate on evals, hire for judgment.
+1. **[Set up the rule file](/rule-file)** — give the agent the project knowledge a new teammate would need.
+2. **[Engineer the context](/context-engineering)** — control what the agent sees, and when.
+3. **[Build verification](/verification)** — tests and evals as the contract with the AI.
+4. **[Run the work](/running-the-work)** — conductor vs orchestrator, and where agents fit in your day.
+5. **[Review and ship](/review-and-ship)** — catch the failures that "look right."
+6. **[Control cost](/controlling-cost)** — total cost of ownership and model routing.
+7. **[Ship production agents](/production-agents)** — from a prototype script to a product with a substrate.
+8. **[Make it a team standard](/team-standard)** — version the harness, gate on evals, hire for judgment.
 
 ## How to use this
 

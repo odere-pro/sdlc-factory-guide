@@ -19,7 +19,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/',
       },
     })}
   </script>
@@ -33,14 +33,14 @@ Le fil conducteur de l'ensemble des huit parties : **votre véritable production
 
 ## La série
 
-1. **[Mettre en place le fichier de règles](/docs/rule-file)** — donner à l'agent la connaissance du projet dont un nouveau coéquipier aurait besoin.
-2. **[Ingénierie du contexte](/docs/context-engineering)** — contrôler ce que l'agent voit, et quand.
-3. **[Construire la vérification](/docs/verification)** — tests et évaluations comme contrat avec l'IA.
-4. **[Exécuter le travail](/docs/running-the-work)** — mode conducteur vs. orchestrateur, et où les agents s'intègrent dans votre journée.
-5. **[Réviser et livrer](/docs/review-and-ship)** — détecter les échecs qui « semblent corrects ».
-6. **[Contrôler les coûts](/docs/controlling-cost)** — coût total de possession et routage des modèles.
-7. **[Livrer des agents en production](/docs/production-agents)** — du script prototype au produit avec une infrastructure sous-jacente.
-8. **[En faire un standard d'équipe](/docs/team-standard)** — versionner le harness, valider sur les évaluations, recruter pour le jugement.
+1. **[Mettre en place le fichier de règles](/rule-file)** — donner à l'agent la connaissance du projet dont un nouveau coéquipier aurait besoin.
+2. **[Ingénierie du contexte](/context-engineering)** — contrôler ce que l'agent voit, et quand.
+3. **[Construire la vérification](/verification)** — tests et évaluations comme contrat avec l'IA.
+4. **[Exécuter le travail](/running-the-work)** — mode conducteur vs. orchestrateur, et où les agents s'intègrent dans votre journée.
+5. **[Réviser et livrer](/review-and-ship)** — détecter les échecs qui « semblent corrects ».
+6. **[Contrôler les coûts](/controlling-cost)** — coût total de possession et routage des modèles.
+7. **[Livrer des agents en production](/production-agents)** — du script prototype au produit avec une infrastructure sous-jacente.
+8. **[En faire un standard d'équipe](/team-standard)** — versionner le harness, valider sur les évaluations, recruter pour le jugement.
 
 ## Comment utiliser ce guide
 

@@ -18,7 +18,7 @@ image: /img/og-image.png
       datePublished: '2026-06-18',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/docs/checklist',
+        '@id': 'https://odere-pro.github.io/sdlc-factory-guide/checklist',
       },
     })}
   </script>

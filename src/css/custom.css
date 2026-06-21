@@ -1,69 +1,85 @@
+/**
+ * Warm "paper-ink" reading theme.
+ * Low-saturation, high-contrast, comfortable for long-form reading.
+ * Accent color is used only for links and active navigation.
+ */
+
 :root {
-  --ifm-color-primary: #2563eb;
-  --ifm-color-primary-dark: #1d4ed8;
-  --ifm-color-primary-darker: #1e40af;
-  --ifm-color-primary-darkest: #1e3a8a;
-  --ifm-color-primary-light: #3b82f6;
-  --ifm-color-primary-lighter: #60a5fa;
-  --ifm-color-primary-lightest: #93c5fd;
+  /* Accent (links / active nav) — muted teal */
+  --ifm-color-primary: #3f5f5f;
+  --ifm-color-primary-dark: #395656;
+  --ifm-color-primary-darker: #365151;
+  --ifm-color-primary-darkest: #2c4343;
+  --ifm-color-primary-light: #466868;
+  --ifm-color-primary-lighter: #496d6d;
+  --ifm-color-primary-lightest: #537d7d;
+
+  /* Paper background + ink text */
+  --ifm-background-color: #faf8f4;
+  --ifm-background-surface-color: #f3efe8;
+  --ifm-font-color-base: #2b2722;
+  --ifm-heading-color: #211d18;
+  --ifm-link-color: #4a6b6b;
+
+  /* Typography for comfortable reading */
   --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   --ifm-font-family-monospace: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 1.7;
+  --ifm-code-font-size: 92%;
+
+  /* Warm, subtle surfaces */
+  --ifm-code-background: #efeae1;
+  --ifm-pre-background: #f3efe8;
+  --ifm-toc-border-color: #e6e0d6;
+  --ifm-hr-background-color: #e6e0d6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #60a5fa;
-  --ifm-color-primary-dark: #3b82f6;
-  --ifm-color-primary-darker: #2563eb;
-  --ifm-color-primary-darkest: #1d4ed8;
-  --ifm-color-primary-light: #93c5fd;
-  --ifm-color-primary-lighter: #bfdbfe;
-  --ifm-color-primary-lightest: #dbeafe;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Accent (links / active nav) — soft sage */
+  --ifm-color-primary: #9bb3ad;
+  --ifm-color-primary-dark: #87a39c;
+  --ifm-color-primary-darker: #7d9b93;
+  --ifm-color-primary-darkest: #647e77;
+  --ifm-color-primary-light: #afc3be;
+  --ifm-color-primary-lighter: #b9cbc7;
+  --ifm-color-primary-lightest: #d4e0dd;
+
+  /* Warm dark background + soft ink */
+  --ifm-background-color: #1a1816;
+  --ifm-background-surface-color: #221f1c;
+  --ifm-font-color-base: #e0dbd2;
+  --ifm-heading-color: #f0ece3;
+  --ifm-link-color: #9bb3ad;
+
+  --ifm-code-background: #262320;
+  --ifm-pre-background: #221f1c;
+  --ifm-toc-border-color: #322e29;
+  --ifm-hr-background-color: #322e29;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.07);
 }
 
-.markdown {
-  max-width: 800px;
-}
-
+/* Comfortable reading measure */
+.markdown,
 article {
-  max-width: 800px;
+  max-width: 780px;
 }
 
-.hero {
-  padding: 4rem 0;
-  text-align: center;
+/* Quiet the Previous/Next pagination: arrow + topic name only */
+.pagination-nav__link {
+  border: none;
+  padding: 0.25rem 0;
 }
 
-.hero__title {
-  font-size: 2.5rem;
-  font-weight: 700;
+.pagination-nav__link:hover {
+  background: none;
 }
 
-.hero__subtitle {
-  font-size: 1.25rem;
-  opacity: 0.85;
+.pagination-nav__sublabel {
+  display: none;
 }
 
-.features {
-  display: flex;
-  align-items: stretch;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-.feature {
-  flex: 1;
-  padding: 1rem;
-}
-
-.feature h3 {
-  font-size: 1.25rem;
-}
-
-@media screen and (max-width: 966px) {
-  .features {
-    flex-direction: column;
-  }
+.pagination-nav__label {
+  font-weight: 600;
 }
