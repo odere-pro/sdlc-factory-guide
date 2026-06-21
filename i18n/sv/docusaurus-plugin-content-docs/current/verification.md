@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "Del 3 — Bygg verifiering"
+title: "Del 3: Bygg verifiering"
 description: Tester som det deterministiska kontraktet och evalueringar för icke-deterministiskt beteende — kvalitetssvänghjulet som förstärks med tiden.
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 3 — Bygg verifiering',
+      headline: 'Del 3: Bygg verifiering',
       description: 'Tester som det deterministiska kontraktet och evalueringar för icke-deterministiskt beteende — kvalitetssvänghjulet som förstärks med tiden.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 3 — Bygg verifiering
+# Del 3: Bygg verifiering
 
 Här är den linje som avgör om du bedriver riktig ingenjörskonst eller bara chansar: **hur verifieras dina utdatan?** Om svaret är "jag kör det och det verkar fungera" håller du på med vibe coding, oavsett hur sofistikerade dina promptar är. Verifiering är den disciplin som gör AI-utdata pålitliga för produktionssatsningar.
 

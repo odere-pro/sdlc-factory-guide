@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Part 5 — Review करें और Ship करें"
+title: "Part 5: Review करें और Ship करें"
 description: First-pass reviewer के रूप में agent, generated code के लिए review checklist, commit hooks, और AI workflows के लिए observability।
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 5 — Review and Ship',
+      headline: 'Part 5: Review and Ship',
       description: 'Agent as first-pass reviewer, review checklist for generated code, commit hooks, and observability for AI workflows.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 5 — Review करें और ship करें
+# Part 5: Review करें और ship करें
 
 जब एक agent आपका 80% code लिखता है, तो आप author से ज़्यादा reviewer बन जाते हैं। काम typing से judging की तरफ shift होता है — और judging उससे sharper होनी चाहिए जितनी पहले थी, क्योंकि generated code human code से अधिक चुप तरीकों से fail करता है।
 

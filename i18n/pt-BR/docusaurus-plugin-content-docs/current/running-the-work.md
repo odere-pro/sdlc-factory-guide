@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Parte 4 — Execute o Trabalho"
+title: "Parte 4: Execute o Trabalho"
 description: Modos condutor vs. orquestrador e onde os agentes se encaixam — editor, terminal e segundo plano — mais o problema dos 80%.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 4 — Execute o Trabalho',
+      headline: 'Parte 4: Execute o Trabalho',
       description: 'Modos condutor vs. orquestrador e onde os agentes se encaixam — editor, terminal e segundo plano — mais o problema dos 80%.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 4 — Execute o trabalho
+# Parte 4: Execute o trabalho
 
 Você tem um arquivo de regras, contexto engenheirado e verificação em vigor. Agora você executa o trabalho de verdade. As duas perguntas que decidem o quão bem isso vai correr: qual *modo* você está usando e qual *tipo* de agente se encaixa na tarefa.
 

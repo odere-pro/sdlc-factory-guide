@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Parte 5 — Revisa y despliega"
+title: "Parte 5: Revisa y despliega"
 description: El agente como revisor de primera pasada, lista de verificación para código generado, hooks de commit y observabilidad para flujos de trabajo con IA.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 5 — Revisa y despliega',
+      headline: 'Parte 5: Revisa y despliega',
       description: 'El agente como revisor de primera pasada, lista de verificación para código generado, hooks de commit y observabilidad para flujos de trabajo con IA.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 5 — Revisa y despliega
+# Parte 5: Revisa y despliega
 
 Cuando un agente escribe el 80 % de tu código, te conviertes más en revisor que en autor. El trabajo pasa de escribir a juzgar — y ese juicio tiene que ser más agudo que antes, porque el código generado falla de maneras más silenciosas que el código humano.
 

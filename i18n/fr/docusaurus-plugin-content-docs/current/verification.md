@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "Partie 3 — Construire la vérification"
+title: "Partie 3: Construire la vérification"
 description: Les tests comme contrat déterministe et les évaluations pour les comportements non déterministes — le volant qualité qui s'amplifie.
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 3 — Construire la vérification',
+      headline: 'Partie 3: Construire la vérification',
       description: 'Les tests comme contrat déterministe et les évaluations pour les comportements non déterministes — le volant qualité qui s\'amplifie.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 3 — Construire la vérification
+# Partie 3: Construire la vérification
 
 Voici la ligne qui décide si vous faites de l'ingénierie réelle ou si vous pariez : **comment vos sorties sont-elles vérifiées ?** Si la réponse est « je l'exécute et ça semble fonctionner », vous faites du vibe coding, peu importe la sophistication de vos prompts. La vérification est la discipline qui rend la sortie IA digne de confiance aux enjeux de la production.
 

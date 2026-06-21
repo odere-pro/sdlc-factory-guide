@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "Parte 1 — Configure o Arquivo de Regras"
+title: "Parte 1: Configure o Arquivo de Regras"
 description: Crie o documento de integração que seu agente de IA precisa — stack, convenções, regras rígidas e fluxo de trabalho no CLAUDE.md ou AGENTS.md.
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 1 — Configure o Arquivo de Regras',
+      headline: 'Parte 1: Configure o Arquivo de Regras',
       description: 'Crie o documento de integração que seu agente de IA precisa — stack, convenções, regras rígidas e fluxo de trabalho no CLAUDE.md ou AGENTS.md.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 1 — Configure o arquivo de regras
+# Parte 1: Configure o arquivo de regras
 
 Um agente de codificação chega ao seu repositório como um engenheiro novo no primeiro dia, exceto que ele não consegue fazer perguntas. Ele vai inferir. E sem nada para se basear, ele infere errado de formas previsíveis: o padrão de gerenciamento de estado errado, o layout de pasta errado, a convenção de testes errada, o caminho de importação errado.
 

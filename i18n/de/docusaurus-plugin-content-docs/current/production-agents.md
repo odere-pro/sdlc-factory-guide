@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Teil 7 — Produktionsagenten ausliefern"
+title: "Teil 7: Produktionsagenten ausliefern"
 description: Vom Prototyp-Skript zum Produktionsagenten — persistentes Gedächtnis, eingeschränkte Berechtigungen, Eval-Abdeckung und Multi-Agenten-Koordination.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 7 — Produktionsagenten ausliefern',
+      headline: 'Teil 7: Produktionsagenten ausliefern',
       description: 'Vom Prototyp-Skript zum Produktionsagenten — persistentes Gedächtnis, eingeschränkte Berechtigungen, Eval-Abdeckung und Multi-Agenten-Koordination.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 7 — Produktionsagenten ausliefern
+# Teil 7: Produktionsagenten ausliefern
 
 Alles bisher behandelte handelte davon, Agenten zum Aufbau von Software zu nutzen. Dieser Teil behandelt den Fall, dass *das, was gebaut wird, selbst ein Agent ist* — ein Kundenservice-Bot, ein Recherche-Assistent, ein internes Monitoring-Tool. Das sind keine Skripte, die einmal ausgeführt werden; es sind Produkte, die echten Nutzern dienen, und sie brauchen mehr darunter.
 

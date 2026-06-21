@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "第 2 部分——设计上下文"
+title: "第 2 部分：设计上下文"
 description: 控制智能体看到什么、何时看到——静态与动态上下文、渐进式披露的技能机制，以及成本感知设计。
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 2 部分——设计上下文',
+      headline: '第 2 部分：设计上下文',
       description: '控制智能体看到什么、何时看到——静态与动态上下文、渐进式披露的技能机制，以及成本感知设计。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 2 部分——设计上下文
+# 第 2 部分：设计上下文
 
 上下文工程是区分"快速 AI 输出"与"有用 AI 输出"的核心技能。第 1 部分的规则文件只是其中的一部分。本部分讲的是更大的工程规范：决定智能体看到什么，以及何时看到。
 

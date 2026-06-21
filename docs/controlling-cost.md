@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "Part 6 — Control Cost"
+title: "Part 6: Control Cost"
 description: Total cost of ownership in AI workflows — first-pass success, model routing by task, and dynamic context as cost control.
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 6 — Control Cost',
+      headline: 'Part 6: Control Cost',
       description: 'Total cost of ownership in AI workflows — first-pass success, model routing by task, and dynamic context as cost control.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 6 — Control cost
+# Part 6: Control cost
 
 The usual question about AI development is "how fast can we ship?" The better question is "what does this cost to own?" Velocity hides the real economics. The honest metric is total cost of ownership, and in an AI workflow that's dominated by one thing: the token economy.
 

@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "Teil 3 — Verifikation aufbauen"
+title: "Teil 3: Verifikation aufbauen"
 description: Tests als deterministischer Vertrag und Evals für nicht-deterministisches Verhalten — das Qualitätsschwungrad, das sich aufschaukelt.
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 3 — Verifikation aufbauen',
+      headline: 'Teil 3: Verifikation aufbauen',
       description: 'Tests als deterministischer Vertrag und Evals für nicht-deterministisches Verhalten — das Qualitätsschwungrad, das sich aufschaukelt.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 3 — Verifikation aufbauen
+# Teil 3: Verifikation aufbauen
 
 Hier ist die Linie, die entscheidet, ob echtes Engineering betrieben wird oder nur gewürfelt: **Wie werden die Outputs verifiziert?** Lautet die Antwort „Ich führe es aus und es scheint zu funktionieren", betreibt man Vibe Coding — egal wie ausgeklügelt die Prompts sind. Verifikation ist die Disziplin, die KI-Output bei Produktionseinsätzen vertrauenswürdig macht.
 

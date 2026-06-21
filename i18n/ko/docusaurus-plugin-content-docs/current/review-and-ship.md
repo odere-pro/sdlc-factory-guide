@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "5부 — 검토 및 배포"
+title: "5부: 검토 및 배포"
 description: 에이전트를 1차 검토자로 활용하는 방법, 생성된 코드 검토 체크리스트, 커밋 훅, AI 워크플로의 관측 가능성.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '5부 — 검토 및 배포',
+      headline: '5부: 검토 및 배포',
       description: '에이전트를 1차 검토자로 활용하는 방법, 생성된 코드 검토 체크리스트, 커밋 훅, AI 워크플로의 관측 가능성.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 5부 — 검토 및 배포
+# 5부: 검토 및 배포
 
 에이전트가 코드의 80%를 작성하게 되면, 여러분은 작성자보다 검토자에 가까워집니다. 작업의 중심이 타이핑에서 판단으로 이동하며, 그 판단은 이전보다 훨씬 날카로워야 합니다. 생성된 코드는 사람이 작성한 코드보다 훨씬 조용한 방식으로 실패하기 때문입니다.
 

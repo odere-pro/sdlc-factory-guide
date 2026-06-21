@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Частина 4 — Виконуйте роботу"
+title: "Частина 4: Виконуйте роботу"
 description: Режими диригента й оркестратора та місце агентів — редактор, термінал і фон — плюс проблема 80%.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Частина 4 — Виконуйте роботу',
+      headline: 'Частина 4: Виконуйте роботу',
       description: 'Режими диригента й оркестратора та місце агентів — редактор, термінал і фон — плюс проблема 80%.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Частина 4 — Виконуйте роботу
+# Частина 4: Виконуйте роботу
 
 У вас є файл правил, спроєктований контекст і верифікація. Тепер ви реально виконуєте роботу. Два питання, що визначають, наскільки добре вона піде: у якому *режимі* ви перебуваєте і який *вид* агента підходить для завдання.
 

@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Part 7 — Ship Production Agents"
+title: "Part 7: Ship Production Agents"
 description: From prototype script to production agent — persistent memory, scoped permissions, eval coverage, and multi-agent coordination.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 7 — Ship Production Agents',
+      headline: 'Part 7: Ship Production Agents',
       description: 'From prototype script to production agent — persistent memory, scoped permissions, eval coverage, and multi-agent coordination.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 7 — Ship production agents
+# Part 7: Ship production agents
 
 Everything so far has been about using agents to build software. This part is about when the thing you're building *is* an agent — a customer support bot, a research assistant, an internal monitoring tool. These aren't scripts you run once; they're products that serve real users, and they need more underneath them.
 

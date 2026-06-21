@@ -1,6 +1,6 @@
 ---
 id: review-and-ship
-title: "Partie 5 — Réviser et livrer"
+title: "Partie 5: Réviser et livrer"
 description: L'agent comme premier réviseur, liste de contrôle de révision pour le code généré, hooks de commit et observabilité pour les workflows IA.
 sidebar_position: 7
 keywords: [code review, shipping, observability, hooks, generated code]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 5 — Réviser et livrer',
+      headline: 'Partie 5: Réviser et livrer',
       description: 'L\'agent comme premier réviseur, liste de contrôle de révision pour le code généré, hooks de commit et observabilité pour les workflows IA.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 5 — Réviser et livrer
+# Partie 5: Réviser et livrer
 
 Quand un agent écrit 80 % de votre code, vous devenez davantage un réviseur qu'un auteur. Le travail passe de la frappe au jugement — et ce jugement doit être plus affûté qu'il ne l'était, parce que le code généré échoue de façon plus silencieuse que le code humain.
 

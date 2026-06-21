@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "2부 — 컨텍스트 엔지니어링"
+title: "2부: 컨텍스트 엔지니어링"
 description: 에이전트가 무엇을 언제 보는지 제어하세요 — 정적 vs 동적 컨텍스트, 점진적 공개를 위한 스킬, 그리고 비용을 고려한 설계.
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '2부 — 컨텍스트 엔지니어링',
+      headline: '2부: 컨텍스트 엔지니어링',
       description: '에이전트가 무엇을 언제 보는지 제어하세요 — 정적 vs 동적 컨텍스트, 점진적 공개를 위한 스킬, 그리고 비용을 고려한 설계.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 2부 — 컨텍스트 엔지니어링
+# 2부: 컨텍스트 엔지니어링
 
 컨텍스트 엔지니어링은 빠른 AI 출력과 *유용한* AI 출력을 구분하는 기술입니다. 1부에서 다룬 규칙 파일은 그 한 요소입니다. 이 파트는 더 큰 규율에 관한 것입니다. 에이전트가 무엇을 보는지, 그리고 언제 보는지를 결정하는 것입니다.
 

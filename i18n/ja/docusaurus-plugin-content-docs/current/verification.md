@@ -1,6 +1,6 @@
 ---
 id: verification
-title: "パート3 — 検証の構築"
+title: "パート3: 検証の構築"
 description: 決定論的な契約としてのテストと、非決定論的な動作のためのエバリュエーション — 複利で効いていく品質のフライホイール。
 sidebar_position: 5
 keywords: [verification, testing, evals, quality, AI evaluation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート3 — 検証の構築',
+      headline: 'パート3: 検証の構築',
       description: '決定論的な契約としてのテストと、非決定論的な動作のためのエバリュエーション — 複利で効いていく品質のフライホイール。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート3 — 検証の構築
+# パート3: 検証の構築
 
 本物のエンジニアリングをしているか、単にギャンブルをしているかを決める一線がここにあります。**アウトプットはどのように検証されますか？** 答えが「実行してみて動いているようなら」であれば、どれだけ洗練されたプロンプトを使っていても、あなたはヴァイブコーディングをしています。検証こそが、AIアウトプットを本番環境のリスクに耐えられる信頼できるものにする規律です。
 

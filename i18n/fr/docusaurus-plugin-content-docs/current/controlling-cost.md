@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "Partie 6 — Contrôler les coûts"
+title: "Partie 6: Contrôler les coûts"
 description: Coût total de possession dans les workflows IA — taux de succès au premier passage, routage des modèles par tâche, et contexte dynamique comme levier de contrôle des coûts.
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 6 — Contrôler les coûts',
+      headline: 'Partie 6: Contrôler les coûts',
       description: 'Coût total de possession dans les workflows IA — taux de succès au premier passage, routage des modèles par tâche, et contexte dynamique comme levier de contrôle des coûts.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 6 — Contrôler les coûts
+# Partie 6: Contrôler les coûts
 
 La question habituelle sur le développement IA est « à quelle vitesse peut-on livrer ? » La meilleure question est « combien coûte la possession de tout cela ? » La vélocité masque la vraie économie. La métrique honnête est le coût total de possession, et dans un workflow IA celui-ci est dominé par une chose : l'économie des tokens.
 

@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Part 4 — काम चलाएँ"
+title: "Part 4: काम चलाएँ"
 description: Conductor बनाम orchestrator modes और agents कहाँ fit होते हैं — editor, terminal, और background — साथ ही 80% problem।
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 4 — Run the Work',
+      headline: 'Part 4: Run the Work',
       description: 'Conductor vs orchestrator modes and where agents fit — editor, terminal, and background — plus the 80% problem.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 4 — काम चलाएँ
+# Part 4: काम चलाएँ
 
 आपके पास rule file है, engineered context है, और verification in place है। अब आप वास्तव में काम करते हैं। दो सवाल तय करते हैं कि यह कितना अच्छा जाएगा: आप किस *mode* में हैं, और task के लिए कौन सा *प्रकार* का agent fit होता है।
 

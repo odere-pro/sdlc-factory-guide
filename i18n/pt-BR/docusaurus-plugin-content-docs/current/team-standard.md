@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Parte 8 — Torne-o um Padrão de Equipe"
+title: "Parte 8: Torne-o um Padrão de Equipe"
 description: Versione o harness, valide com avaliações não demos, reformule a revisão de código e contrate por julgamento em uma org de engenharia com IA em primeiro lugar.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 8 — Torne-o um Padrão de Equipe',
+      headline: 'Parte 8: Torne-o um Padrão de Equipe',
       description: 'Versione o harness, valide com avaliações não demos, reformule a revisão de código e contrate por julgamento em uma org de engenharia com IA em primeiro lugar.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 8 — Torne-o um padrão de equipe
+# Parte 8: Torne-o um padrão de equipe
 
 Tudo nas primeiras sete partes funciona para um desenvolvedor. No momento em que uma equipe está envolvida, um modo de falha extra aparece: o harness deriva. O arquivo de regras de uma pessoa diz uma coisa, o de outra diz outra, o comportamento do agente se torna irreproducível em toda a equipe e a disciplina se erode silenciosamente. Esta parte é sobre tornar o fluxo de trabalho um padrão compartilhado e duradouro.
 

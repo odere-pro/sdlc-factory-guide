@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "Part 6 — Cost नियंत्रित करें"
+title: "Part 6: Cost नियंत्रित करें"
 description: AI workflows में total cost of ownership — first-pass success, task के अनुसार model routing, और cost control के रूप में dynamic context।
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 6 — Control Cost',
+      headline: 'Part 6: Control Cost',
       description: 'Total cost of ownership in AI workflows — first-pass success, model routing by task, and dynamic context as cost control.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 6 — Cost नियंत्रित करें
+# Part 6: Cost नियंत्रित करें
 
 AI development के बारे में सामान्य सवाल है "हम कितनी तेज़ ship कर सकते हैं?" बेहतर सवाल है "इसे own करने में क्या लागत आती है?" Velocity असली economics छिपाती है। ईमानदार metric total cost of ownership है, और AI workflow में यह एक चीज़ से dominated है: token economy।
 

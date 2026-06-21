@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "6부 — 비용 통제"
+title: "6부: 비용 통제"
 description: AI 워크플로의 총 소유 비용 — 1차 성공률, 태스크별 모델 라우팅, 비용 통제 수단으로서의 동적 컨텍스트.
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '6부 — 비용 통제',
+      headline: '6부: 비용 통제',
       description: 'AI 워크플로의 총 소유 비용 — 1차 성공률, 태스크별 모델 라우팅, 비용 통제 수단으로서의 동적 컨텍스트.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 6부 — 비용 통제
+# 6부: 비용 통제
 
 AI 개발에 관한 일반적인 질문은 "얼마나 빨리 배포할 수 있는가?"입니다. 더 나은 질문은 "이것을 소유하는 데 드는 비용은 무엇인가?"입니다. 속도는 실제 경제성을 숨깁니다. 정직한 지표는 총 소유 비용이며, AI 워크플로에서 이를 지배하는 것은 단 하나입니다. 바로 토큰 경제입니다.
 

@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Parte 8 — Conviértelo en un estándar de equipo"
+title: "Parte 8: Conviértelo en un estándar de equipo"
 description: Versiona el harness, valida con evaluaciones y no con demos, reforma la revisión de código y contrata por criterio en una organización de ingeniería con IA como eje central.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 8 — Conviértelo en un estándar de equipo',
+      headline: 'Parte 8: Conviértelo en un estándar de equipo',
       description: 'Versiona el harness, valida con evaluaciones y no con demos, reforma la revisión de código y contrata por criterio en una organización de ingeniería con IA como eje central.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 8 — Conviértelo en un estándar de equipo
+# Parte 8: Conviértelo en un estándar de equipo
 
 Todo lo que hay en las primeras siete partes funciona para un desarrollador en solitario. En el momento en que hay un equipo involucrado, aparece un modo de fallo adicional: el harness se desvía. El archivo de reglas de una persona dice una cosa, el de otra dice algo diferente, el comportamiento del agente se vuelve irreproducible en todo el equipo y la disciplina se erosiona en silencio. Esta parte trata sobre convertir el flujo de trabajo en un estándar compartido y duradero.
 

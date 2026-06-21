@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Del 7 — Leverera produktionsagenter"
+title: "Del 7: Leverera produktionsagenter"
 description: Från prototypskript till produktionsagent — beständigt minne, avgränsade behörigheter, evalueringstäckning och multi-agent-koordination.
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Del 7 — Leverera produktionsagenter',
+      headline: 'Del 7: Leverera produktionsagenter',
       description: 'Från prototypskript till produktionsagent — beständigt minne, avgränsade behörigheter, evalueringstäckning och multi-agent-koordination.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Del 7 — Leverera produktionsagenter
+# Del 7: Leverera produktionsagenter
 
 Allt hittills har handlat om att använda agenter för att bygga programvara. Den här delen handlar om när det du bygger *är* en agent — en kundtjänstbot, en forskningsassistent, ett internt övervakningsverktyg. Det är inte skript du kör en gång; de är produkter som betjänar riktiga användare, och de behöver mer under sig.
 

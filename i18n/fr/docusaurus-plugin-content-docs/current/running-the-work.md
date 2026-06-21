@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "Partie 4 — Exécuter le travail"
+title: "Partie 4: Exécuter le travail"
 description: Modes conducteur vs. orchestrateur et où s'intègrent les agents — éditeur, terminal et arrière-plan — plus le problème des 80 %.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 4 — Exécuter le travail',
+      headline: 'Partie 4: Exécuter le travail',
       description: 'Modes conducteur vs. orchestrateur et où s\'intègrent les agents — éditeur, terminal et arrière-plan — plus le problème des 80 %.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 4 — Exécuter le travail
+# Partie 4: Exécuter le travail
 
 Vous disposez d'un fichier de règles, d'un contexte ingénié et d'une vérification en place. Maintenant vous effectuez vraiment le travail. Les deux questions qui décident comment il se passe : dans quel *mode* êtes-vous, et quel *type* d'agent convient à la tâche ?
 

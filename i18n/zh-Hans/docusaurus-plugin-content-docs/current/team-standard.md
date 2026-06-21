@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "第 8 部分——建立团队标准"
+title: "第 8 部分：建立团队标准"
 description: 对工作套件进行版本管理、以评估而非 Demo 作为发布门禁、重塑代码审查，以及在 AI 优先的工程组织中招聘注重判断力的人才。
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '第 8 部分——建立团队标准',
+      headline: '第 8 部分：建立团队标准',
       description: '对工作套件进行版本管理、以评估而非 Demo 作为发布门禁、重塑代码审查，以及在 AI 优先的工程组织中招聘注重判断力的人才。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 第 8 部分——建立团队标准
+# 第 8 部分：建立团队标准
 
 前七部分的所有内容对一个开发者都有效。一旦涉及团队，一个额外的失败模式就会出现：工作套件（harness）漂移。一个人的规则文件说一件事，另一个人的说另一件事，智能体行为在团队中无法复现，规范悄悄侵蚀。本部分讲的是如何将这套工作流变成一个共享的、持久的标准。
 

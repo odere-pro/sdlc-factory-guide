@@ -1,6 +1,6 @@
 ---
 id: rule-file
-title: "Partie 1 — Mettre en place le fichier de règles"
+title: "Partie 1: Mettre en place le fichier de règles"
 description: Créez le document d'intégration dont votre agent IA a besoin — stack, conventions, règles absolues et workflow dans CLAUDE.md ou AGENTS.md.
 sidebar_position: 3
 keywords: [rule file, CLAUDE.md, AGENTS.md, AI configuration, coding agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Partie 1 — Mettre en place le fichier de règles',
+      headline: 'Partie 1: Mettre en place le fichier de règles',
       description: 'Créez le document d\'intégration dont votre agent IA a besoin — stack, conventions, règles absolues et workflow dans CLAUDE.md ou AGENTS.md.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Partie 1 — Mettre en place le fichier de règles
+# Partie 1: Mettre en place le fichier de règles
 
 Un agent de codage arrive dans votre dépôt comme un nouvel ingénieur à son premier jour, sauf qu'il ne peut pas poser de questions. Il va inférer. Et sans rien sur quoi s'appuyer, il infère mal de manière prévisible : le mauvais pattern de gestion d'état, la mauvaise organisation des dossiers, la mauvaise convention de test, le mauvais chemin d'import.
 

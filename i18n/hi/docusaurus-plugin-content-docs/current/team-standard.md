@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "Part 8 — Team Standard बनाएँ"
+title: "Part 8: Team Standard बनाएँ"
 description: Harness को version करें, demos पर नहीं evals पर gate लगाएँ, code review को reshape करें, और AI-first engineering org में judgment के लिए hire करें।
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 8 — Make It a Team Standard',
+      headline: 'Part 8: Make It a Team Standard',
       description: 'Version the harness, gate on evals not demos, reshape code review, and hire for judgment in an AI-first engineering org.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 8 — Team standard बनाएँ
+# Part 8: Team standard बनाएँ
 
 पहले सात Parts में जो कुछ भी है वह एक developer के लिए काम करता है। जिस moment एक team शामिल होती है, एक extra failure mode सामने आता है: harness drift करता है। एक व्यक्ति की rule file एक बात कहती है, दूसरे की कुछ और, agent का behavior team में reproduce नहीं होता, और discipline चुपचाप erode होती है। यह Part workflow को एक shared, durable standard बनाने के बारे में है।
 

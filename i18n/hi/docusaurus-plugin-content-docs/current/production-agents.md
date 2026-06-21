@@ -1,6 +1,6 @@
 ---
 id: production-agents
-title: "Part 7 — Production Agents Ship करें"
+title: "Part 7: Production Agents Ship करें"
 description: Prototype script से production agent तक — persistent memory, scoped permissions, eval coverage, और multi-agent coordination।
 sidebar_position: 9
 keywords: [production agents, MCP, A2A, agent deployment, multi-agent]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 7 — Ship Production Agents',
+      headline: 'Part 7: Ship Production Agents',
       description: 'From prototype script to production agent — persistent memory, scoped permissions, eval coverage, and multi-agent coordination.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 7 — Production agents ship करें
+# Part 7: Production agents ship करें
 
 अब तक सब कुछ software बनाने के लिए agents का उपयोग करने के बारे में था। यह Part उस बारे में है जब आप जो बना रहे हैं *वह खुद* एक agent है — एक customer support bot, एक research assistant, एक internal monitoring tool। ये एक बार run होने वाले scripts नहीं हैं; ये products हैं जो real users serve करते हैं, और उन्हें नीचे और भी चाहिए।
 

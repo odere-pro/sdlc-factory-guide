@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "Parte 2 — Diseña el contexto"
+title: "Parte 2: Diseña el contexto"
 description: Controla qué ve el agente y cuándo — contexto estático vs. dinámico, habilidades para divulgación progresiva y diseño consciente del costo.
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Parte 2 — Diseña el contexto',
+      headline: 'Parte 2: Diseña el contexto',
       description: 'Controla qué ve el agente y cuándo — contexto estático vs. dinámico, habilidades para divulgación progresiva y diseño consciente del costo.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Parte 2 — Diseña el contexto
+# Parte 2: Diseña el contexto
 
 La ingeniería de contexto es la habilidad que separa el output rápido de la IA del output *útil*. El archivo de reglas de la Parte 1 es solo una pieza de ella. Esta parte trata sobre la disciplina más amplia: decidir qué ve el agente y cuándo.
 

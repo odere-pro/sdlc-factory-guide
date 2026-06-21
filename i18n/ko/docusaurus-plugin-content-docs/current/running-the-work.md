@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "4부 — 작업 실행하기"
+title: "4부: 작업 실행하기"
 description: 지휘자 모드와 오케스트레이터 모드, 그리고 에이전트가 적합한 위치 — 에디터, 터미널, 백그라운드 — 및 80% 문제.
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '4부 — 작업 실행하기',
+      headline: '4부: 작업 실행하기',
       description: '지휘자 모드와 오케스트레이터 모드, 그리고 에이전트가 적합한 위치 — 에디터, 터미널, 백그라운드 — 및 80% 문제.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 4부 — 작업 실행하기
+# 4부: 작업 실행하기
 
 규칙 파일, 엔지니어링된 컨텍스트, 그리고 검증 체계까지 갖추었습니다. 이제 실제로 작업을 수행합니다. 얼마나 잘 진행될지를 결정하는 두 가지 질문이 있습니다. 어느 *모드*에 있는지, 그리고 해당 작업에 어떤 *종류*의 에이전트가 적합한지입니다.
 

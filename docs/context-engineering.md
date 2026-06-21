@@ -1,6 +1,6 @@
 ---
 id: context-engineering
-title: "Part 2 — Engineer the Context"
+title: "Part 2: Engineer the Context"
 description: Control what the agent sees and when — static vs dynamic context, skills for progressive disclosure, and cost-aware design.
 sidebar_position: 4
 keywords: [context engineering, dynamic context, skills, tokens, prompt design]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Part 2 — Engineer the Context',
+      headline: 'Part 2: Engineer the Context',
       description: 'Control what the agent sees and when — static vs dynamic context, skills for progressive disclosure, and cost-aware design.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Part 2 — Engineer the context
+# Part 2: Engineer the context
 
 Context engineering is the skill that separates fast AI output from *useful* AI output. The rule file from Part 1 is one piece of it. This part is about the bigger discipline: deciding what the agent sees, and when.
 

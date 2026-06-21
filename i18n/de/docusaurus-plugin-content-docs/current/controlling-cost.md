@@ -1,6 +1,6 @@
 ---
 id: controlling-cost
-title: "Teil 6 — Kosten kontrollieren"
+title: "Teil 6: Kosten kontrollieren"
 description: Total Cost of Ownership in KI-Workflows — Erstversuchs-Erfolg, Modell-Routing nach Aufgabe und dynamischer Kontext als Kostenkontrolle.
 sidebar_position: 8
 keywords: [cost control, token economy, model routing, TCO, AI cost]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'Teil 6 — Kosten kontrollieren',
+      headline: 'Teil 6: Kosten kontrollieren',
       description: 'Total Cost of Ownership in KI-Workflows — Erstversuchs-Erfolg, Modell-Routing nach Aufgabe und dynamischer Kontext als Kostenkontrolle.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# Teil 6 — Kosten kontrollieren
+# Teil 6: Kosten kontrollieren
 
 Die übliche Frage bei der KI-Entwicklung lautet „Wie schnell können wir liefern?" Die bessere Frage ist „Was kostet uns das im Besitz?" Geschwindigkeit verschleiert die echten Wirtschaftlichkeitsdaten. Die ehrliche Kenngröße ist der Total Cost of Ownership, und in einem KI-Workflow wird er von einer Sache dominiert: der Token-Ökonomie.
 

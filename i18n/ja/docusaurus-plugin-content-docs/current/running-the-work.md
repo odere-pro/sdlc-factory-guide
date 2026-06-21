@@ -1,6 +1,6 @@
 ---
 id: running-the-work
-title: "パート4 — 作業の実行"
+title: "パート4: 作業の実行"
 description: コンダクターとオーケストレーターモード、エージェントの配置場所 — エディタ、ターミナル、バックグラウンド — そして80%問題。
 sidebar_position: 6
 keywords: [agent modes, conductor, orchestrator, sandbox, code generation]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: 'パート4 — 作業の実行',
+      headline: 'パート4: 作業の実行',
       description: 'コンダクターとオーケストレーターモード、エージェントの配置場所 — エディタ、ターミナル、バックグラウンド — そして80%問題。',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# パート4 — 作業の実行
+# パート4: 作業の実行
 
 ルールファイル、エンジニアリングされたコンテキスト、そして検証の仕組みが整いました。いよいよ実際に作業を行います。うまくいくかどうかを決める2つの問いは：どの*モード*にいるか、そしてどの*種類*のエージェントがタスクに合っているか、です。
 

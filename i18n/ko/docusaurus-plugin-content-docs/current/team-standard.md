@@ -1,6 +1,6 @@
 ---
 id: team-standard
-title: "8부 — 팀 표준으로 만들기"
+title: "8부: 팀 표준으로 만들기"
 description: 하네스를 버전 관리하고, 데모가 아닌 평가로 게이팅하고, 코드 리뷰를 재정비하고, AI 우선 엔지니어링 조직에서 판단력을 갖춘 인재를 채용하십시오.
 sidebar_position: 10
 keywords: [team standard, engineering culture, CI gates, eval suite, hiring]
@@ -12,7 +12,7 @@ image: /img/og-image.png
     {JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'TechArticle',
-      headline: '8부 — 팀 표준으로 만들기',
+      headline: '8부: 팀 표준으로 만들기',
       description: '하네스를 버전 관리하고, 데모가 아닌 평가로 게이팅하고, 코드 리뷰를 재정비하고, AI 우선 엔지니어링 조직에서 판단력을 갖춘 인재를 채용하십시오.',
       author: { '@type': 'Person', name: 'Oleksandr Derechei' },
       datePublished: '2026-06-18',
@@ -24,7 +24,7 @@ image: /img/og-image.png
   </script>
 </head>
 
-# 8부 — 팀 표준으로 만들기
+# 8부: 팀 표준으로 만들기
 
 앞선 일곱 부분의 내용은 개발자 한 명에게 효과적입니다. 팀이 개입되는 순간, 추가적인 실패 양상이 나타납니다: 하네스가 표류합니다. 한 사람의 규칙 파일은 한 가지를 말하고, 다른 사람의 것은 다른 무언가를 말하며, 에이전트 동작은 팀 전체에서 재현 불가능해지고, 규율은 조용히 무너집니다. 이 부분은 워크플로를 공유되고 지속적인 표준으로 만드는 것에 관한 내용입니다.
 
