@@ -50,7 +50,7 @@ Master catalog of every page in the wiki.
 
 ### Reference
 
-- [[implementation-checklist|Implementation Checklist]] — actionable eight-part checklist for the full workflow
+- [[reference/implementation-checklist|Implementation Checklist]] — actionable eight-part checklist for the full workflow
 
 ## Sources
 

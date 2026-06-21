@@ -6,7 +6,24 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:wiki/foundation",
+      "color": {"a": 1, "rgb": 2899903}
+    },
+    {
+      "query": "path:wiki/build-loop",
+      "color": {"a": 1, "rgb": 3461162}
+    },
+    {
+      "query": "path:wiki/scale",
+      "color": {"a": 1, "rgb": 16744272}
+    },
+    {
+      "query": "path:wiki/reference",
+      "color": {"a": 1, "rgb": 10485972}
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
